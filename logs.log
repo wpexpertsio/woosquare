@@ -1,0 +1,1945 @@
+[info] [2017-02-06 05:30:57] Manual sync: [woo->square] start gathering data
+[info] [2017-02-06 05:30:58] The Simplified curl object{"sku-must-for-sync":"40912668-4ed5-424a-bb7e-b378eb6cd20d","s55s":"71cc9205-a759-4d42-8fc0-2969509be5e3","s2":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02","s1":"GG7SBDB4AASONOLZ6JX7OCU3","s22":"GG7SBDB4AASONOLZ6JX7OCU3","s3":"GG7SBDB4AASONOLZ6JX7OCU3","sd1":"IZ6CPPAHZGBDEV4RYLOA74WC","sd2":"IZ6CPPAHZGBDEV4RYLOA74WC","11":"P5CAXPTTRVU4AIGPOA7RI77K","22":"P5CAXPTTRVU4AIGPOA7RI77K","33":"P5CAXPTTRVU4AIGPOA7RI77K","44":"P5CAXPTTRVU4AIGPOA7RI77K","55":"P5CAXPTTRVU4AIGPOA7RI77K","66":"P5CAXPTTRVU4AIGPOA7RI77K","77":"P5CAXPTTRVU4AIGPOA7RI77K","88":"P5CAXPTTRVU4AIGPOA7RI77K","99":"P5CAXPTTRVU4AIGPOA7RI77K","110":"P5CAXPTTRVU4AIGPOA7RI77K","111":"P5CAXPTTRVU4AIGPOA7RI77K","112":"P5CAXPTTRVU4AIGPOA7RI77K","113":"P5CAXPTTRVU4AIGPOA7RI77K","114":"P5CAXPTTRVU4AIGPOA7RI77K","115":"P5CAXPTTRVU4AIGPOA7RI77K","116":"P5CAXPTTRVU4AIGPOA7RI77K","117":"P5CAXPTTRVU4AIGPOA7RI77K","118":"P5CAXPTTRVU4AIGPOA7RI77K","119":"P5CAXPTTRVU4AIGPOA7RI77K","200":"P5CAXPTTRVU4AIGPOA7RI77K","221":"P5CAXPTTRVU4AIGPOA7RI77K","222":"P5CAXPTTRVU4AIGPOA7RI77K","dff23":"034d2229-2c64-49fb-a7b1-0bccfa62cc31","dsd15":"9fd414cf-9839-4f87-aafa-7fad80788775","252":"33676fd1-7766-4a91-aeb6-692e8ca32300","wee3e":"ATMUASZRCMXHAEEHZWA234CB","wsd1":"0eff8854-fe20-420e-ad36-772ff5871def"}
+[info] [2017-02-06 05:30:58] Manual sync: [woo->square] end gathering data
+[info] [2017-02-06 05:31:04] End Manual Sync from Woo-commerce to Square: log:
+[info] [2017-02-06 05:31:04] ************************************************************
+[info] [2017-02-06 05:31:04] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 05:31:05] Searching for new products in all items response
+[info] [2017-02-06 05:31:05] Product 'testing products changes from square ' is simple
+[info] [2017-02-06 05:31:05] Product SKU: sku-must-for-sync
+[info] [2017-02-06 05:31:05] Product with SKU [sku-must-for-sync] exists prod ids:[90]
+[info] [2017-02-06 05:31:05] Product 'test' is simple
+[info] [2017-02-06 05:31:05] Product SKU: s55s
+[info] [2017-02-06 05:31:05] Product with SKU [s55s] exists prod ids:[38]
+[info] [2017-02-06 05:31:05] Product 'testing' is simple
+[info] [2017-02-06 05:31:05] Product SKU: s2
+[info] [2017-02-06 05:31:05] Product with SKU [s2] exists prod ids:[100]
+[info] [2017-02-06 05:31:05] Product 'testing var products' is variable
+[info] [2017-02-06 05:31:05] Product with SKU [s1] exists prod ids:[102]
+[info] [2017-02-06 05:31:05] Product 'test var 2' is variable
+[info] [2017-02-06 05:31:05] Product with SKU [sd1] exists prod ids:[106]
+[info] [2017-02-06 05:31:05] Product 'test upto 20' is variable
+[info] [2017-02-06 05:31:05] Product with SKU [11] exists prod ids:[109]
+[info] [2017-02-06 05:31:05] Product 'Test Mobile App' is simple
+[info] [2017-02-06 05:31:05] Product SKU: dff23
+[info] [2017-02-06 05:31:05] Product with SKU [dff23] exists prod ids:[131]
+[info] [2017-02-06 05:31:05] Product 'test product new' is simple
+[info] [2017-02-06 05:31:05] Product SKU: dsd15
+[info] [2017-02-06 05:31:05] Product with SKU [dsd15] exists prod ids:[133]
+[info] [2017-02-06 05:31:05] Product 'test with img' is simple
+[info] [2017-02-06 05:31:05] Product SKU: 252
+[info] [2017-02-06 05:31:05] Product with SKU [252] exists prod ids:[135]
+[info] [2017-02-06 05:31:05] Product 'testitem12345' is simple
+[info] [2017-02-06 05:31:05] Product SKU: wee3e
+[info] [2017-02-06 05:31:05] Product with SKU [wee3e] exists prod ids:[137]
+[info] [2017-02-06 05:31:05] Product 'testdnsjwithimg' is simple
+[info] [2017-02-06 05:31:05] Product SKU: wsd1
+[info] [2017-02-06 05:31:05] Product with SKU [wsd1] exists prod ids:[139]
+[info] [2017-02-06 05:31:05] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 05:31:21] End Manual Sync from Square to Woo-commerce: log:
+[info] [2017-02-06 05:31:21] ************************************************************
+[info] [2017-02-06 06:14:26] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-06 06:14:28] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-06 06:14:28] Currency code mismatch between Square [] and WooCommerce [GBP]
+[info] [2017-02-06 06:14:46] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-06 06:14:52] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-06 06:14:52] Currency code mismatch between Square [] and WooCommerce [GBP]
+[info] [2017-02-06 06:15:14] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-06 06:15:17] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-06 06:15:17] Currency code mismatch between Square [] and WooCommerce [GBP]
+[info] [2017-02-06 06:36:36] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-06 06:36:39] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-06 06:36:39] Currency code mismatch between Square [] and WooCommerce [GBP]
+[info] [2017-02-06 06:36:43] -------------------------------------------------------------------------------
+[info] [2017-02-06 06:36:43] Authorize square account with Token: sq0atp-UjhW06rx77lPiqUZK_A-tQ
+[info] [2017-02-06 06:36:45] The response of authorize curl request{"account_capabilities":["EMPLOYEE_MANAGEMENT","TIMECARD_MANAGEMENT"],"id":"0C9FCAJTN6S16","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_type":"OTHER","account_type":"BUSINESS","currency_code":"USD"}
+[info] [2017-02-06 06:36:47] The response of get locations request [{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}]
+[info] [2017-02-06 06:36:53] The response of setup webhook curl request ["PAYMENT_UPDATED"]
+[info] [2017-02-06 06:36:53] -------------------------------------------------------------------------------
+[info] [2017-02-06 06:36:53] Currency code mismatch between Square [USD] and WooCommerce [GBP]
+[info] [2017-02-06 06:37:48] Getting currency code for square token: sq0atp-UjhW06rx77lPiqUZK_A-tQ, url: https://connect.squareup.com/v1/933B02S2492M5 and location: 933B02S2492M5
+[info] [2017-02-06 06:37:50] The response of current location curl request{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}
+[info] [2017-02-06 06:38:27] [add_category_hook] Start adding category to Square: 6
+[info] [2017-02-06 06:38:27] Adding category: {"name":"testingg123"}
+[info] [2017-02-06 06:38:29] The response of adding new category curl request {"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"}
+[info] [2017-02-06 06:38:29] [add_category_hook] End adding category 6 to Square
+[info] [2017-02-06 06:38:56] [add_update_product_hook] Start updating product on Square
+[info] [2017-02-06 06:38:56] Adding/Updating  product: testing [ id=23 ]
+[info] [2017-02-06 06:38:58] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"bc22a9c0-2d8b-49e7-bbef-a3762e9d3634","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"ws45","ordinal":1,"item_id":"277494eb-e2c4-43c0-8206-2bd474129aac"}],"available_for_pickup":false,"available_online":false,"visibility":"PUBLIC","id":"277494eb-e2c4-43c0-8206-2bd474129aac","description":"testing","name":"testing","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"type":"NORMAL"}
+[info] [2017-02-06 06:38:58] Updating product inventory for simple product (1 variations)
+[info] [2017-02-06 06:39:54] The response of uploading image curl request{"id":"80a38272-c863-402e-bc39-d955333fb2bb","url":"https://images-production-f.squarecdn.com/a7W6zZghvnQAmL4q7xJjfRiSUt8=/https://square-production.s3.amazonaws.com/files/dee7e76e4faed1eabba32dc4b5d817ce9fe96e05/original.png"}
+[info] [2017-02-06 06:39:54] [add_update_product_hook] End updating product on Square
+[info] [2017-02-06 06:41:28] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 06:41:34] Searching for new products in all items response
+[info] [2017-02-06 06:41:34] Product 'testing products changes from square ' is simple
+[info] [2017-02-06 06:41:34] Product SKU: sku-must-for-sync
+[info] [2017-02-06 06:41:34] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-06 06:41:34] Product SKU not exists
+[info] [2017-02-06 06:41:34] Product 'test' is simple
+[info] [2017-02-06 06:41:34] Product SKU: s55s
+[info] [2017-02-06 06:41:34] Product with SKU [s55s] does not exist
+[info] [2017-02-06 06:41:34] Product SKU not exists
+[info] [2017-02-06 06:41:34] Product 'testing' is simple
+[info] [2017-02-06 06:41:34] Product SKU: s2
+[info] [2017-02-06 06:41:34] Product with SKU [s2] does not exist
+[info] [2017-02-06 06:41:34] Product SKU not exists
+[info] [2017-02-06 06:41:34] Product 'testing var products' is variable
+[info] [2017-02-06 06:41:34] Product with SKU [s1] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [s22] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [s3] does not exist
+[info] [2017-02-06 06:41:34] Product 'test var 2' is variable
+[info] [2017-02-06 06:41:34] Product with SKU [sd1] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [sd2] does not exist
+[info] [2017-02-06 06:41:34] Product 'test upto 20' is variable
+[info] [2017-02-06 06:41:34] Product with SKU [11] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [22] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [33] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [44] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [55] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [66] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [77] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [88] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [99] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [110] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [111] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [112] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [113] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [114] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [115] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [116] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [117] does not exist
+[info] [2017-02-06 06:41:34] Product with SKU [118] does not exist
+[info] [2017-02-06 06:41:35] Product with SKU [119] does not exist
+[info] [2017-02-06 06:41:35] Product with SKU [200] does not exist
+[info] [2017-02-06 06:41:35] Product with SKU [221] does not exist
+[info] [2017-02-06 06:41:35] Product with SKU [222] does not exist
+[info] [2017-02-06 06:41:35] Product 'Test Mobile App' is simple
+[info] [2017-02-06 06:41:35] Product SKU: dff23
+[info] [2017-02-06 06:41:35] Product with SKU [dff23] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:35] Product 'test product new' is simple
+[info] [2017-02-06 06:41:35] Product SKU: dsd15
+[info] [2017-02-06 06:41:35] Product with SKU [dsd15] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:35] Product 'test with img' is simple
+[info] [2017-02-06 06:41:35] Product SKU: 252
+[info] [2017-02-06 06:41:35] Product with SKU [252] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:35] Product 'testitem12345' is simple
+[info] [2017-02-06 06:41:35] Product SKU: wee3e
+[info] [2017-02-06 06:41:35] Product with SKU [wee3e] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:35] Product 'testdnsjwithimg' is simple
+[info] [2017-02-06 06:41:35] Product SKU: wsd1
+[info] [2017-02-06 06:41:35] Product with SKU [wsd1] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:35] Product 'testing' is simple
+[info] [2017-02-06 06:41:35] Product SKU: ws45
+[info] [2017-02-06 06:41:35] Product with SKU [ws45] exists prod ids:[23]
+[info] [2017-02-06 06:41:35] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-06 06:41:35] Product SKU: qe2
+[info] [2017-02-06 06:41:35] Product with SKU [qe2] does not exist
+[info] [2017-02-06 06:41:35] Product SKU not exists
+[info] [2017-02-06 06:41:38] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 06:42:00] ************************************************************
+[info] [2017-02-06 06:42:00] Start Manual Sync from Square to Woo-commerce: log:1
+[info] [2017-02-06 06:42:01] Manual sync: processing category:test categories[59f54b53-90a0-47ae-bc24-1425c6c33e27] with action = add 
+[info] [2017-02-06 06:42:02] Manual sync: processing product:testing products changes from square [40912668-4ed5-424a-bb7e-b378eb6cd20d] with action = ADD
+[info] [2017-02-06 06:42:02] Inserting product to database
+[info] [2017-02-06 06:42:02] Product inserted to databse with ID: 24
+[info] [2017-02-06 06:42:02] updating product variation with quantity
+[info] [2017-02-06 06:42:03] uploading product feature image
+[info] [2017-02-06 06:42:08] Manual sync: processing product:test[71cc9205-a759-4d42-8fc0-2969509be5e3] with action = ADD
+[info] [2017-02-06 06:42:08] Inserting product to database
+[info] [2017-02-06 06:42:08] Product inserted to databse with ID: 26
+[info] [2017-02-06 06:42:08] updating product variation with quantity
+[info] [2017-02-06 06:42:09] Manual sync: processing product:testing[3b9125d1-65f4-4af5-8c39-ccf45b7ced02] with action = ADD
+[info] [2017-02-06 06:42:09] Inserting product to database
+[info] [2017-02-06 06:42:09] Product inserted to databse with ID: 27
+[info] [2017-02-06 06:42:09] updating product variation with quantity
+[info] [2017-02-06 06:42:10] Manual sync: processing product:testing var products[GG7SBDB4AASONOLZ6JX7OCU3] with action = ADD
+[info] [2017-02-06 06:42:10] Product with SKU [s1] does not exist
+[info] [2017-02-06 06:42:10] Product with SKU [s22] does not exist
+[info] [2017-02-06 06:42:10] Product with SKU [s3] does not exist
+[info] [2017-02-06 06:42:10] The Product 'testing var products' sku array:[]
+[info] [2017-02-06 06:42:10] constructed variation array[{"variation_id":"MJY5OFMSNOT5H2OA3VEGVMWX","sku":"s1","name":"Regular s 1  ","price":"100.00"},{"variation_id":"2HSMRDBTCTXTBSHIASOCZKUY","sku":"s22","name":"Regular s 2 ","price":"200.00"},{"variation_id":"DUHQJWDMWIMDJUL2HXGGMYS3","sku":"s3","name":"Regular s 3 ","price":"300.00"}]
+[info] [2017-02-06 06:42:12] The product prices are: [{"id":29,"regular_price":"100-00"},{"id":30,"regular_price":"200-00"},{"id":31,"regular_price":"300-00"}]
+[info] [2017-02-06 06:42:13] Manual sync: processing product:test var 2[IZ6CPPAHZGBDEV4RYLOA74WC] with action = ADD
+[info] [2017-02-06 06:42:13] Product with SKU [sd1] does not exist
+[info] [2017-02-06 06:42:13] Product with SKU [sd2] does not exist
+[info] [2017-02-06 06:42:13] The Product 'test var 2' sku array:[]
+[info] [2017-02-06 06:42:13] constructed variation array[{"variation_id":"2U3GJW5VMLSOOXLZQYEDYCTF","sku":"sd1","name":"test var 1","price":"100.00"},{"variation_id":"YC65CUXTQ4J6L3IMN6RF4D2E","sku":"sd2","name":"test var 2","price":"200.00"}]
+[info] [2017-02-06 06:42:14] The product prices are: [{"id":33,"regular_price":"100-00"},{"id":34,"regular_price":"200-00"}]
+[info] [2017-02-06 06:42:15] Manual sync: processing product:test upto 20[P5CAXPTTRVU4AIGPOA7RI77K] with action = ADD
+[info] [2017-02-06 06:42:16] Product with SKU [11] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [22] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [33] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [44] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [55] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [66] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [77] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [88] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [99] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [110] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [111] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [112] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [113] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [114] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [115] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [116] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [117] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [118] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [119] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [200] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [221] does not exist
+[info] [2017-02-06 06:42:16] Product with SKU [222] does not exist
+[info] [2017-02-06 06:42:16] The Product 'test upto 20' sku array:[]
+[info] [2017-02-06 06:42:16] constructed variation array[{"variation_id":"CXS7KHJBD3AXS6L2Q6Q34ASL","sku":"11","name":"11","price":"11.00"},{"variation_id":"QHKYCENZ45X7EUSWK54NMUEU","sku":"22","name":"22","price":"22.00"},{"variation_id":"2SASSDVKSHZLUZJEMYX6FH2I","sku":"33","name":"33","price":"33.00"},{"variation_id":"LUDTV4IJJTEFABOEBOSQOJI6","sku":"44","name":"44","price":"44.00"},{"variation_id":"3P52QH6IITLGR3I5UP5OTVCC","sku":"55","name":"55","price":"55.00"},{"variation_id":"MISHIHIHEVGPRF4IQUTLA4Y3","sku":"66","name":"66","price":"66.00"},{"variation_id":"TKQONDQ7Z2SQGN53AGYFBH2H","sku":"77","name":"77","price":"77.00"},{"variation_id":"7DJY3QT5D5OVUVQFTII23FZ7","sku":"88","name":"88","price":"88.00"},{"variation_id":"X6ON32LZ767U232P6V5HGJ45","sku":"99","name":"99","price":"99.00"},{"variation_id":"TDPQQKOAP3F4NK7XR2SIM75X","sku":"110","name":"110","price":"110.00"},{"variation_id":"QQOZGDE3YBXCNF26JFXH5WUR","sku":"111","name":"111","price":"111.00"},{"variation_id":"VADZSJJSDSJJSZSGSSLFHSLH","sku":"112","name":"112","price":"112.00"},{"variation_id":"VOMRZUOJXNBYX6NGKPSXBVD2","sku":"113","name":"113","price":"113.00"},{"variation_id":"66DFXRVP7T4ZQ3GLXSZJYB2N","sku":"114","name":"114","price":"114.00"},{"variation_id":"2ZM7UFA56IDQETUQL73VBYYC","sku":"115","name":"115","price":"115.00"},{"variation_id":"X533WNONRRZLY6PL25SR3RIA","sku":"116","name":"116","price":"116.00"},{"variation_id":"XCWAOXV3L34VH66JYXYPQ7PQ","sku":"117","name":"117","price":"117.00"},{"variation_id":"ISDZN7RJBXBL43IW7PBST4HQ","sku":"118","name":"118","price":"118.00"},{"variation_id":"M45TQIQMN5USK4QKTMMKOOT5","sku":"119","name":"119","price":"119.00"},{"variation_id":"MES7TLSZFN6MGQROYXSISN73","sku":"200","name":"200","price":"200.00"},{"variation_id":"SOJLIFEMQRVEXUUYFV5KDEDQ","sku":"221","name":"221","price":"221.00"},{"variation_id":"GUR4HJQFVK5KFEQIIYGVWMQI","sku":"222","name":"222","price":"222.00"}]
+[info] [2017-02-06 06:42:25] The product prices are: [{"id":36,"regular_price":"11-00"},{"id":37,"regular_price":"22-00"},{"id":38,"regular_price":"33-00"},{"id":39,"regular_price":"44-00"},{"id":40,"regular_price":"55-00"},{"id":41,"regular_price":"66-00"},{"id":42,"regular_price":"77-00"},{"id":43,"regular_price":"88-00"},{"id":44,"regular_price":"99-00"},{"id":45,"regular_price":"110-00"},{"id":46,"regular_price":"111-00"},{"id":47,"regular_price":"112-00"},{"id":48,"regular_price":"113-00"},{"id":49,"regular_price":"114-00"},{"id":50,"regular_price":"115-00"},{"id":51,"regular_price":"116-00"},{"id":52,"regular_price":"117-00"},{"id":53,"regular_price":"118-00"},{"id":54,"regular_price":"119-00"},{"id":55,"regular_price":"200-00"},{"id":56,"regular_price":"221-00"},{"id":57,"regular_price":"222-00"}]
+[info] [2017-02-06 06:42:26] Manual sync: processing product:Test Mobile App[034d2229-2c64-49fb-a7b1-0bccfa62cc31] with action = ADD
+[info] [2017-02-06 06:42:26] Inserting product to database
+[info] [2017-02-06 06:42:27] Product inserted to databse with ID: 58
+[info] [2017-02-06 06:42:27] updating product variation with quantity
+[info] [2017-02-06 06:42:27] uploading product feature image
+[info] [2017-02-06 06:42:39] Manual sync: processing product:test product new[9fd414cf-9839-4f87-aafa-7fad80788775] with action = ADD
+[info] [2017-02-06 06:42:39] Inserting product to database
+[info] [2017-02-06 06:42:40] Product inserted to databse with ID: 60
+[info] [2017-02-06 06:42:40] updating product variation with quantity
+[info] [2017-02-06 06:42:40] uploading product feature image
+[info] [2017-02-06 06:42:56] Manual sync: processing product:test with img[33676fd1-7766-4a91-aeb6-692e8ca32300] with action = ADD
+[info] [2017-02-06 06:42:56] Inserting product to database
+[info] [2017-02-06 06:42:57] Product inserted to databse with ID: 62
+[info] [2017-02-06 06:42:57] updating product variation with quantity
+[info] [2017-02-06 06:42:57] uploading product feature image
+[info] [2017-02-06 06:43:02] Manual sync: processing product:testitem12345[ATMUASZRCMXHAEEHZWA234CB] with action = ADD
+[info] [2017-02-06 06:43:02] Inserting product to database
+[info] [2017-02-06 06:43:02] Product inserted to databse with ID: 64
+[info] [2017-02-06 06:43:02] updating product variation with quantity
+[info] [2017-02-06 06:43:03] uploading product feature image
+[info] [2017-02-06 06:43:05] Manual sync: processing product:testdnsjwithimg[0eff8854-fe20-420e-ad36-772ff5871def] with action = ADD
+[info] [2017-02-06 06:43:05] Inserting product to database
+[info] [2017-02-06 06:43:05] Product inserted to databse with ID: 66
+[info] [2017-02-06 06:43:06] updating product variation with quantity
+[info] [2017-02-06 06:43:06] uploading product feature image
+[info] [2017-02-06 06:43:11] Manual sync: processing product:testinimgsqtowoo[EIUWOIQDCH6F4SLR7OGK2GBX] with action = ADD
+[info] [2017-02-06 06:43:11] Inserting product to database
+[info] [2017-02-06 06:43:11] Product inserted to databse with ID: 68
+[info] [2017-02-06 06:43:12] updating product variation with quantity
+[info] [2017-02-06 06:43:15] Manual sync: processing update all products:
+[info] [2017-02-06 06:43:15] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-06 06:43:15] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"bc22a9c0-2d8b-49e7-bbef-a3762e9d3634","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"ws45","ordinal":1,"item_id":"277494eb-e2c4-43c0-8206-2bd474129aac"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"277494eb-e2c4-43c0-8206-2bd474129aac","description":"testing","name":"testing","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"80a38272-c863-402e-bc39-d955333fb2bb","url":"https:\/\/images-production-f.squarecdn.com\/a7W6zZghvnQAmL4q7xJjfRiSUt8=\/https:\/\/square-production.s3.amazonaws.com\/files\/dee7e76e4faed1eabba32dc4b5d817ce9fe96e05\/original.png"},"type":"NORMAL"}
+[info] [2017-02-06 06:43:15] Product 'testing' is simple
+[info] [2017-02-06 06:43:15] Product SKU: ws45
+[info] [2017-02-06 06:43:15] Product with SKU [ws45] exists prod ids:[23]
+[info] [2017-02-06 06:43:15] Product SKU already exists
+[info] [2017-02-06 06:43:15] Inserting product to database with ID : 23
+[info] [2017-02-06 06:43:15] Product inserted to databse with ID: 23
+[info] [2017-02-06 06:43:16] updating product variation with quantity
+[info] [2017-02-06 06:43:16] Terminating manual sync process by ajax
+[info] [2017-02-06 06:43:16] End Manual Sync from Square to Woo-commerce: log:1
+[info] [2017-02-06 06:43:16] ************************************************************
+[info] [2017-02-06 06:44:10] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 06:44:18] Searching for new products in all items response
+[info] [2017-02-06 06:44:18] Product 'testing products changes from square ' is simple
+[info] [2017-02-06 06:44:18] Product SKU: sku-must-for-sync
+[info] [2017-02-06 06:44:18] Product with SKU [sku-must-for-sync] exists prod ids:[24]
+[info] [2017-02-06 06:44:18] Product 'test' is simple
+[info] [2017-02-06 06:44:18] Product SKU: s55s
+[info] [2017-02-06 06:44:18] Product with SKU [s55s] exists prod ids:[26]
+[info] [2017-02-06 06:44:18] Product 'testing' is simple
+[info] [2017-02-06 06:44:18] Product SKU: s2
+[info] [2017-02-06 06:44:18] Product with SKU [s2] exists prod ids:[27]
+[info] [2017-02-06 06:44:18] Product 'testing var products' is variable
+[info] [2017-02-06 06:44:18] Product with SKU [s1] exists prod ids:[29]
+[info] [2017-02-06 06:44:18] Product 'test var 2' is variable
+[info] [2017-02-06 06:44:18] Product with SKU [sd1] exists prod ids:[33]
+[info] [2017-02-06 06:44:19] Product 'test upto 20' is variable
+[info] [2017-02-06 06:44:19] Product with SKU [11] exists prod ids:[36]
+[info] [2017-02-06 06:44:19] Product 'Test Mobile App' is simple
+[info] [2017-02-06 06:44:19] Product SKU: dff23
+[info] [2017-02-06 06:44:19] Product with SKU [dff23] exists prod ids:[58]
+[info] [2017-02-06 06:44:19] Product 'test product new' is simple
+[info] [2017-02-06 06:44:19] Product SKU: dsd15
+[info] [2017-02-06 06:44:19] Product with SKU [dsd15] exists prod ids:[60]
+[info] [2017-02-06 06:44:19] Product 'test with img' is simple
+[info] [2017-02-06 06:44:19] Product SKU: 252
+[info] [2017-02-06 06:44:19] Product with SKU [252] exists prod ids:[62]
+[info] [2017-02-06 06:44:19] Product 'testitem12345' is simple
+[info] [2017-02-06 06:44:19] Product SKU: wee3e
+[info] [2017-02-06 06:44:19] Product with SKU [wee3e] exists prod ids:[64]
+[info] [2017-02-06 06:44:19] Product 'testdnsjwithimg' is simple
+[info] [2017-02-06 06:44:19] Product SKU: wsd1
+[info] [2017-02-06 06:44:19] Product with SKU [wsd1] exists prod ids:[66]
+[info] [2017-02-06 06:44:19] Product 'testing' is simple
+[info] [2017-02-06 06:44:19] Product SKU: ws45
+[info] [2017-02-06 06:44:19] Product with SKU [ws45] exists prod ids:[23]
+[info] [2017-02-06 06:44:19] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-06 06:44:19] Product SKU: qe2
+[info] [2017-02-06 06:44:19] Product with SKU [qe2] exists prod ids:[68]
+[info] [2017-02-06 06:44:19] Product 'testinggimgggg' is simple
+[info] [2017-02-06 06:44:19] Product SKU: dw3d
+[info] [2017-02-06 06:44:19] Product with SKU [dw3d] does not exist
+[info] [2017-02-06 06:44:19] Product SKU not exists
+[info] [2017-02-06 06:44:21] Manual sync: [square->woo] start gathering data
+[info] [2017-02-06 06:44:24] ************************************************************
+[info] [2017-02-06 06:44:24] Start Manual Sync from Square to Woo-commerce: log:16
+[info] [2017-02-06 06:44:25] Manual sync: processing product:testinggimgggg[AIDVI3J7HH2NKIVZELXLPRLB] with action = ADD
+[info] [2017-02-06 06:44:25] Inserting product to database
+[info] [2017-02-06 06:44:25] Product inserted to databse with ID: 69
+[info] [2017-02-06 06:44:26] updating product variation with quantity
+[info] [2017-02-06 06:44:26] uploading product feature image
+[info] [2017-02-06 06:44:36] Manual sync: processing update all products:
+[info] [2017-02-06 06:44:36] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-06 06:44:36] Adding Product 'testing products changes from square ' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"d6ca6fef-c02d-481a-887f-e02dfbb0f7e9","name":"Regular","price_money":{"currency_code":"USD","amount":10000},"sku":"sku-must-for-sync","ordinal":1,"item_id":"40912668-4ed5-424a-bb7e-b378eb6cd20d"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"40912668-4ed5-424a-bb7e-b378eb6cd20d","description":"testing products","name":"testing products changes from square ","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"4709b5a5-a0e2-41f6-8910-4fcc2e5c9f27","url":"https:\/\/images-production-f.squarecdn.com\/WAj0aTPGBvNvqMIZtHds3v6Z69s=\/https:\/\/square-production.s3.amazonaws.com\/files\/775763d9e4af006ca67490d580e13dd6a3897cd9\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:36] Product 'testing products changes from square ' is simple
+[info] [2017-02-06 06:44:36] Product SKU: sku-must-for-sync
+[info] [2017-02-06 06:44:36] Product with SKU [sku-must-for-sync] exists prod ids:[24]
+[info] [2017-02-06 06:44:36] Product SKU already exists
+[info] [2017-02-06 06:44:36] Inserting product to database with ID : 24
+[info] [2017-02-06 06:44:37] Product inserted to databse with ID: 24
+[info] [2017-02-06 06:44:37] updating product variation with quantity
+[info] [2017-02-06 06:44:37] Adding Product 'test' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"68b1a5cc-a6f9-4557-881c-fc0efd1dde07","name":"Regular","price_money":{"currency_code":"USD","amount":1000},"sku":"s55s","ordinal":1,"item_id":"71cc9205-a759-4d42-8fc0-2969509be5e3"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"71cc9205-a759-4d42-8fc0-2969509be5e3","description":"test","name":"test","type":"NORMAL"}
+[info] [2017-02-06 06:44:37] Product 'test' is simple
+[info] [2017-02-06 06:44:37] Product SKU: s55s
+[info] [2017-02-06 06:44:37] Product with SKU [s55s] exists prod ids:[26]
+[info] [2017-02-06 06:44:37] Product SKU already exists
+[info] [2017-02-06 06:44:37] Inserting product to database with ID : 26
+[info] [2017-02-06 06:44:37] Product inserted to databse with ID: 26
+[info] [2017-02-06 06:44:37] updating product variation with quantity
+[info] [2017-02-06 06:44:37] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"ec9a4642-fa67-440b-8f4a-af5f540910e0","name":"Regular","price_money":{"currency_code":"USD","amount":1200},"sku":"s2","ordinal":1,"item_id":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02","description":"testing","name":"testing","type":"NORMAL"}
+[info] [2017-02-06 06:44:37] Product 'testing' is simple
+[info] [2017-02-06 06:44:37] Product SKU: s2
+[info] [2017-02-06 06:44:37] Product with SKU [s2] exists prod ids:[27]
+[info] [2017-02-06 06:44:37] Product SKU already exists
+[info] [2017-02-06 06:44:37] Inserting product to database with ID : 27
+[info] [2017-02-06 06:44:37] Product inserted to databse with ID: 27
+[info] [2017-02-06 06:44:37] updating product variation with quantity
+[info] [2017-02-06 06:44:37] Adding Product 'testing var products' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MJY5OFMSNOT5H2OA3VEGVMWX","name":"Regular s 1  ","price_money":{"currency_code":"USD","amount":10000},"sku":"s1","ordinal":1,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2HSMRDBTCTXTBSHIASOCZKUY","name":"Regular s 2 ","price_money":{"currency_code":"USD","amount":20000},"sku":"s22","ordinal":2,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"DUHQJWDMWIMDJUL2HXGGMYS3","name":"Regular s 3 ","price_money":{"currency_code":"USD","amount":30000},"sku":"s3","ordinal":3,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"GG7SBDB4AASONOLZ6JX7OCU3","color":"e5457a","description":"testing var productstesting var productstesting var products","name":"testing var products","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:37] Product 'testing var products' is variable
+[info] [2017-02-06 06:44:37] Product with SKU [s1] exists prod ids:[29]
+[info] [2017-02-06 06:44:37] Product with SKU [s22] exists prod ids:[30]
+[info] [2017-02-06 06:44:37] Product with SKU [s3] exists prod ids:[31]
+[info] [2017-02-06 06:44:37] The Product 'testing var products' sku array:{"s1":29,"s22":30,"s3":31}
+[info] [2017-02-06 06:44:37] The Product 'testing var products' sku parent: { 28 }
+[info] [2017-02-06 06:44:37] constructed variation array[{"variation_id":"MJY5OFMSNOT5H2OA3VEGVMWX","sku":"s1","name":"Regular s 1  ","price":"100.00","product_id":29},{"variation_id":"2HSMRDBTCTXTBSHIASOCZKUY","sku":"s22","name":"Regular s 2 ","price":"200.00","product_id":30},{"variation_id":"DUHQJWDMWIMDJUL2HXGGMYS3","sku":"s3","name":"Regular s 3 ","price":"300.00","product_id":31}]
+[info] [2017-02-06 06:44:39] The product prices are: [{"id":29,"regular_price":"100-00"},{"id":30,"regular_price":"200-00"},{"id":31,"regular_price":"300-00"}]
+[info] [2017-02-06 06:44:40] Adding Product 'test var 2' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2U3GJW5VMLSOOXLZQYEDYCTF","name":"test var 1","price_money":{"currency_code":"USD","amount":10000},"sku":"sd1","ordinal":1,"item_id":"IZ6CPPAHZGBDEV4RYLOA74WC"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"YC65CUXTQ4J6L3IMN6RF4D2E","name":"test var 2","price_money":{"currency_code":"USD","amount":20000},"sku":"sd2","ordinal":2,"item_id":"IZ6CPPAHZGBDEV4RYLOA74WC"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"IZ6CPPAHZGBDEV4RYLOA74WC","description":"test var 2","name":"test var 2","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:40] Product 'test var 2' is variable
+[info] [2017-02-06 06:44:40] Product with SKU [sd1] exists prod ids:[33]
+[info] [2017-02-06 06:44:40] Product with SKU [sd2] exists prod ids:[34]
+[info] [2017-02-06 06:44:40] The Product 'test var 2' sku array:{"sd1":33,"sd2":34}
+[info] [2017-02-06 06:44:40] The Product 'test var 2' sku parent: { 32 }
+[info] [2017-02-06 06:44:40] constructed variation array[{"variation_id":"2U3GJW5VMLSOOXLZQYEDYCTF","sku":"sd1","name":"test var 1","price":"100.00","product_id":33},{"variation_id":"YC65CUXTQ4J6L3IMN6RF4D2E","sku":"sd2","name":"test var 2","price":"200.00","product_id":34}]
+[info] [2017-02-06 06:44:41] The product prices are: [{"id":33,"regular_price":"100-00"},{"id":34,"regular_price":"200-00"}]
+[info] [2017-02-06 06:44:41] Adding Product 'test upto 20' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"CXS7KHJBD3AXS6L2Q6Q34ASL","name":"11","price_money":{"currency_code":"USD","amount":1100},"sku":"11","ordinal":1,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"QHKYCENZ45X7EUSWK54NMUEU","name":"22","price_money":{"currency_code":"USD","amount":2200},"sku":"22","ordinal":2,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2SASSDVKSHZLUZJEMYX6FH2I","name":"33","price_money":{"currency_code":"USD","amount":3300},"sku":"33","ordinal":3,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"LUDTV4IJJTEFABOEBOSQOJI6","name":"44","price_money":{"currency_code":"USD","amount":4400},"sku":"44","ordinal":4,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"3P52QH6IITLGR3I5UP5OTVCC","name":"55","price_money":{"currency_code":"USD","amount":5500},"sku":"55","ordinal":5,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MISHIHIHEVGPRF4IQUTLA4Y3","name":"66","price_money":{"currency_code":"USD","amount":6600},"sku":"66","ordinal":6,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"TKQONDQ7Z2SQGN53AGYFBH2H","name":"77","price_money":{"currency_code":"USD","amount":7700},"sku":"77","ordinal":7,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"7DJY3QT5D5OVUVQFTII23FZ7","name":"88","price_money":{"currency_code":"USD","amount":8800},"sku":"88","ordinal":8,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"X6ON32LZ767U232P6V5HGJ45","name":"99","price_money":{"currency_code":"USD","amount":9900},"sku":"99","ordinal":9,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"TDPQQKOAP3F4NK7XR2SIM75X","name":"110","price_money":{"currency_code":"USD","amount":11000},"sku":"110","ordinal":10,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"QQOZGDE3YBXCNF26JFXH5WUR","name":"111","price_money":{"currency_code":"USD","amount":11100},"sku":"111","ordinal":11,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"VADZSJJSDSJJSZSGSSLFHSLH","name":"112","price_money":{"currency_code":"USD","amount":11200},"sku":"112","ordinal":12,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"VOMRZUOJXNBYX6NGKPSXBVD2","name":"113","price_money":{"currency_code":"USD","amount":11300},"sku":"113","ordinal":13,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"66DFXRVP7T4ZQ3GLXSZJYB2N","name":"114","price_money":{"currency_code":"USD","amount":11400},"sku":"114","ordinal":14,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2ZM7UFA56IDQETUQL73VBYYC","name":"115","price_money":{"currency_code":"USD","amount":11500},"sku":"115","ordinal":15,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"X533WNONRRZLY6PL25SR3RIA","name":"116","price_money":{"currency_code":"USD","amount":11600},"sku":"116","ordinal":16,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"XCWAOXV3L34VH66JYXYPQ7PQ","name":"117","price_money":{"currency_code":"USD","amount":11700},"sku":"117","ordinal":17,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"ISDZN7RJBXBL43IW7PBST4HQ","name":"118","price_money":{"currency_code":"USD","amount":11800},"sku":"118","ordinal":18,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"M45TQIQMN5USK4QKTMMKOOT5","name":"119","price_money":{"currency_code":"USD","amount":11900},"sku":"119","ordinal":19,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MES7TLSZFN6MGQROYXSISN73","name":"200","price_money":{"currency_code":"USD","amount":20000},"sku":"200","ordinal":20,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"SOJLIFEMQRVEXUUYFV5KDEDQ","name":"221","price_money":{"currency_code":"USD","amount":22100},"sku":"221","ordinal":21,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"GUR4HJQFVK5KFEQIIYGVWMQI","name":"222","price_money":{"currency_code":"USD","amount":22200},"sku":"222","ordinal":22,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"P5CAXPTTRVU4AIGPOA7RI77K","description":"test upto 20","name":"test upto 20","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:41] Product 'test upto 20' is variable
+[info] [2017-02-06 06:44:41] Product with SKU [11] exists prod ids:[36]
+[info] [2017-02-06 06:44:41] Product with SKU [22] exists prod ids:[37]
+[info] [2017-02-06 06:44:41] Product with SKU [33] exists prod ids:[38]
+[info] [2017-02-06 06:44:41] Product with SKU [44] exists prod ids:[39]
+[info] [2017-02-06 06:44:41] Product with SKU [55] exists prod ids:[40]
+[info] [2017-02-06 06:44:41] Product with SKU [66] exists prod ids:[41]
+[info] [2017-02-06 06:44:41] Product with SKU [77] exists prod ids:[42]
+[info] [2017-02-06 06:44:41] Product with SKU [88] exists prod ids:[43]
+[info] [2017-02-06 06:44:41] Product with SKU [99] exists prod ids:[44]
+[info] [2017-02-06 06:44:41] Product with SKU [110] exists prod ids:[45]
+[info] [2017-02-06 06:44:41] Product with SKU [111] exists prod ids:[46]
+[info] [2017-02-06 06:44:41] Product with SKU [112] exists prod ids:[47]
+[info] [2017-02-06 06:44:41] Product with SKU [113] exists prod ids:[48]
+[info] [2017-02-06 06:44:41] Product with SKU [114] exists prod ids:[49]
+[info] [2017-02-06 06:44:41] Product with SKU [115] exists prod ids:[50]
+[info] [2017-02-06 06:44:41] Product with SKU [116] exists prod ids:[51]
+[info] [2017-02-06 06:44:41] Product with SKU [117] exists prod ids:[52]
+[info] [2017-02-06 06:44:41] Product with SKU [118] exists prod ids:[53]
+[info] [2017-02-06 06:44:41] Product with SKU [119] exists prod ids:[54]
+[info] [2017-02-06 06:44:41] Product with SKU [200] exists prod ids:[55]
+[info] [2017-02-06 06:44:41] Product with SKU [221] exists prod ids:[56]
+[info] [2017-02-06 06:44:42] Product with SKU [222] exists prod ids:[57]
+[info] [2017-02-06 06:44:42] The Product 'test upto 20' sku array:{"11":36,"22":37,"33":38,"44":39,"55":40,"66":41,"77":42,"88":43,"99":44,"110":45,"111":46,"112":47,"113":48,"114":49,"115":50,"116":51,"117":52,"118":53,"119":54,"200":55,"221":56,"222":57}
+[info] [2017-02-06 06:44:42] The Product 'test upto 20' sku parent: { 35 }
+[info] [2017-02-06 06:44:42] constructed variation array[{"variation_id":"CXS7KHJBD3AXS6L2Q6Q34ASL","sku":"11","name":"11","price":"11.00","product_id":36},{"variation_id":"QHKYCENZ45X7EUSWK54NMUEU","sku":"22","name":"22","price":"22.00","product_id":37},{"variation_id":"2SASSDVKSHZLUZJEMYX6FH2I","sku":"33","name":"33","price":"33.00","product_id":38},{"variation_id":"LUDTV4IJJTEFABOEBOSQOJI6","sku":"44","name":"44","price":"44.00","product_id":39},{"variation_id":"3P52QH6IITLGR3I5UP5OTVCC","sku":"55","name":"55","price":"55.00","product_id":40},{"variation_id":"MISHIHIHEVGPRF4IQUTLA4Y3","sku":"66","name":"66","price":"66.00","product_id":41},{"variation_id":"TKQONDQ7Z2SQGN53AGYFBH2H","sku":"77","name":"77","price":"77.00","product_id":42},{"variation_id":"7DJY3QT5D5OVUVQFTII23FZ7","sku":"88","name":"88","price":"88.00","product_id":43},{"variation_id":"X6ON32LZ767U232P6V5HGJ45","sku":"99","name":"99","price":"99.00","product_id":44},{"variation_id":"TDPQQKOAP3F4NK7XR2SIM75X","sku":"110","name":"110","price":"110.00","product_id":45},{"variation_id":"QQOZGDE3YBXCNF26JFXH5WUR","sku":"111","name":"111","price":"111.00","product_id":46},{"variation_id":"VADZSJJSDSJJSZSGSSLFHSLH","sku":"112","name":"112","price":"112.00","product_id":47},{"variation_id":"VOMRZUOJXNBYX6NGKPSXBVD2","sku":"113","name":"113","price":"113.00","product_id":48},{"variation_id":"66DFXRVP7T4ZQ3GLXSZJYB2N","sku":"114","name":"114","price":"114.00","product_id":49},{"variation_id":"2ZM7UFA56IDQETUQL73VBYYC","sku":"115","name":"115","price":"115.00","product_id":50},{"variation_id":"X533WNONRRZLY6PL25SR3RIA","sku":"116","name":"116","price":"116.00","product_id":51},{"variation_id":"XCWAOXV3L34VH66JYXYPQ7PQ","sku":"117","name":"117","price":"117.00","product_id":52},{"variation_id":"ISDZN7RJBXBL43IW7PBST4HQ","sku":"118","name":"118","price":"118.00","product_id":53},{"variation_id":"M45TQIQMN5USK4QKTMMKOOT5","sku":"119","name":"119","price":"119.00","product_id":54},{"variation_id":"MES7TLSZFN6MGQROYXSISN73","sku":"200","name":"200","price":"200.00","product_id":55},{"variation_id":"SOJLIFEMQRVEXUUYFV5KDEDQ","sku":"221","name":"221","price":"221.00","product_id":56},{"variation_id":"GUR4HJQFVK5KFEQIIYGVWMQI","sku":"222","name":"222","price":"222.00","product_id":57}]
+[info] [2017-02-06 06:44:47] The product prices are: [{"id":36,"regular_price":"11-00"},{"id":37,"regular_price":"22-00"},{"id":38,"regular_price":"33-00"},{"id":39,"regular_price":"44-00"},{"id":40,"regular_price":"55-00"},{"id":41,"regular_price":"66-00"},{"id":42,"regular_price":"77-00"},{"id":43,"regular_price":"88-00"},{"id":44,"regular_price":"99-00"},{"id":45,"regular_price":"110-00"},{"id":46,"regular_price":"111-00"},{"id":47,"regular_price":"112-00"},{"id":48,"regular_price":"113-00"},{"id":49,"regular_price":"114-00"},{"id":50,"regular_price":"115-00"},{"id":51,"regular_price":"116-00"},{"id":52,"regular_price":"117-00"},{"id":53,"regular_price":"118-00"},{"id":54,"regular_price":"119-00"},{"id":55,"regular_price":"200-00"},{"id":56,"regular_price":"221-00"},{"id":57,"regular_price":"222-00"}]
+[info] [2017-02-06 06:44:47] Adding Product 'Test Mobile App' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"f9c651a0-eda7-41f3-b3f6-f99ca7a34fbb","price_money":{"currency_code":"USD","amount":200000},"sku":"dff23","ordinal":0,"item_id":"034d2229-2c64-49fb-a7b1-0bccfa62cc31"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"034d2229-2c64-49fb-a7b1-0bccfa62cc31","color":"ffb21212","description":"","name":"Test Mobile App","abbreviation":"Te","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"23abe912-a92e-4696-b8c7-258bb2b92561","url":"https:\/\/images-production-f.squarecdn.com\/jFaYNGlpnHlP6gp1FWsoWD1gbdg=\/https:\/\/square-production.s3.amazonaws.com\/files\/b6fc7864cea9bc84950c8aa1cfaf6346c474d1d7\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:47] Product 'Test Mobile App' is simple
+[info] [2017-02-06 06:44:47] Product SKU: dff23
+[info] [2017-02-06 06:44:47] Product with SKU [dff23] exists prod ids:[58]
+[info] [2017-02-06 06:44:47] Product SKU already exists
+[info] [2017-02-06 06:44:47] Inserting product to database with ID : 58
+[info] [2017-02-06 06:44:48] Product inserted to databse with ID: 58
+[info] [2017-02-06 06:44:48] updating product variation with quantity
+[info] [2017-02-06 06:44:48] Adding Product 'test product new' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"e49f75ba-8183-46b9-949d-fb2253884702","name":"Regular","price_money":{"currency_code":"USD","amount":12315600},"sku":"dsd15","ordinal":1,"item_id":"9fd414cf-9839-4f87-aafa-7fad80788775"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"9fd414cf-9839-4f87-aafa-7fad80788775","description":"test product new","name":"test product new","master_image":{"id":"V6ERKLD7D22LOGSCQJWGXS4N","url":"https:\/\/square-production.s3.amazonaws.com\/files\/21e26b1028d5e72051418dff3338f2031050dbb1\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:48] Product 'test product new' is simple
+[info] [2017-02-06 06:44:48] Product SKU: dsd15
+[info] [2017-02-06 06:44:48] Product with SKU [dsd15] exists prod ids:[60]
+[info] [2017-02-06 06:44:48] Product SKU already exists
+[info] [2017-02-06 06:44:48] Inserting product to database with ID : 60
+[info] [2017-02-06 06:44:48] Product inserted to databse with ID: 60
+[info] [2017-02-06 06:44:48] updating product variation with quantity
+[info] [2017-02-06 06:44:48] Adding Product 'test with img' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"7d318b1f-c017-4cb9-9c9b-de38ef0ead0f","name":"Regular","price_money":{"currency_code":"USD","amount":522500},"sku":"252","ordinal":1,"item_id":"33676fd1-7766-4a91-aeb6-692e8ca32300"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"33676fd1-7766-4a91-aeb6-692e8ca32300","description":"test with img","name":"test with img","master_image":{"id":"488d5f4f-94be-4686-8e2d-41ac20f48ea5","url":"https:\/\/images-production-f.squarecdn.com\/SmfRTPcziXPo0QDbj_IsChls3xE=\/https:\/\/square-production.s3.amazonaws.com\/files\/21e26b1028d5e72051418dff3338f2031050dbb1\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:48] Product 'test with img' is simple
+[info] [2017-02-06 06:44:48] Product SKU: 252
+[info] [2017-02-06 06:44:48] Product with SKU [252] exists prod ids:[62]
+[info] [2017-02-06 06:44:48] Product SKU already exists
+[info] [2017-02-06 06:44:48] Inserting product to database with ID : 62
+[info] [2017-02-06 06:44:48] Product inserted to databse with ID: 62
+[info] [2017-02-06 06:44:48] updating product variation with quantity
+[info] [2017-02-06 06:44:48] Adding Product 'testitem12345' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"5VF7GMOHZI7KMO7C6ABTAZOV","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"wee3e","ordinal":1,"item_id":"ATMUASZRCMXHAEEHZWA234CB"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"ATMUASZRCMXHAEEHZWA234CB","description":"testitem12345","name":"testitem12345","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"WEJ743HKZXZH7G4PH7RMM5SF","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1d465126087676b085e8743fe467868dfcf8b61c\/original.png"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:48] Product 'testitem12345' is simple
+[info] [2017-02-06 06:44:48] Product SKU: wee3e
+[info] [2017-02-06 06:44:48] Product with SKU [wee3e] exists prod ids:[64]
+[info] [2017-02-06 06:44:48] Product SKU already exists
+[info] [2017-02-06 06:44:48] Inserting product to database with ID : 64
+[info] [2017-02-06 06:44:49] Product inserted to databse with ID: 64
+[info] [2017-02-06 06:44:49] updating product variation with quantity
+[info] [2017-02-06 06:44:49] Adding Product 'testdnsjwithimg' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"fc1f2203-0323-4a14-b3e0-1ee916bb3573","name":"Regular","price_money":{"currency_code":"USD","amount":2000},"sku":"wsd1","ordinal":1,"item_id":"0eff8854-fe20-420e-ad36-772ff5871def"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"0eff8854-fe20-420e-ad36-772ff5871def","description":"testdnsjwithimg","name":"testdnsjwithimg","master_image":{"id":"1d30b42b-88ec-4afe-8190-416127f69337","url":"https:\/\/images-production-f.squarecdn.com\/9pjw2sQDQ9sOLRjPSWgLWPyTgH8=\/https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:49] Product 'testdnsjwithimg' is simple
+[info] [2017-02-06 06:44:49] Product SKU: wsd1
+[info] [2017-02-06 06:44:49] Product with SKU [wsd1] exists prod ids:[66]
+[info] [2017-02-06 06:44:49] Product SKU already exists
+[info] [2017-02-06 06:44:49] Inserting product to database with ID : 66
+[info] [2017-02-06 06:44:49] Product inserted to databse with ID: 66
+[info] [2017-02-06 06:44:49] updating product variation with quantity
+[info] [2017-02-06 06:44:49] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"bc22a9c0-2d8b-49e7-bbef-a3762e9d3634","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"ws45","ordinal":1,"item_id":"277494eb-e2c4-43c0-8206-2bd474129aac"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"277494eb-e2c4-43c0-8206-2bd474129aac","description":"testing","name":"testing","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"80a38272-c863-402e-bc39-d955333fb2bb","url":"https:\/\/images-production-f.squarecdn.com\/a7W6zZghvnQAmL4q7xJjfRiSUt8=\/https:\/\/square-production.s3.amazonaws.com\/files\/dee7e76e4faed1eabba32dc4b5d817ce9fe96e05\/original.png"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:49] Product 'testing' is simple
+[info] [2017-02-06 06:44:49] Product SKU: ws45
+[info] [2017-02-06 06:44:49] Product with SKU [ws45] exists prod ids:[23]
+[info] [2017-02-06 06:44:49] Product SKU already exists
+[info] [2017-02-06 06:44:49] Inserting product to database with ID : 23
+[info] [2017-02-06 06:44:50] Product inserted to databse with ID: 23
+[info] [2017-02-06 06:44:50] updating product variation with quantity
+[info] [2017-02-06 06:44:50] Adding Product 'testinimgsqtowoo' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"DTBW6EFKIHO6VLSO2YBR2NE2","name":"Regular","price_money":{"currency_code":"USD","amount":30000},"sku":"qe2","ordinal":1,"item_id":"EIUWOIQDCH6F4SLR7OGK2GBX"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"EIUWOIQDCH6F4SLR7OGK2GBX","description":"testinimgsqtowoo","name":"testinimgsqtowoo","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"EY7TI66Q4WSVFKD46T4PHWTB","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:44:50] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-06 06:44:50] Product SKU: qe2
+[info] [2017-02-06 06:44:50] Product with SKU [qe2] exists prod ids:[68]
+[info] [2017-02-06 06:44:50] Product SKU already exists
+[info] [2017-02-06 06:44:50] Inserting product to database with ID : 68
+[info] [2017-02-06 06:44:50] Product inserted to databse with ID: 68
+[info] [2017-02-06 06:44:50] updating product variation with quantity
+[info] [2017-02-06 06:44:50] uploading product feature image
+[info] [2017-02-06 06:46:00] Manual sync: processing update all products:
+[info] [2017-02-06 06:46:00] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-06 06:46:00] Adding Product 'testing products changes from square ' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"d6ca6fef-c02d-481a-887f-e02dfbb0f7e9","name":"Regular","price_money":{"currency_code":"USD","amount":10000},"sku":"sku-must-for-sync","ordinal":1,"item_id":"40912668-4ed5-424a-bb7e-b378eb6cd20d"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"40912668-4ed5-424a-bb7e-b378eb6cd20d","description":"testing products","name":"testing products changes from square ","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"4709b5a5-a0e2-41f6-8910-4fcc2e5c9f27","url":"https:\/\/images-production-f.squarecdn.com\/WAj0aTPGBvNvqMIZtHds3v6Z69s=\/https:\/\/square-production.s3.amazonaws.com\/files\/775763d9e4af006ca67490d580e13dd6a3897cd9\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:00] Product 'testing products changes from square ' is simple
+[info] [2017-02-06 06:46:00] Product SKU: sku-must-for-sync
+[info] [2017-02-06 06:46:00] Product with SKU [sku-must-for-sync] exists prod ids:[24]
+[info] [2017-02-06 06:46:00] Product SKU already exists
+[info] [2017-02-06 06:46:00] Inserting product to database with ID : 24
+[info] [2017-02-06 06:46:00] Product inserted to databse with ID: 24
+[info] [2017-02-06 06:46:00] updating product variation with quantity
+[info] [2017-02-06 06:46:00] Adding Product 'test' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"68b1a5cc-a6f9-4557-881c-fc0efd1dde07","name":"Regular","price_money":{"currency_code":"USD","amount":1000},"sku":"s55s","ordinal":1,"item_id":"71cc9205-a759-4d42-8fc0-2969509be5e3"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"71cc9205-a759-4d42-8fc0-2969509be5e3","description":"test","name":"test","type":"NORMAL"}
+[info] [2017-02-06 06:46:00] Product 'test' is simple
+[info] [2017-02-06 06:46:00] Product SKU: s55s
+[info] [2017-02-06 06:46:00] Product with SKU [s55s] exists prod ids:[26]
+[info] [2017-02-06 06:46:00] Product SKU already exists
+[info] [2017-02-06 06:46:00] Inserting product to database with ID : 26
+[info] [2017-02-06 06:46:00] Product inserted to databse with ID: 26
+[info] [2017-02-06 06:46:00] updating product variation with quantity
+[info] [2017-02-06 06:46:00] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"ec9a4642-fa67-440b-8f4a-af5f540910e0","name":"Regular","price_money":{"currency_code":"USD","amount":1200},"sku":"s2","ordinal":1,"item_id":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02","description":"testing","name":"testing","type":"NORMAL"}
+[info] [2017-02-06 06:46:00] Product 'testing' is simple
+[info] [2017-02-06 06:46:00] Product SKU: s2
+[info] [2017-02-06 06:46:00] Product with SKU [s2] exists prod ids:[27]
+[info] [2017-02-06 06:46:00] Product SKU already exists
+[info] [2017-02-06 06:46:00] Inserting product to database with ID : 27
+[info] [2017-02-06 06:46:00] Product inserted to databse with ID: 27
+[info] [2017-02-06 06:46:00] updating product variation with quantity
+[info] [2017-02-06 06:46:00] Adding Product 'testing var products' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MJY5OFMSNOT5H2OA3VEGVMWX","name":"Regular s 1  ","price_money":{"currency_code":"USD","amount":10000},"sku":"s1","ordinal":1,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2HSMRDBTCTXTBSHIASOCZKUY","name":"Regular s 2 ","price_money":{"currency_code":"USD","amount":20000},"sku":"s22","ordinal":2,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"DUHQJWDMWIMDJUL2HXGGMYS3","name":"Regular s 3 ","price_money":{"currency_code":"USD","amount":30000},"sku":"s3","ordinal":3,"item_id":"GG7SBDB4AASONOLZ6JX7OCU3"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"GG7SBDB4AASONOLZ6JX7OCU3","color":"e5457a","description":"testing var productstesting var productstesting var products","name":"testing var products","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:00] Product 'testing var products' is variable
+[info] [2017-02-06 06:46:00] Product with SKU [s1] exists prod ids:[29]
+[info] [2017-02-06 06:46:00] Product with SKU [s22] exists prod ids:[30]
+[info] [2017-02-06 06:46:00] Product with SKU [s3] exists prod ids:[31]
+[info] [2017-02-06 06:46:00] The Product 'testing var products' sku array:{"s1":29,"s22":30,"s3":31}
+[info] [2017-02-06 06:46:00] The Product 'testing var products' sku parent: { 28 }
+[info] [2017-02-06 06:46:00] constructed variation array[{"variation_id":"MJY5OFMSNOT5H2OA3VEGVMWX","sku":"s1","name":"Regular s 1  ","price":"100.00","product_id":29},{"variation_id":"2HSMRDBTCTXTBSHIASOCZKUY","sku":"s22","name":"Regular s 2 ","price":"200.00","product_id":30},{"variation_id":"DUHQJWDMWIMDJUL2HXGGMYS3","sku":"s3","name":"Regular s 3 ","price":"300.00","product_id":31}]
+[info] [2017-02-06 06:46:02] The product prices are: [{"id":29,"regular_price":"100-00"},{"id":30,"regular_price":"200-00"},{"id":31,"regular_price":"300-00"}]
+[info] [2017-02-06 06:46:02] Adding Product 'test var 2' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2U3GJW5VMLSOOXLZQYEDYCTF","name":"test var 1","price_money":{"currency_code":"USD","amount":10000},"sku":"sd1","ordinal":1,"item_id":"IZ6CPPAHZGBDEV4RYLOA74WC"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"YC65CUXTQ4J6L3IMN6RF4D2E","name":"test var 2","price_money":{"currency_code":"USD","amount":20000},"sku":"sd2","ordinal":2,"item_id":"IZ6CPPAHZGBDEV4RYLOA74WC"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"IZ6CPPAHZGBDEV4RYLOA74WC","description":"test var 2","name":"test var 2","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:02] Product 'test var 2' is variable
+[info] [2017-02-06 06:46:02] Product with SKU [sd1] exists prod ids:[33]
+[info] [2017-02-06 06:46:02] Product with SKU [sd2] exists prod ids:[34]
+[info] [2017-02-06 06:46:02] The Product 'test var 2' sku array:{"sd1":33,"sd2":34}
+[info] [2017-02-06 06:46:02] The Product 'test var 2' sku parent: { 32 }
+[info] [2017-02-06 06:46:02] constructed variation array[{"variation_id":"2U3GJW5VMLSOOXLZQYEDYCTF","sku":"sd1","name":"test var 1","price":"100.00","product_id":33},{"variation_id":"YC65CUXTQ4J6L3IMN6RF4D2E","sku":"sd2","name":"test var 2","price":"200.00","product_id":34}]
+[info] [2017-02-06 06:46:03] The product prices are: [{"id":33,"regular_price":"100-00"},{"id":34,"regular_price":"200-00"}]
+[info] [2017-02-06 06:46:03] Adding Product 'test upto 20' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"CXS7KHJBD3AXS6L2Q6Q34ASL","name":"11","price_money":{"currency_code":"USD","amount":1100},"sku":"11","ordinal":1,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"QHKYCENZ45X7EUSWK54NMUEU","name":"22","price_money":{"currency_code":"USD","amount":2200},"sku":"22","ordinal":2,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2SASSDVKSHZLUZJEMYX6FH2I","name":"33","price_money":{"currency_code":"USD","amount":3300},"sku":"33","ordinal":3,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"LUDTV4IJJTEFABOEBOSQOJI6","name":"44","price_money":{"currency_code":"USD","amount":4400},"sku":"44","ordinal":4,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"3P52QH6IITLGR3I5UP5OTVCC","name":"55","price_money":{"currency_code":"USD","amount":5500},"sku":"55","ordinal":5,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MISHIHIHEVGPRF4IQUTLA4Y3","name":"66","price_money":{"currency_code":"USD","amount":6600},"sku":"66","ordinal":6,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"TKQONDQ7Z2SQGN53AGYFBH2H","name":"77","price_money":{"currency_code":"USD","amount":7700},"sku":"77","ordinal":7,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"7DJY3QT5D5OVUVQFTII23FZ7","name":"88","price_money":{"currency_code":"USD","amount":8800},"sku":"88","ordinal":8,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"X6ON32LZ767U232P6V5HGJ45","name":"99","price_money":{"currency_code":"USD","amount":9900},"sku":"99","ordinal":9,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"TDPQQKOAP3F4NK7XR2SIM75X","name":"110","price_money":{"currency_code":"USD","amount":11000},"sku":"110","ordinal":10,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"QQOZGDE3YBXCNF26JFXH5WUR","name":"111","price_money":{"currency_code":"USD","amount":11100},"sku":"111","ordinal":11,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"VADZSJJSDSJJSZSGSSLFHSLH","name":"112","price_money":{"currency_code":"USD","amount":11200},"sku":"112","ordinal":12,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"VOMRZUOJXNBYX6NGKPSXBVD2","name":"113","price_money":{"currency_code":"USD","amount":11300},"sku":"113","ordinal":13,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"66DFXRVP7T4ZQ3GLXSZJYB2N","name":"114","price_money":{"currency_code":"USD","amount":11400},"sku":"114","ordinal":14,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"2ZM7UFA56IDQETUQL73VBYYC","name":"115","price_money":{"currency_code":"USD","amount":11500},"sku":"115","ordinal":15,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"X533WNONRRZLY6PL25SR3RIA","name":"116","price_money":{"currency_code":"USD","amount":11600},"sku":"116","ordinal":16,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"XCWAOXV3L34VH66JYXYPQ7PQ","name":"117","price_money":{"currency_code":"USD","amount":11700},"sku":"117","ordinal":17,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"ISDZN7RJBXBL43IW7PBST4HQ","name":"118","price_money":{"currency_code":"USD","amount":11800},"sku":"118","ordinal":18,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"M45TQIQMN5USK4QKTMMKOOT5","name":"119","price_money":{"currency_code":"USD","amount":11900},"sku":"119","ordinal":19,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"MES7TLSZFN6MGQROYXSISN73","name":"200","price_money":{"currency_code":"USD","amount":20000},"sku":"200","ordinal":20,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"SOJLIFEMQRVEXUUYFV5KDEDQ","name":"221","price_money":{"currency_code":"USD","amount":22100},"sku":"221","ordinal":21,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"},{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"GUR4HJQFVK5KFEQIIYGVWMQI","name":"222","price_money":{"currency_code":"USD","amount":22200},"sku":"222","ordinal":22,"item_id":"P5CAXPTTRVU4AIGPOA7RI77K"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"P5CAXPTTRVU4AIGPOA7RI77K","description":"test upto 20","name":"test upto 20","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:03] Product 'test upto 20' is variable
+[info] [2017-02-06 06:46:03] Product with SKU [11] exists prod ids:[36]
+[info] [2017-02-06 06:46:03] Product with SKU [22] exists prod ids:[37]
+[info] [2017-02-06 06:46:03] Product with SKU [33] exists prod ids:[38]
+[info] [2017-02-06 06:46:03] Product with SKU [44] exists prod ids:[39]
+[info] [2017-02-06 06:46:03] Product with SKU [55] exists prod ids:[40]
+[info] [2017-02-06 06:46:03] Product with SKU [66] exists prod ids:[41]
+[info] [2017-02-06 06:46:03] Product with SKU [77] exists prod ids:[42]
+[info] [2017-02-06 06:46:03] Product with SKU [88] exists prod ids:[43]
+[info] [2017-02-06 06:46:04] Product with SKU [99] exists prod ids:[44]
+[info] [2017-02-06 06:46:04] Product with SKU [110] exists prod ids:[45]
+[info] [2017-02-06 06:46:04] Product with SKU [111] exists prod ids:[46]
+[info] [2017-02-06 06:46:04] Product with SKU [112] exists prod ids:[47]
+[info] [2017-02-06 06:46:04] Product with SKU [113] exists prod ids:[48]
+[info] [2017-02-06 06:46:04] Product with SKU [114] exists prod ids:[49]
+[info] [2017-02-06 06:46:04] Product with SKU [115] exists prod ids:[50]
+[info] [2017-02-06 06:46:04] Product with SKU [116] exists prod ids:[51]
+[info] [2017-02-06 06:46:04] Product with SKU [117] exists prod ids:[52]
+[info] [2017-02-06 06:46:04] Product with SKU [118] exists prod ids:[53]
+[info] [2017-02-06 06:46:04] Product with SKU [119] exists prod ids:[54]
+[info] [2017-02-06 06:46:04] Product with SKU [200] exists prod ids:[55]
+[info] [2017-02-06 06:46:04] Product with SKU [221] exists prod ids:[56]
+[info] [2017-02-06 06:46:04] Product with SKU [222] exists prod ids:[57]
+[info] [2017-02-06 06:46:04] The Product 'test upto 20' sku array:{"11":36,"22":37,"33":38,"44":39,"55":40,"66":41,"77":42,"88":43,"99":44,"110":45,"111":46,"112":47,"113":48,"114":49,"115":50,"116":51,"117":52,"118":53,"119":54,"200":55,"221":56,"222":57}
+[info] [2017-02-06 06:46:04] The Product 'test upto 20' sku parent: { 35 }
+[info] [2017-02-06 06:46:04] constructed variation array[{"variation_id":"CXS7KHJBD3AXS6L2Q6Q34ASL","sku":"11","name":"11","price":"11.00","product_id":36},{"variation_id":"QHKYCENZ45X7EUSWK54NMUEU","sku":"22","name":"22","price":"22.00","product_id":37},{"variation_id":"2SASSDVKSHZLUZJEMYX6FH2I","sku":"33","name":"33","price":"33.00","product_id":38},{"variation_id":"LUDTV4IJJTEFABOEBOSQOJI6","sku":"44","name":"44","price":"44.00","product_id":39},{"variation_id":"3P52QH6IITLGR3I5UP5OTVCC","sku":"55","name":"55","price":"55.00","product_id":40},{"variation_id":"MISHIHIHEVGPRF4IQUTLA4Y3","sku":"66","name":"66","price":"66.00","product_id":41},{"variation_id":"TKQONDQ7Z2SQGN53AGYFBH2H","sku":"77","name":"77","price":"77.00","product_id":42},{"variation_id":"7DJY3QT5D5OVUVQFTII23FZ7","sku":"88","name":"88","price":"88.00","product_id":43},{"variation_id":"X6ON32LZ767U232P6V5HGJ45","sku":"99","name":"99","price":"99.00","product_id":44},{"variation_id":"TDPQQKOAP3F4NK7XR2SIM75X","sku":"110","name":"110","price":"110.00","product_id":45},{"variation_id":"QQOZGDE3YBXCNF26JFXH5WUR","sku":"111","name":"111","price":"111.00","product_id":46},{"variation_id":"VADZSJJSDSJJSZSGSSLFHSLH","sku":"112","name":"112","price":"112.00","product_id":47},{"variation_id":"VOMRZUOJXNBYX6NGKPSXBVD2","sku":"113","name":"113","price":"113.00","product_id":48},{"variation_id":"66DFXRVP7T4ZQ3GLXSZJYB2N","sku":"114","name":"114","price":"114.00","product_id":49},{"variation_id":"2ZM7UFA56IDQETUQL73VBYYC","sku":"115","name":"115","price":"115.00","product_id":50},{"variation_id":"X533WNONRRZLY6PL25SR3RIA","sku":"116","name":"116","price":"116.00","product_id":51},{"variation_id":"XCWAOXV3L34VH66JYXYPQ7PQ","sku":"117","name":"117","price":"117.00","product_id":52},{"variation_id":"ISDZN7RJBXBL43IW7PBST4HQ","sku":"118","name":"118","price":"118.00","product_id":53},{"variation_id":"M45TQIQMN5USK4QKTMMKOOT5","sku":"119","name":"119","price":"119.00","product_id":54},{"variation_id":"MES7TLSZFN6MGQROYXSISN73","sku":"200","name":"200","price":"200.00","product_id":55},{"variation_id":"SOJLIFEMQRVEXUUYFV5KDEDQ","sku":"221","name":"221","price":"221.00","product_id":56},{"variation_id":"GUR4HJQFVK5KFEQIIYGVWMQI","sku":"222","name":"222","price":"222.00","product_id":57}]
+[info] [2017-02-06 06:46:09] The product prices are: [{"id":36,"regular_price":"11-00"},{"id":37,"regular_price":"22-00"},{"id":38,"regular_price":"33-00"},{"id":39,"regular_price":"44-00"},{"id":40,"regular_price":"55-00"},{"id":41,"regular_price":"66-00"},{"id":42,"regular_price":"77-00"},{"id":43,"regular_price":"88-00"},{"id":44,"regular_price":"99-00"},{"id":45,"regular_price":"110-00"},{"id":46,"regular_price":"111-00"},{"id":47,"regular_price":"112-00"},{"id":48,"regular_price":"113-00"},{"id":49,"regular_price":"114-00"},{"id":50,"regular_price":"115-00"},{"id":51,"regular_price":"116-00"},{"id":52,"regular_price":"117-00"},{"id":53,"regular_price":"118-00"},{"id":54,"regular_price":"119-00"},{"id":55,"regular_price":"200-00"},{"id":56,"regular_price":"221-00"},{"id":57,"regular_price":"222-00"}]
+[info] [2017-02-06 06:46:09] Adding Product 'Test Mobile App' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"f9c651a0-eda7-41f3-b3f6-f99ca7a34fbb","price_money":{"currency_code":"USD","amount":200000},"sku":"dff23","ordinal":0,"item_id":"034d2229-2c64-49fb-a7b1-0bccfa62cc31"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"034d2229-2c64-49fb-a7b1-0bccfa62cc31","color":"ffb21212","description":"","name":"Test Mobile App","abbreviation":"Te","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"23abe912-a92e-4696-b8c7-258bb2b92561","url":"https:\/\/images-production-f.squarecdn.com\/jFaYNGlpnHlP6gp1FWsoWD1gbdg=\/https:\/\/square-production.s3.amazonaws.com\/files\/b6fc7864cea9bc84950c8aa1cfaf6346c474d1d7\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:09] Product 'Test Mobile App' is simple
+[info] [2017-02-06 06:46:09] Product SKU: dff23
+[info] [2017-02-06 06:46:09] Product with SKU [dff23] exists prod ids:[58]
+[info] [2017-02-06 06:46:09] Product SKU already exists
+[info] [2017-02-06 06:46:10] Inserting product to database with ID : 58
+[info] [2017-02-06 06:46:10] Product inserted to databse with ID: 58
+[info] [2017-02-06 06:46:10] updating product variation with quantity
+[info] [2017-02-06 06:46:11] Adding Product 'test product new' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"e49f75ba-8183-46b9-949d-fb2253884702","name":"Regular","price_money":{"currency_code":"USD","amount":12315600},"sku":"dsd15","ordinal":1,"item_id":"9fd414cf-9839-4f87-aafa-7fad80788775"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"9fd414cf-9839-4f87-aafa-7fad80788775","description":"test product new","name":"test product new","master_image":{"id":"V6ERKLD7D22LOGSCQJWGXS4N","url":"https:\/\/square-production.s3.amazonaws.com\/files\/21e26b1028d5e72051418dff3338f2031050dbb1\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:11] Product 'test product new' is simple
+[info] [2017-02-06 06:46:11] Product SKU: dsd15
+[info] [2017-02-06 06:46:11] Product with SKU [dsd15] exists prod ids:[60]
+[info] [2017-02-06 06:46:11] Product SKU already exists
+[info] [2017-02-06 06:46:11] Inserting product to database with ID : 60
+[info] [2017-02-06 06:46:11] Product inserted to databse with ID: 60
+[info] [2017-02-06 06:46:11] updating product variation with quantity
+[info] [2017-02-06 06:46:11] Adding Product 'test with img' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"7d318b1f-c017-4cb9-9c9b-de38ef0ead0f","name":"Regular","price_money":{"currency_code":"USD","amount":522500},"sku":"252","ordinal":1,"item_id":"33676fd1-7766-4a91-aeb6-692e8ca32300"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"33676fd1-7766-4a91-aeb6-692e8ca32300","description":"test with img","name":"test with img","master_image":{"id":"488d5f4f-94be-4686-8e2d-41ac20f48ea5","url":"https:\/\/images-production-f.squarecdn.com\/SmfRTPcziXPo0QDbj_IsChls3xE=\/https:\/\/square-production.s3.amazonaws.com\/files\/21e26b1028d5e72051418dff3338f2031050dbb1\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:11] Product 'test with img' is simple
+[info] [2017-02-06 06:46:11] Product SKU: 252
+[info] [2017-02-06 06:46:11] Product with SKU [252] exists prod ids:[62]
+[info] [2017-02-06 06:46:11] Product SKU already exists
+[info] [2017-02-06 06:46:11] Inserting product to database with ID : 62
+[info] [2017-02-06 06:46:11] Product inserted to databse with ID: 62
+[info] [2017-02-06 06:46:11] updating product variation with quantity
+[info] [2017-02-06 06:46:11] Adding Product 'testitem12345' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"5VF7GMOHZI7KMO7C6ABTAZOV","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"wee3e","ordinal":1,"item_id":"ATMUASZRCMXHAEEHZWA234CB"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"ATMUASZRCMXHAEEHZWA234CB","description":"testitem12345","name":"testitem12345","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"WEJ743HKZXZH7G4PH7RMM5SF","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1d465126087676b085e8743fe467868dfcf8b61c\/original.png"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:11] Product 'testitem12345' is simple
+[info] [2017-02-06 06:46:11] Product SKU: wee3e
+[info] [2017-02-06 06:46:11] Product with SKU [wee3e] exists prod ids:[64]
+[info] [2017-02-06 06:46:11] Product SKU already exists
+[info] [2017-02-06 06:46:11] Inserting product to database with ID : 64
+[info] [2017-02-06 06:46:11] Product inserted to databse with ID: 64
+[info] [2017-02-06 06:46:11] updating product variation with quantity
+[info] [2017-02-06 06:46:11] Adding Product 'testdnsjwithimg' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"fc1f2203-0323-4a14-b3e0-1ee916bb3573","name":"Regular","price_money":{"currency_code":"USD","amount":2000},"sku":"wsd1","ordinal":1,"item_id":"0eff8854-fe20-420e-ad36-772ff5871def"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"0eff8854-fe20-420e-ad36-772ff5871def","description":"testdnsjwithimg","name":"testdnsjwithimg","master_image":{"id":"1d30b42b-88ec-4afe-8190-416127f69337","url":"https:\/\/images-production-f.squarecdn.com\/9pjw2sQDQ9sOLRjPSWgLWPyTgH8=\/https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:11] Product 'testdnsjwithimg' is simple
+[info] [2017-02-06 06:46:11] Product SKU: wsd1
+[info] [2017-02-06 06:46:11] Product with SKU [wsd1] exists prod ids:[66]
+[info] [2017-02-06 06:46:11] Product SKU already exists
+[info] [2017-02-06 06:46:11] Inserting product to database with ID : 66
+[info] [2017-02-06 06:46:11] Product inserted to databse with ID: 66
+[info] [2017-02-06 06:46:11] updating product variation with quantity
+[info] [2017-02-06 06:46:12] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"bc22a9c0-2d8b-49e7-bbef-a3762e9d3634","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"ws45","ordinal":1,"item_id":"277494eb-e2c4-43c0-8206-2bd474129aac"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"277494eb-e2c4-43c0-8206-2bd474129aac","description":"testing","name":"testing","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"80a38272-c863-402e-bc39-d955333fb2bb","url":"https:\/\/images-production-f.squarecdn.com\/a7W6zZghvnQAmL4q7xJjfRiSUt8=\/https:\/\/square-production.s3.amazonaws.com\/files\/dee7e76e4faed1eabba32dc4b5d817ce9fe96e05\/original.png"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:12] Product 'testing' is simple
+[info] [2017-02-06 06:46:12] Product SKU: ws45
+[info] [2017-02-06 06:46:12] Product with SKU [ws45] exists prod ids:[23]
+[info] [2017-02-06 06:46:12] Product SKU already exists
+[info] [2017-02-06 06:46:12] Inserting product to database with ID : 23
+[info] [2017-02-06 06:46:12] Product inserted to databse with ID: 23
+[info] [2017-02-06 06:46:12] updating product variation with quantity
+[info] [2017-02-06 06:46:12] Adding Product 'testinimgsqtowoo' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"DTBW6EFKIHO6VLSO2YBR2NE2","name":"Regular","price_money":{"currency_code":"USD","amount":30000},"sku":"qe2","ordinal":1,"item_id":"EIUWOIQDCH6F4SLR7OGK2GBX"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"EIUWOIQDCH6F4SLR7OGK2GBX","description":"testinimgsqtowoo","name":"testinimgsqtowoo","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"EY7TI66Q4WSVFKD46T4PHWTB","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-06 06:46:12] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-06 06:46:12] Product SKU: qe2
+[info] [2017-02-06 06:46:12] Product with SKU [qe2] exists prod ids:[68]
+[info] [2017-02-06 06:46:12] Product SKU already exists
+[info] [2017-02-06 06:46:12] Inserting product to database with ID : 68
+[info] [2017-02-06 06:46:12] Product inserted to databse with ID: 68
+[info] [2017-02-06 06:46:12] updating product variation with quantity
+[info] [2017-02-06 06:46:12] uploading product feature image
+[info] [2017-02-06 06:46:16] Terminating manual sync process by ajax
+[info] [2017-02-06 06:46:16] End Manual Sync from Square to Woo-commerce: log:16
+[info] [2017-02-06 06:46:16] ************************************************************
+[info] [2017-02-06 07:13:09] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-06 07:13:10] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-06 07:13:10] Currency code mismatch between Square [] and WooCommerce [USD]
+[info] [2017-02-06 07:13:13] -------------------------------------------------------------------------------
+[info] [2017-02-06 07:13:13] Authorize square account with Token: sq0atp-UjhW06rx77lPiqUZK_A-tQ
+[info] [2017-02-06 07:13:15] The response of authorize curl request{"account_capabilities":["EMPLOYEE_MANAGEMENT","TIMECARD_MANAGEMENT"],"id":"0C9FCAJTN6S16","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_type":"OTHER","account_type":"BUSINESS","currency_code":"USD"}
+[info] [2017-02-06 07:13:17] The response of get locations request [{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}]
+[info] [2017-02-06 07:13:19] The response of setup webhook curl request ["PAYMENT_UPDATED"]
+[info] [2017-02-06 07:13:19] -------------------------------------------------------------------------------
+[info] [2017-02-06 07:46:49] Getting currency code for square token: sq0atp-UjhW06rx77lPiqUZK_A-tQ, url: https://connect.squareup.com/v1/933B02S2492M5 and location: 933B02S2492M5
+[info] [2017-02-06 07:46:52] The response of current location curl request{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}
+[info] [2017-02-09 05:09:49] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2017-02-09 05:09:51] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2017-02-09 05:09:54] -------------------------------------------------------------------------------
+[info] [2017-02-09 05:09:54] Authorize square account with Token: sq0atp-UjhW06rx77lPiqUZK_A-tQ
+[info] [2017-02-09 05:09:56] The response of authorize curl request{"account_capabilities":["EMPLOYEE_MANAGEMENT","TIMECARD_MANAGEMENT"],"id":"0C9FCAJTN6S16","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_type":"OTHER","account_type":"BUSINESS","currency_code":"USD"}
+[info] [2017-02-09 05:09:58] The response of get locations request [{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}]
+[info] [2017-02-09 05:10:00] The response of setup webhook curl request ["PAYMENT_UPDATED"]
+[info] [2017-02-09 05:10:00] -------------------------------------------------------------------------------
+[info] [2017-02-09 05:10:00] Currency code mismatch between Square [USD] and WooCommerce []
+[info] [2017-02-09 05:48:15] Getting currency code for square token: sq0atp-UjhW06rx77lPiqUZK_A-tQ, url: https://connect.squareup.com/v1/933B02S2492M5 and location: 933B02S2492M5
+[info] [2017-02-09 05:48:18] The response of current location curl request{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}
+[info] [2017-02-09 05:48:20] Manual sync: [woo->square] start gathering data
+[info] [2017-02-09 05:48:22] The Simplified curl object{"sku-must-for-sync":"40912668-4ed5-424a-bb7e-b378eb6cd20d","s55s":"71cc9205-a759-4d42-8fc0-2969509be5e3","s2":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02","s1":"GG7SBDB4AASONOLZ6JX7OCU3","s22":"GG7SBDB4AASONOLZ6JX7OCU3","s3":"GG7SBDB4AASONOLZ6JX7OCU3","sd1":"IZ6CPPAHZGBDEV4RYLOA74WC","sd2":"IZ6CPPAHZGBDEV4RYLOA74WC","11":"P5CAXPTTRVU4AIGPOA7RI77K","22":"P5CAXPTTRVU4AIGPOA7RI77K","33":"P5CAXPTTRVU4AIGPOA7RI77K","44":"P5CAXPTTRVU4AIGPOA7RI77K","55":"P5CAXPTTRVU4AIGPOA7RI77K","66":"P5CAXPTTRVU4AIGPOA7RI77K","77":"P5CAXPTTRVU4AIGPOA7RI77K","88":"P5CAXPTTRVU4AIGPOA7RI77K","99":"P5CAXPTTRVU4AIGPOA7RI77K","110":"P5CAXPTTRVU4AIGPOA7RI77K","111":"P5CAXPTTRVU4AIGPOA7RI77K","112":"P5CAXPTTRVU4AIGPOA7RI77K","113":"P5CAXPTTRVU4AIGPOA7RI77K","114":"P5CAXPTTRVU4AIGPOA7RI77K","115":"P5CAXPTTRVU4AIGPOA7RI77K","116":"P5CAXPTTRVU4AIGPOA7RI77K","117":"P5CAXPTTRVU4AIGPOA7RI77K","118":"P5CAXPTTRVU4AIGPOA7RI77K","119":"P5CAXPTTRVU4AIGPOA7RI77K","200":"P5CAXPTTRVU4AIGPOA7RI77K","221":"P5CAXPTTRVU4AIGPOA7RI77K","222":"P5CAXPTTRVU4AIGPOA7RI77K","dff23":"034d2229-2c64-49fb-a7b1-0bccfa62cc31","dsd15":"9fd414cf-9839-4f87-aafa-7fad80788775","252":"33676fd1-7766-4a91-aeb6-692e8ca32300","wee3e":"ATMUASZRCMXHAEEHZWA234CB","wsd1":"0eff8854-fe20-420e-ad36-772ff5871def","ws45":"277494eb-e2c4-43c0-8206-2bd474129aac","qe2":"EIUWOIQDCH6F4SLR7OGK2GBX","dw3d":"AIDVI3J7HH2NKIVZELXLPRLB"}
+[info] [2017-02-09 05:48:22] Manual sync: [woo->square] end gathering data
+[info] [2017-02-09 05:48:30] Manual sync: [woo->square] start gathering data
+[info] [2017-02-09 05:48:32] The Simplified curl object{"sku-must-for-sync":"40912668-4ed5-424a-bb7e-b378eb6cd20d","s55s":"71cc9205-a759-4d42-8fc0-2969509be5e3","s2":"3b9125d1-65f4-4af5-8c39-ccf45b7ced02","s1":"GG7SBDB4AASONOLZ6JX7OCU3","s22":"GG7SBDB4AASONOLZ6JX7OCU3","s3":"GG7SBDB4AASONOLZ6JX7OCU3","sd1":"IZ6CPPAHZGBDEV4RYLOA74WC","sd2":"IZ6CPPAHZGBDEV4RYLOA74WC","11":"P5CAXPTTRVU4AIGPOA7RI77K","22":"P5CAXPTTRVU4AIGPOA7RI77K","33":"P5CAXPTTRVU4AIGPOA7RI77K","44":"P5CAXPTTRVU4AIGPOA7RI77K","55":"P5CAXPTTRVU4AIGPOA7RI77K","66":"P5CAXPTTRVU4AIGPOA7RI77K","77":"P5CAXPTTRVU4AIGPOA7RI77K","88":"P5CAXPTTRVU4AIGPOA7RI77K","99":"P5CAXPTTRVU4AIGPOA7RI77K","110":"P5CAXPTTRVU4AIGPOA7RI77K","111":"P5CAXPTTRVU4AIGPOA7RI77K","112":"P5CAXPTTRVU4AIGPOA7RI77K","113":"P5CAXPTTRVU4AIGPOA7RI77K","114":"P5CAXPTTRVU4AIGPOA7RI77K","115":"P5CAXPTTRVU4AIGPOA7RI77K","116":"P5CAXPTTRVU4AIGPOA7RI77K","117":"P5CAXPTTRVU4AIGPOA7RI77K","118":"P5CAXPTTRVU4AIGPOA7RI77K","119":"P5CAXPTTRVU4AIGPOA7RI77K","200":"P5CAXPTTRVU4AIGPOA7RI77K","221":"P5CAXPTTRVU4AIGPOA7RI77K","222":"P5CAXPTTRVU4AIGPOA7RI77K","dff23":"034d2229-2c64-49fb-a7b1-0bccfa62cc31","dsd15":"9fd414cf-9839-4f87-aafa-7fad80788775","252":"33676fd1-7766-4a91-aeb6-692e8ca32300","wee3e":"ATMUASZRCMXHAEEHZWA234CB","wsd1":"0eff8854-fe20-420e-ad36-772ff5871def","ws45":"277494eb-e2c4-43c0-8206-2bd474129aac","qe2":"EIUWOIQDCH6F4SLR7OGK2GBX","dw3d":"AIDVI3J7HH2NKIVZELXLPRLB"}
+[info] [2017-02-09 05:48:32] Manual sync: [woo->square] end gathering data
+[info] [2017-02-09 05:48:33] End Manual Sync from Woo-commerce to Square: log:
+[info] [2017-02-09 05:48:34] ************************************************************
+[info] [2017-02-09 05:48:34] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:48:38] Searching for new products in all items response
+[info] [2017-02-09 05:48:38] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:48:38] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:48:38] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'test' is simple
+[info] [2017-02-09 05:48:38] Product SKU: s55s
+[info] [2017-02-09 05:48:38] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testing' is simple
+[info] [2017-02-09 05:48:38] Product SKU: s2
+[info] [2017-02-09 05:48:38] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testing var products' is variable
+[info] [2017-02-09 05:48:38] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:48:38] Product 'test var 2' is variable
+[info] [2017-02-09 05:48:38] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:48:38] Product 'test upto 20' is variable
+[info] [2017-02-09 05:48:38] Product with SKU [11] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [22] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [33] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [44] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [55] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [66] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [77] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [88] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [99] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [110] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [111] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [112] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [113] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [114] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [115] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [116] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [117] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [118] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [119] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [200] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [221] does not exist
+[info] [2017-02-09 05:48:38] Product with SKU [222] does not exist
+[info] [2017-02-09 05:48:38] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:48:38] Product SKU: dff23
+[info] [2017-02-09 05:48:38] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'test product new' is simple
+[info] [2017-02-09 05:48:38] Product SKU: dsd15
+[info] [2017-02-09 05:48:38] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'test with img' is simple
+[info] [2017-02-09 05:48:38] Product SKU: 252
+[info] [2017-02-09 05:48:38] Product with SKU [252] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testitem12345' is simple
+[info] [2017-02-09 05:48:38] Product SKU: wee3e
+[info] [2017-02-09 05:48:38] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:48:38] Product SKU: wsd1
+[info] [2017-02-09 05:48:38] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testing' is simple
+[info] [2017-02-09 05:48:38] Product SKU: ws45
+[info] [2017-02-09 05:48:38] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:48:38] Product SKU: qe2
+[info] [2017-02-09 05:48:38] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:38] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:48:38] Product SKU: dw3d
+[info] [2017-02-09 05:48:38] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:48:38] Product SKU not exists
+[info] [2017-02-09 05:48:40] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:48:44] ************************************************************
+[info] [2017-02-09 05:48:44] Start Manual Sync from Square to Woo-commerce: log:1
+[error] [2017-02-09 05:48:45] Processing ajax unavailable category 59
+[error] [2017-02-09 05:48:45] Processing ajax unavailable category 3185
+[error] [2017-02-09 05:48:45] Processing ajax unavailable product 40912668
+[error] [2017-02-09 05:48:46] Processing ajax unavailable product 71
+[error] [2017-02-09 05:48:46] Processing ajax unavailable product 3
+[error] [2017-02-09 05:48:47] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:47] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:47] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:48] Processing ajax unavailable product 34
+[error] [2017-02-09 05:48:48] Processing ajax unavailable product 9
+[error] [2017-02-09 05:48:48] Processing ajax unavailable product 33676
+[error] [2017-02-09 05:48:49] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:49] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:49] Processing ajax unavailable product 277494
+[error] [2017-02-09 05:48:50] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:50] Processing ajax unavailable product 0
+[error] [2017-02-09 05:48:50] Processing ajax unavailable product 0
+[info] [2017-02-09 05:48:51] Terminating manual sync process by ajax
+[info] [2017-02-09 05:48:51] End Manual Sync from Square to Woo-commerce: log:1
+[info] [2017-02-09 05:48:51] ************************************************************
+[info] [2017-02-09 05:49:12] Getting currency code for square token: sq0atp-UjhW06rx77lPiqUZK_A-tQ, url: https://connect.squareup.com/v1/933B02S2492M5 and location: 933B02S2492M5
+[info] [2017-02-09 05:49:15] The response of current location curl request{"account_capabilities":[],"id":"933B02S2492M5","name":"Shah caterers","email":"waleed.objects@gmail.com","country_code":"US","language_code":"en-US","business_name":"waleed.objects@gmail.com","business_address":{"address_line_1":"2523 Pringle Drive","address_line_2":"","locality":"Chicago","administrative_district_level_1":"IL","postal_code":"60607","country_code":"US"},"business_phone":{"calling_code":"+1","number":"3123555034"},"business_type":"OTHER","shipping_address":{"address_line_1":"2523 Pringle Drive  Chicago, IL","address_line_2":"","locality":"CHICAGO","administrative_district_level_1":"IL","postal_code":"60607"},"account_type":"LOCATION","location_details":{"nickname":"Shah caterers"},"currency_code":"USD"}
+[info] [2017-02-09 05:49:17] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:49:22] Searching for new products in all items response
+[info] [2017-02-09 05:49:22] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:49:22] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:49:22] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'test' is simple
+[info] [2017-02-09 05:49:22] Product SKU: s55s
+[info] [2017-02-09 05:49:22] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testing' is simple
+[info] [2017-02-09 05:49:22] Product SKU: s2
+[info] [2017-02-09 05:49:22] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testing var products' is variable
+[info] [2017-02-09 05:49:22] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:49:22] Product 'test var 2' is variable
+[info] [2017-02-09 05:49:22] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:49:22] Product 'test upto 20' is variable
+[info] [2017-02-09 05:49:22] Product with SKU [11] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [22] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [33] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [44] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [55] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [66] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [77] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [88] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [99] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [110] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [111] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [112] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [113] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [114] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [115] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [116] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [117] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [118] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [119] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [200] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [221] does not exist
+[info] [2017-02-09 05:49:22] Product with SKU [222] does not exist
+[info] [2017-02-09 05:49:22] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:49:22] Product SKU: dff23
+[info] [2017-02-09 05:49:22] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'test product new' is simple
+[info] [2017-02-09 05:49:22] Product SKU: dsd15
+[info] [2017-02-09 05:49:22] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'test with img' is simple
+[info] [2017-02-09 05:49:22] Product SKU: 252
+[info] [2017-02-09 05:49:22] Product with SKU [252] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testitem12345' is simple
+[info] [2017-02-09 05:49:22] Product SKU: wee3e
+[info] [2017-02-09 05:49:22] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:49:22] Product SKU: wsd1
+[info] [2017-02-09 05:49:22] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testing' is simple
+[info] [2017-02-09 05:49:22] Product SKU: ws45
+[info] [2017-02-09 05:49:22] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:49:22] Product SKU: qe2
+[info] [2017-02-09 05:49:22] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:22] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:49:22] Product SKU: dw3d
+[info] [2017-02-09 05:49:22] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:49:22] Product SKU not exists
+[info] [2017-02-09 05:49:24] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:49:26] ************************************************************
+[info] [2017-02-09 05:49:26] Start Manual Sync from Square to Woo-commerce: log:2
+[error] [2017-02-09 05:49:26] Processing ajax unavailable category 59
+[error] [2017-02-09 05:49:26] Processing ajax unavailable category 3185
+[error] [2017-02-09 05:49:27] Processing ajax unavailable product 40912668
+[error] [2017-02-09 05:49:27] Processing ajax unavailable product 71
+[error] [2017-02-09 05:49:27] Processing ajax unavailable product 3
+[error] [2017-02-09 05:49:28] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:28] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:28] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:29] Processing ajax unavailable product 34
+[error] [2017-02-09 05:49:29] Processing ajax unavailable product 9
+[error] [2017-02-09 05:49:29] Processing ajax unavailable product 33676
+[error] [2017-02-09 05:49:30] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:30] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:30] Processing ajax unavailable product 277494
+[error] [2017-02-09 05:49:31] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:31] Processing ajax unavailable product 0
+[error] [2017-02-09 05:49:31] Processing ajax unavailable product 0
+[info] [2017-02-09 05:49:32] Terminating manual sync process by ajax
+[info] [2017-02-09 05:49:32] End Manual Sync from Square to Woo-commerce: log:2
+[info] [2017-02-09 05:49:32] ************************************************************
+[info] [2017-02-09 05:53:09] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:53:15] Searching for new products in all items response
+[info] [2017-02-09 05:53:15] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:53:15] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:53:15] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'test' is simple
+[info] [2017-02-09 05:53:15] Product SKU: s55s
+[info] [2017-02-09 05:53:15] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testing' is simple
+[info] [2017-02-09 05:53:15] Product SKU: s2
+[info] [2017-02-09 05:53:15] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testing var products' is variable
+[info] [2017-02-09 05:53:15] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:53:15] Product 'test var 2' is variable
+[info] [2017-02-09 05:53:15] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:53:15] Product 'test upto 20' is variable
+[info] [2017-02-09 05:53:15] Product with SKU [11] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [22] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [33] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [44] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [55] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [66] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [77] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [88] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [99] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [110] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [111] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [112] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [113] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [114] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [115] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [116] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [117] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [118] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [119] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [200] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [221] does not exist
+[info] [2017-02-09 05:53:15] Product with SKU [222] does not exist
+[info] [2017-02-09 05:53:15] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:53:15] Product SKU: dff23
+[info] [2017-02-09 05:53:15] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'test product new' is simple
+[info] [2017-02-09 05:53:15] Product SKU: dsd15
+[info] [2017-02-09 05:53:15] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'test with img' is simple
+[info] [2017-02-09 05:53:15] Product SKU: 252
+[info] [2017-02-09 05:53:15] Product with SKU [252] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testitem12345' is simple
+[info] [2017-02-09 05:53:15] Product SKU: wee3e
+[info] [2017-02-09 05:53:15] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:53:15] Product SKU: wsd1
+[info] [2017-02-09 05:53:15] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testing' is simple
+[info] [2017-02-09 05:53:15] Product SKU: ws45
+[info] [2017-02-09 05:53:15] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:53:15] Product SKU: qe2
+[info] [2017-02-09 05:53:15] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:15] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:53:15] Product SKU: dw3d
+[info] [2017-02-09 05:53:15] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:53:15] Product SKU not exists
+[info] [2017-02-09 05:53:17] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:53:25] ************************************************************
+[info] [2017-02-09 05:53:25] Start Manual Sync from Square to Woo-commerce: log:3
+[error] [2017-02-09 05:53:25] Processing ajax unavailable category 59
+[error] [2017-02-09 05:53:26] Processing ajax unavailable category 3185
+[error] [2017-02-09 05:53:26] Processing ajax unavailable product 40912668
+[error] [2017-02-09 05:53:27] Processing ajax unavailable product 71
+[error] [2017-02-09 05:53:27] Processing ajax unavailable product 3
+[error] [2017-02-09 05:53:27] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:28] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:28] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:29] Processing ajax unavailable product 34
+[error] [2017-02-09 05:53:29] Processing ajax unavailable product 9
+[error] [2017-02-09 05:53:29] Processing ajax unavailable product 33676
+[error] [2017-02-09 05:53:30] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:30] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:31] Processing ajax unavailable product 277494
+[error] [2017-02-09 05:53:31] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:31] Processing ajax unavailable product 0
+[error] [2017-02-09 05:53:32] Processing ajax unavailable product 0
+[info] [2017-02-09 05:53:32] Terminating manual sync process by ajax
+[info] [2017-02-09 05:53:32] End Manual Sync from Square to Woo-commerce: log:3
+[info] [2017-02-09 05:53:32] ************************************************************
+[info] [2017-02-09 05:54:13] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:54:17] Searching for new products in all items response
+[info] [2017-02-09 05:54:17] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:54:17] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:54:17] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:54:17] Product SKU not exists
+[info] [2017-02-09 05:54:17] Product 'test' is simple
+[info] [2017-02-09 05:54:17] Product SKU: s55s
+[info] [2017-02-09 05:54:17] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:54:17] Product SKU not exists
+[info] [2017-02-09 05:54:17] Product 'testing' is simple
+[info] [2017-02-09 05:54:17] Product SKU: s2
+[info] [2017-02-09 05:54:17] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:54:17] Product SKU not exists
+[info] [2017-02-09 05:54:17] Product 'testing var products' is variable
+[info] [2017-02-09 05:54:17] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:54:17] Product 'test var 2' is variable
+[info] [2017-02-09 05:54:17] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:54:17] Product 'test upto 20' is variable
+[info] [2017-02-09 05:54:17] Product with SKU [11] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [22] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [33] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [44] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [55] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [66] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [77] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [88] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [99] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [110] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [111] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [112] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [113] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [114] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [115] does not exist
+[info] [2017-02-09 05:54:17] Product with SKU [116] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [117] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [118] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [119] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [200] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [221] does not exist
+[info] [2017-02-09 05:54:18] Product with SKU [222] does not exist
+[info] [2017-02-09 05:54:18] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:54:18] Product SKU: dff23
+[info] [2017-02-09 05:54:18] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'test product new' is simple
+[info] [2017-02-09 05:54:18] Product SKU: dsd15
+[info] [2017-02-09 05:54:18] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'test with img' is simple
+[info] [2017-02-09 05:54:18] Product SKU: 252
+[info] [2017-02-09 05:54:18] Product with SKU [252] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'testitem12345' is simple
+[info] [2017-02-09 05:54:18] Product SKU: wee3e
+[info] [2017-02-09 05:54:18] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:54:18] Product SKU: wsd1
+[info] [2017-02-09 05:54:18] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'testing' is simple
+[info] [2017-02-09 05:54:18] Product SKU: ws45
+[info] [2017-02-09 05:54:18] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:54:18] Product SKU: qe2
+[info] [2017-02-09 05:54:18] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:18] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:54:18] Product SKU: dw3d
+[info] [2017-02-09 05:54:18] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:54:18] Product SKU not exists
+[info] [2017-02-09 05:54:20] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:54:37] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:54:41] Searching for new products in all items response
+[info] [2017-02-09 05:54:41] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:54:41] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:54:41] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'test' is simple
+[info] [2017-02-09 05:54:41] Product SKU: s55s
+[info] [2017-02-09 05:54:41] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testing' is simple
+[info] [2017-02-09 05:54:41] Product SKU: s2
+[info] [2017-02-09 05:54:41] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testing var products' is variable
+[info] [2017-02-09 05:54:41] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:54:41] Product 'test var 2' is variable
+[info] [2017-02-09 05:54:41] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:54:41] Product 'test upto 20' is variable
+[info] [2017-02-09 05:54:41] Product with SKU [11] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [22] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [33] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [44] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [55] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [66] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [77] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [88] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [99] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [110] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [111] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [112] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [113] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [114] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [115] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [116] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [117] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [118] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [119] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [200] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [221] does not exist
+[info] [2017-02-09 05:54:41] Product with SKU [222] does not exist
+[info] [2017-02-09 05:54:41] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:54:41] Product SKU: dff23
+[info] [2017-02-09 05:54:41] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'test product new' is simple
+[info] [2017-02-09 05:54:41] Product SKU: dsd15
+[info] [2017-02-09 05:54:41] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'test with img' is simple
+[info] [2017-02-09 05:54:41] Product SKU: 252
+[info] [2017-02-09 05:54:41] Product with SKU [252] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testitem12345' is simple
+[info] [2017-02-09 05:54:41] Product SKU: wee3e
+[info] [2017-02-09 05:54:41] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:54:41] Product SKU: wsd1
+[info] [2017-02-09 05:54:41] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testing' is simple
+[info] [2017-02-09 05:54:41] Product SKU: ws45
+[info] [2017-02-09 05:54:41] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:54:41] Product SKU: qe2
+[info] [2017-02-09 05:54:41] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:41] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:54:41] Product SKU: dw3d
+[info] [2017-02-09 05:54:41] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:54:41] Product SKU not exists
+[info] [2017-02-09 05:54:43] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:54:55] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:54:59] Searching for new products in all items response
+[info] [2017-02-09 05:54:59] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:54:59] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:54:59] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'test' is simple
+[info] [2017-02-09 05:54:59] Product SKU: s55s
+[info] [2017-02-09 05:54:59] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testing' is simple
+[info] [2017-02-09 05:54:59] Product SKU: s2
+[info] [2017-02-09 05:54:59] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testing var products' is variable
+[info] [2017-02-09 05:54:59] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:54:59] Product 'test var 2' is variable
+[info] [2017-02-09 05:54:59] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:54:59] Product 'test upto 20' is variable
+[info] [2017-02-09 05:54:59] Product with SKU [11] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [22] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [33] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [44] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [55] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [66] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [77] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [88] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [99] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [110] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [111] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [112] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [113] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [114] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [115] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [116] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [117] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [118] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [119] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [200] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [221] does not exist
+[info] [2017-02-09 05:54:59] Product with SKU [222] does not exist
+[info] [2017-02-09 05:54:59] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:54:59] Product SKU: dff23
+[info] [2017-02-09 05:54:59] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'test product new' is simple
+[info] [2017-02-09 05:54:59] Product SKU: dsd15
+[info] [2017-02-09 05:54:59] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'test with img' is simple
+[info] [2017-02-09 05:54:59] Product SKU: 252
+[info] [2017-02-09 05:54:59] Product with SKU [252] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testitem12345' is simple
+[info] [2017-02-09 05:54:59] Product SKU: wee3e
+[info] [2017-02-09 05:54:59] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:54:59] Product SKU: wsd1
+[info] [2017-02-09 05:54:59] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testing' is simple
+[info] [2017-02-09 05:54:59] Product SKU: ws45
+[info] [2017-02-09 05:54:59] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:54:59] Product SKU: qe2
+[info] [2017-02-09 05:54:59] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:54:59] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:54:59] Product SKU: dw3d
+[info] [2017-02-09 05:54:59] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:54:59] Product SKU not exists
+[info] [2017-02-09 05:55:01] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:06] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:11] Searching for new products in all items response
+[info] [2017-02-09 05:57:11] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:57:11] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:57:11] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'test' is simple
+[info] [2017-02-09 05:57:11] Product SKU: s55s
+[info] [2017-02-09 05:57:11] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testing' is simple
+[info] [2017-02-09 05:57:11] Product SKU: s2
+[info] [2017-02-09 05:57:11] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testing var products' is variable
+[info] [2017-02-09 05:57:11] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:57:11] Product 'test var 2' is variable
+[info] [2017-02-09 05:57:11] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:57:11] Product 'test upto 20' is variable
+[info] [2017-02-09 05:57:11] Product with SKU [11] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [22] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [33] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [44] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [55] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [66] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [77] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [88] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [99] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [110] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [111] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [112] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [113] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [114] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [115] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [116] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [117] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [118] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [119] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [200] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [221] does not exist
+[info] [2017-02-09 05:57:11] Product with SKU [222] does not exist
+[info] [2017-02-09 05:57:11] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:57:11] Product SKU: dff23
+[info] [2017-02-09 05:57:11] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'test product new' is simple
+[info] [2017-02-09 05:57:11] Product SKU: dsd15
+[info] [2017-02-09 05:57:11] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'test with img' is simple
+[info] [2017-02-09 05:57:11] Product SKU: 252
+[info] [2017-02-09 05:57:11] Product with SKU [252] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testitem12345' is simple
+[info] [2017-02-09 05:57:11] Product SKU: wee3e
+[info] [2017-02-09 05:57:11] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:57:11] Product SKU: wsd1
+[info] [2017-02-09 05:57:11] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testing' is simple
+[info] [2017-02-09 05:57:11] Product SKU: ws45
+[info] [2017-02-09 05:57:11] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:57:11] Product SKU: qe2
+[info] [2017-02-09 05:57:11] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:11] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:57:11] Product SKU: dw3d
+[info] [2017-02-09 05:57:11] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:57:11] Product SKU not exists
+[info] [2017-02-09 05:57:13] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:45] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:49] Searching for new products in all items response
+[info] [2017-02-09 05:57:49] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:57:49] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:57:49] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:57:49] Product SKU not exists
+[info] [2017-02-09 05:57:49] Product 'test' is simple
+[info] [2017-02-09 05:57:49] Product SKU: s55s
+[info] [2017-02-09 05:57:49] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:57:49] Product SKU not exists
+[info] [2017-02-09 05:57:49] Product 'testing' is simple
+[info] [2017-02-09 05:57:49] Product SKU: s2
+[info] [2017-02-09 05:57:49] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:57:49] Product SKU not exists
+[info] [2017-02-09 05:57:49] Product 'testing var products' is variable
+[info] [2017-02-09 05:57:49] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:57:49] Product 'test var 2' is variable
+[info] [2017-02-09 05:57:49] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:57:49] Product 'test upto 20' is variable
+[info] [2017-02-09 05:57:49] Product with SKU [11] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [22] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [33] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [44] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [55] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [66] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [77] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [88] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [99] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [110] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [111] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [112] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [113] does not exist
+[info] [2017-02-09 05:57:49] Product with SKU [114] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [115] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [116] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [117] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [118] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [119] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [200] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [221] does not exist
+[info] [2017-02-09 05:57:50] Product with SKU [222] does not exist
+[info] [2017-02-09 05:57:50] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:57:50] Product SKU: dff23
+[info] [2017-02-09 05:57:50] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'test product new' is simple
+[info] [2017-02-09 05:57:50] Product SKU: dsd15
+[info] [2017-02-09 05:57:50] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'test with img' is simple
+[info] [2017-02-09 05:57:50] Product SKU: 252
+[info] [2017-02-09 05:57:50] Product with SKU [252] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'testitem12345' is simple
+[info] [2017-02-09 05:57:50] Product SKU: wee3e
+[info] [2017-02-09 05:57:50] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:57:50] Product SKU: wsd1
+[info] [2017-02-09 05:57:50] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'testing' is simple
+[info] [2017-02-09 05:57:50] Product SKU: ws45
+[info] [2017-02-09 05:57:50] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:57:50] Product SKU: qe2
+[info] [2017-02-09 05:57:50] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:50] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:57:50] Product SKU: dw3d
+[info] [2017-02-09 05:57:50] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:57:50] Product SKU not exists
+[info] [2017-02-09 05:57:52] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:54] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:57:57] Searching for new products in all items response
+[info] [2017-02-09 05:57:57] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:57:57] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:57:57] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'test' is simple
+[info] [2017-02-09 05:57:57] Product SKU: s55s
+[info] [2017-02-09 05:57:57] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testing' is simple
+[info] [2017-02-09 05:57:57] Product SKU: s2
+[info] [2017-02-09 05:57:57] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testing var products' is variable
+[info] [2017-02-09 05:57:57] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:57:57] Product 'test var 2' is variable
+[info] [2017-02-09 05:57:57] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:57:57] Product 'test upto 20' is variable
+[info] [2017-02-09 05:57:57] Product with SKU [11] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [22] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [33] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [44] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [55] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [66] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [77] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [88] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [99] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [110] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [111] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [112] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [113] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [114] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [115] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [116] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [117] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [118] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [119] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [200] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [221] does not exist
+[info] [2017-02-09 05:57:57] Product with SKU [222] does not exist
+[info] [2017-02-09 05:57:57] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:57:57] Product SKU: dff23
+[info] [2017-02-09 05:57:57] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'test product new' is simple
+[info] [2017-02-09 05:57:57] Product SKU: dsd15
+[info] [2017-02-09 05:57:57] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'test with img' is simple
+[info] [2017-02-09 05:57:57] Product SKU: 252
+[info] [2017-02-09 05:57:57] Product with SKU [252] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testitem12345' is simple
+[info] [2017-02-09 05:57:57] Product SKU: wee3e
+[info] [2017-02-09 05:57:57] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:57:57] Product SKU: wsd1
+[info] [2017-02-09 05:57:57] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testing' is simple
+[info] [2017-02-09 05:57:57] Product SKU: ws45
+[info] [2017-02-09 05:57:57] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:57:57] Product SKU: qe2
+[info] [2017-02-09 05:57:57] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:57] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:57:57] Product SKU: dw3d
+[info] [2017-02-09 05:57:57] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:57:57] Product SKU not exists
+[info] [2017-02-09 05:57:58] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:58:41] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:58:44] Searching for new products in all items response
+[info] [2017-02-09 05:58:44] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:58:44] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:58:44] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:58:44] Product SKU not exists
+[info] [2017-02-09 05:58:44] Product 'test' is simple
+[info] [2017-02-09 05:58:44] Product SKU: s55s
+[info] [2017-02-09 05:58:44] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:58:44] Product SKU not exists
+[info] [2017-02-09 05:58:44] Product 'testing' is simple
+[info] [2017-02-09 05:58:44] Product SKU: s2
+[info] [2017-02-09 05:58:44] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:58:44] Product SKU not exists
+[info] [2017-02-09 05:58:44] Product 'testing var products' is variable
+[info] [2017-02-09 05:58:44] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:58:44] Product 'test var 2' is variable
+[info] [2017-02-09 05:58:44] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:58:44] Product 'test upto 20' is variable
+[info] [2017-02-09 05:58:44] Product with SKU [11] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [22] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [33] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [44] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [55] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [66] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [77] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [88] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [99] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [110] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [111] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [112] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [113] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [114] does not exist
+[info] [2017-02-09 05:58:44] Product with SKU [115] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [116] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [117] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [118] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [119] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [200] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [221] does not exist
+[info] [2017-02-09 05:58:45] Product with SKU [222] does not exist
+[info] [2017-02-09 05:58:45] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:58:45] Product SKU: dff23
+[info] [2017-02-09 05:58:45] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'test product new' is simple
+[info] [2017-02-09 05:58:45] Product SKU: dsd15
+[info] [2017-02-09 05:58:45] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'test with img' is simple
+[info] [2017-02-09 05:58:45] Product SKU: 252
+[info] [2017-02-09 05:58:45] Product with SKU [252] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'testitem12345' is simple
+[info] [2017-02-09 05:58:45] Product SKU: wee3e
+[info] [2017-02-09 05:58:45] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:58:45] Product SKU: wsd1
+[info] [2017-02-09 05:58:45] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'testing' is simple
+[info] [2017-02-09 05:58:45] Product SKU: ws45
+[info] [2017-02-09 05:58:45] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:58:45] Product SKU: qe2
+[info] [2017-02-09 05:58:45] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:45] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:58:45] Product SKU: dw3d
+[info] [2017-02-09 05:58:45] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:58:45] Product SKU not exists
+[info] [2017-02-09 05:58:47] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:58:47] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:58:51] Searching for new products in all items response
+[info] [2017-02-09 05:58:51] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:58:51] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:58:51] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'test' is simple
+[info] [2017-02-09 05:58:51] Product SKU: s55s
+[info] [2017-02-09 05:58:51] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testing' is simple
+[info] [2017-02-09 05:58:51] Product SKU: s2
+[info] [2017-02-09 05:58:51] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testing var products' is variable
+[info] [2017-02-09 05:58:51] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:58:51] Product 'test var 2' is variable
+[info] [2017-02-09 05:58:51] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:58:51] Product 'test upto 20' is variable
+[info] [2017-02-09 05:58:51] Product with SKU [11] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [22] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [33] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [44] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [55] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [66] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [77] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [88] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [99] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [110] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [111] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [112] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [113] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [114] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [115] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [116] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [117] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [118] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [119] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [200] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [221] does not exist
+[info] [2017-02-09 05:58:51] Product with SKU [222] does not exist
+[info] [2017-02-09 05:58:51] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:58:51] Product SKU: dff23
+[info] [2017-02-09 05:58:51] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'test product new' is simple
+[info] [2017-02-09 05:58:51] Product SKU: dsd15
+[info] [2017-02-09 05:58:51] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'test with img' is simple
+[info] [2017-02-09 05:58:51] Product SKU: 252
+[info] [2017-02-09 05:58:51] Product with SKU [252] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testitem12345' is simple
+[info] [2017-02-09 05:58:51] Product SKU: wee3e
+[info] [2017-02-09 05:58:51] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:58:51] Product SKU: wsd1
+[info] [2017-02-09 05:58:51] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testing' is simple
+[info] [2017-02-09 05:58:51] Product SKU: ws45
+[info] [2017-02-09 05:58:51] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:58:51] Product SKU: qe2
+[info] [2017-02-09 05:58:51] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:51] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:58:51] Product SKU: dw3d
+[info] [2017-02-09 05:58:51] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:58:51] Product SKU not exists
+[info] [2017-02-09 05:58:53] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:59:02] ************************************************************
+[info] [2017-02-09 05:59:02] Start Manual Sync from Square to Woo-commerce: log:4
+[error] [2017-02-09 05:59:02] Processing ajax unavailable category 59
+[error] [2017-02-09 05:59:03] Processing ajax unavailable category 3185
+[error] [2017-02-09 05:59:03] Processing ajax unavailable product 40912668
+[error] [2017-02-09 05:59:03] Processing ajax unavailable product 71
+[error] [2017-02-09 05:59:04] Processing ajax unavailable product 3
+[error] [2017-02-09 05:59:04] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:04] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:05] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:05] Processing ajax unavailable product 34
+[error] [2017-02-09 05:59:06] Processing ajax unavailable product 9
+[error] [2017-02-09 05:59:06] Processing ajax unavailable product 33676
+[error] [2017-02-09 05:59:06] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:07] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:08] Processing ajax unavailable product 277494
+[error] [2017-02-09 05:59:08] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:08] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:09] Processing ajax unavailable product 0
+[info] [2017-02-09 05:59:09] Terminating manual sync process by ajax
+[info] [2017-02-09 05:59:10] End Manual Sync from Square to Woo-commerce: log:4
+[info] [2017-02-09 05:59:10] ************************************************************
+[info] [2017-02-09 05:59:38] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:59:41] Searching for new products in all items response
+[info] [2017-02-09 05:59:41] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 05:59:41] Product SKU: sku-must-for-sync
+[info] [2017-02-09 05:59:41] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'test' is simple
+[info] [2017-02-09 05:59:41] Product SKU: s55s
+[info] [2017-02-09 05:59:41] Product with SKU [s55s] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testing' is simple
+[info] [2017-02-09 05:59:41] Product SKU: s2
+[info] [2017-02-09 05:59:41] Product with SKU [s2] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testing var products' is variable
+[info] [2017-02-09 05:59:41] Product with SKU [s1] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [s22] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [s3] does not exist
+[info] [2017-02-09 05:59:41] Product 'test var 2' is variable
+[info] [2017-02-09 05:59:41] Product with SKU [sd1] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [sd2] does not exist
+[info] [2017-02-09 05:59:41] Product 'test upto 20' is variable
+[info] [2017-02-09 05:59:41] Product with SKU [11] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [22] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [33] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [44] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [55] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [66] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [77] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [88] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [99] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [110] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [111] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [112] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [113] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [114] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [115] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [116] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [117] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [118] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [119] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [200] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [221] does not exist
+[info] [2017-02-09 05:59:41] Product with SKU [222] does not exist
+[info] [2017-02-09 05:59:41] Product 'Test Mobile App' is simple
+[info] [2017-02-09 05:59:41] Product SKU: dff23
+[info] [2017-02-09 05:59:41] Product with SKU [dff23] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'test product new' is simple
+[info] [2017-02-09 05:59:41] Product SKU: dsd15
+[info] [2017-02-09 05:59:41] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'test with img' is simple
+[info] [2017-02-09 05:59:41] Product SKU: 252
+[info] [2017-02-09 05:59:41] Product with SKU [252] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testitem12345' is simple
+[info] [2017-02-09 05:59:41] Product SKU: wee3e
+[info] [2017-02-09 05:59:41] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 05:59:41] Product SKU: wsd1
+[info] [2017-02-09 05:59:41] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testing' is simple
+[info] [2017-02-09 05:59:41] Product SKU: ws45
+[info] [2017-02-09 05:59:41] Product with SKU [ws45] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:41] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 05:59:41] Product SKU: qe2
+[info] [2017-02-09 05:59:41] Product with SKU [qe2] does not exist
+[info] [2017-02-09 05:59:41] Product SKU not exists
+[info] [2017-02-09 05:59:42] Product 'testinggimgggg' is simple
+[info] [2017-02-09 05:59:42] Product SKU: dw3d
+[info] [2017-02-09 05:59:42] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 05:59:42] Product SKU not exists
+[info] [2017-02-09 05:59:43] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 05:59:53] ************************************************************
+[info] [2017-02-09 05:59:53] Start Manual Sync from Square to Woo-commerce: log:5
+[error] [2017-02-09 05:59:53] Processing ajax unavailable category 59
+[error] [2017-02-09 05:59:54] Processing ajax unavailable category 3185
+[error] [2017-02-09 05:59:54] Processing ajax unavailable product 40912668
+[error] [2017-02-09 05:59:55] Processing ajax unavailable product 71
+[error] [2017-02-09 05:59:55] Processing ajax unavailable product 3
+[error] [2017-02-09 05:59:55] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:56] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:57] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:57] Processing ajax unavailable product 34
+[error] [2017-02-09 05:59:58] Processing ajax unavailable product 9
+[error] [2017-02-09 05:59:58] Processing ajax unavailable product 33676
+[error] [2017-02-09 05:59:58] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:59] Processing ajax unavailable product 0
+[error] [2017-02-09 05:59:59] Processing ajax unavailable product 277494
+[error] [2017-02-09 05:59:59] Processing ajax unavailable product 0
+[error] [2017-02-09 06:00:00] Processing ajax unavailable product 0
+[error] [2017-02-09 06:00:00] Processing ajax unavailable product 0
+[info] [2017-02-09 06:00:01] Terminating manual sync process by ajax
+[info] [2017-02-09 06:00:01] End Manual Sync from Square to Woo-commerce: log:5
+[info] [2017-02-09 06:00:01] ************************************************************
+[info] [2017-02-09 06:01:21] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:01:25] Searching for new products in all items response
+[info] [2017-02-09 06:01:25] Product 'testing products changes from square ' is simple
+[info] [2017-02-09 06:01:25] Product SKU: sku-must-for-sync
+[info] [2017-02-09 06:01:25] Product with SKU [sku-must-for-sync] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'test' is simple
+[info] [2017-02-09 06:01:25] Product SKU: s55s
+[info] [2017-02-09 06:01:25] Product with SKU [s55s] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testing' is simple
+[info] [2017-02-09 06:01:25] Product SKU: s2
+[info] [2017-02-09 06:01:25] Product with SKU [s2] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testing var products' is variable
+[info] [2017-02-09 06:01:25] Product with SKU [s1] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [s22] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [s3] does not exist
+[info] [2017-02-09 06:01:25] Product 'test var 2' is variable
+[info] [2017-02-09 06:01:25] Product with SKU [sd1] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [sd2] does not exist
+[info] [2017-02-09 06:01:25] Product 'test upto 20' is variable
+[info] [2017-02-09 06:01:25] Product with SKU [11] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [22] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [33] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [44] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [55] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [66] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [77] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [88] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [99] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [110] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [111] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [112] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [113] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [114] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [115] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [116] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [117] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [118] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [119] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [200] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [221] does not exist
+[info] [2017-02-09 06:01:25] Product with SKU [222] does not exist
+[info] [2017-02-09 06:01:25] Product 'Test Mobile App' is simple
+[info] [2017-02-09 06:01:25] Product SKU: dff23
+[info] [2017-02-09 06:01:25] Product with SKU [dff23] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'test product new' is simple
+[info] [2017-02-09 06:01:25] Product SKU: dsd15
+[info] [2017-02-09 06:01:25] Product with SKU [dsd15] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'test with img' is simple
+[info] [2017-02-09 06:01:25] Product SKU: 252
+[info] [2017-02-09 06:01:25] Product with SKU [252] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testitem12345' is simple
+[info] [2017-02-09 06:01:25] Product SKU: wee3e
+[info] [2017-02-09 06:01:25] Product with SKU [wee3e] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testdnsjwithimg' is simple
+[info] [2017-02-09 06:01:25] Product SKU: wsd1
+[info] [2017-02-09 06:01:25] Product with SKU [wsd1] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testing' is simple
+[info] [2017-02-09 06:01:25] Product SKU: ws45
+[info] [2017-02-09 06:01:25] Product with SKU [ws45] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 06:01:25] Product SKU: qe2
+[info] [2017-02-09 06:01:25] Product with SKU [qe2] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:25] Product 'testinggimgggg' is simple
+[info] [2017-02-09 06:01:25] Product SKU: dw3d
+[info] [2017-02-09 06:01:25] Product with SKU [dw3d] does not exist
+[info] [2017-02-09 06:01:25] Product SKU not exists
+[info] [2017-02-09 06:01:27] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:01:31] ************************************************************
+[info] [2017-02-09 06:01:31] Start Manual Sync from Square to Woo-commerce: log:6
+[info] [2017-02-09 06:01:31] Manual sync: processing category:test categories[59f54b53-90a0-47ae-bc24-1425c6c33e27] with action = add 
+[info] [2017-02-09 06:01:32] Manual sync: processing category:testingg123[3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46] with action = add 
+[info] [2017-02-09 06:01:33] Manual sync: processing product:testing products changes from square [40912668-4ed5-424a-bb7e-b378eb6cd20d] with action = ADD
+[info] [2017-02-09 06:01:33] Inserting product to database
+[info] [2017-02-09 06:01:34] Product inserted to databse with ID: 15
+[info] [2017-02-09 06:01:34] updating product variation with quantity
+[info] [2017-02-09 06:01:34] uploading product feature image
+[info] [2017-02-09 06:01:40] Manual sync: processing product:test[71cc9205-a759-4d42-8fc0-2969509be5e3] with action = ADD
+[info] [2017-02-09 06:01:40] Inserting product to database
+[info] [2017-02-09 06:01:40] Product inserted to databse with ID: 17
+[info] [2017-02-09 06:01:41] updating product variation with quantity
+[info] [2017-02-09 06:01:41] Manual sync: processing product:testing[3b9125d1-65f4-4af5-8c39-ccf45b7ced02] with action = ADD
+[info] [2017-02-09 06:01:41] Inserting product to database
+[info] [2017-02-09 06:01:42] Product inserted to databse with ID: 18
+[info] [2017-02-09 06:01:42] updating product variation with quantity
+[info] [2017-02-09 06:01:42] Manual sync: processing product:testing var products[GG7SBDB4AASONOLZ6JX7OCU3] with action = ADD
+[info] [2017-02-09 06:01:42] Product with SKU [s1] does not exist
+[info] [2017-02-09 06:01:42] Product with SKU [s22] does not exist
+[info] [2017-02-09 06:01:42] Product with SKU [s3] does not exist
+[info] [2017-02-09 06:01:42] The Product 'testing var products' sku array:[]
+[info] [2017-02-09 06:01:42] constructed variation array[{"variation_id":"MJY5OFMSNOT5H2OA3VEGVMWX","sku":"s1","name":"Regular s 1  ","price":"100.00"},{"variation_id":"2HSMRDBTCTXTBSHIASOCZKUY","sku":"s22","name":"Regular s 2 ","price":"200.00"},{"variation_id":"DUHQJWDMWIMDJUL2HXGGMYS3","sku":"s3","name":"Regular s 3 ","price":"300.00"}]
+[info] [2017-02-09 06:01:44] The product prices are: [{"id":20,"regular_price":"100-00"},{"id":21,"regular_price":"200-00"},{"id":22,"regular_price":"300-00"}]
+[info] [2017-02-09 06:01:45] Manual sync: processing product:test var 2[IZ6CPPAHZGBDEV4RYLOA74WC] with action = ADD
+[info] [2017-02-09 06:01:45] Product with SKU [sd1] does not exist
+[info] [2017-02-09 06:01:45] Product with SKU [sd2] does not exist
+[info] [2017-02-09 06:01:45] The Product 'test var 2' sku array:[]
+[info] [2017-02-09 06:01:45] constructed variation array[{"variation_id":"2U3GJW5VMLSOOXLZQYEDYCTF","sku":"sd1","name":"test var 1","price":"100.00"},{"variation_id":"YC65CUXTQ4J6L3IMN6RF4D2E","sku":"sd2","name":"test var 2","price":"200.00"}]
+[info] [2017-02-09 06:01:47] The product prices are: [{"id":24,"regular_price":"100-00"},{"id":25,"regular_price":"200-00"}]
+[info] [2017-02-09 06:01:48] Manual sync: processing product:test upto 20[P5CAXPTTRVU4AIGPOA7RI77K] with action = ADD
+[info] [2017-02-09 06:01:48] Product with SKU [11] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [22] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [33] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [44] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [55] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [66] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [77] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [88] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [99] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [110] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [111] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [112] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [113] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [114] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [115] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [116] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [117] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [118] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [119] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [200] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [221] does not exist
+[info] [2017-02-09 06:01:48] Product with SKU [222] does not exist
+[info] [2017-02-09 06:01:48] The Product 'test upto 20' sku array:[]
+[info] [2017-02-09 06:01:48] constructed variation array[{"variation_id":"CXS7KHJBD3AXS6L2Q6Q34ASL","sku":"11","name":"11","price":"11.00"},{"variation_id":"QHKYCENZ45X7EUSWK54NMUEU","sku":"22","name":"22","price":"22.00"},{"variation_id":"2SASSDVKSHZLUZJEMYX6FH2I","sku":"33","name":"33","price":"33.00"},{"variation_id":"LUDTV4IJJTEFABOEBOSQOJI6","sku":"44","name":"44","price":"44.00"},{"variation_id":"3P52QH6IITLGR3I5UP5OTVCC","sku":"55","name":"55","price":"55.00"},{"variation_id":"MISHIHIHEVGPRF4IQUTLA4Y3","sku":"66","name":"66","price":"66.00"},{"variation_id":"TKQONDQ7Z2SQGN53AGYFBH2H","sku":"77","name":"77","price":"77.00"},{"variation_id":"7DJY3QT5D5OVUVQFTII23FZ7","sku":"88","name":"88","price":"88.00"},{"variation_id":"X6ON32LZ767U232P6V5HGJ45","sku":"99","name":"99","price":"99.00"},{"variation_id":"TDPQQKOAP3F4NK7XR2SIM75X","sku":"110","name":"110","price":"110.00"},{"variation_id":"QQOZGDE3YBXCNF26JFXH5WUR","sku":"111","name":"111","price":"111.00"},{"variation_id":"VADZSJJSDSJJSZSGSSLFHSLH","sku":"112","name":"112","price":"112.00"},{"variation_id":"VOMRZUOJXNBYX6NGKPSXBVD2","sku":"113","name":"113","price":"113.00"},{"variation_id":"66DFXRVP7T4ZQ3GLXSZJYB2N","sku":"114","name":"114","price":"114.00"},{"variation_id":"2ZM7UFA56IDQETUQL73VBYYC","sku":"115","name":"115","price":"115.00"},{"variation_id":"X533WNONRRZLY6PL25SR3RIA","sku":"116","name":"116","price":"116.00"},{"variation_id":"XCWAOXV3L34VH66JYXYPQ7PQ","sku":"117","name":"117","price":"117.00"},{"variation_id":"ISDZN7RJBXBL43IW7PBST4HQ","sku":"118","name":"118","price":"118.00"},{"variation_id":"M45TQIQMN5USK4QKTMMKOOT5","sku":"119","name":"119","price":"119.00"},{"variation_id":"MES7TLSZFN6MGQROYXSISN73","sku":"200","name":"200","price":"200.00"},{"variation_id":"SOJLIFEMQRVEXUUYFV5KDEDQ","sku":"221","name":"221","price":"221.00"},{"variation_id":"GUR4HJQFVK5KFEQIIYGVWMQI","sku":"222","name":"222","price":"222.00"}]
+[info] [2017-02-09 06:02:00] The product prices are: [{"id":27,"regular_price":"11-00"},{"id":28,"regular_price":"22-00"},{"id":29,"regular_price":"33-00"},{"id":30,"regular_price":"44-00"},{"id":31,"regular_price":"55-00"},{"id":32,"regular_price":"66-00"},{"id":33,"regular_price":"77-00"},{"id":34,"regular_price":"88-00"},{"id":35,"regular_price":"99-00"},{"id":36,"regular_price":"110-00"},{"id":37,"regular_price":"111-00"},{"id":38,"regular_price":"112-00"},{"id":39,"regular_price":"113-00"},{"id":40,"regular_price":"114-00"},{"id":41,"regular_price":"115-00"},{"id":42,"regular_price":"116-00"},{"id":43,"regular_price":"117-00"},{"id":44,"regular_price":"118-00"},{"id":45,"regular_price":"119-00"},{"id":46,"regular_price":"200-00"},{"id":47,"regular_price":"221-00"},{"id":48,"regular_price":"222-00"}]
+[info] [2017-02-09 06:02:00] Manual sync: processing product:Test Mobile App[034d2229-2c64-49fb-a7b1-0bccfa62cc31] with action = ADD
+[info] [2017-02-09 06:02:00] Inserting product to database
+[info] [2017-02-09 06:02:01] Product inserted to databse with ID: 49
+[info] [2017-02-09 06:02:01] updating product variation with quantity
+[info] [2017-02-09 06:02:01] uploading product feature image
+[info] [2017-02-09 06:02:05] Manual sync: processing product:test product new[9fd414cf-9839-4f87-aafa-7fad80788775] with action = ADD
+[info] [2017-02-09 06:02:05] Inserting product to database
+[info] [2017-02-09 06:02:05] Product inserted to databse with ID: 51
+[info] [2017-02-09 06:02:05] updating product variation with quantity
+[info] [2017-02-09 06:02:05] uploading product feature image
+[info] [2017-02-09 06:02:10] Manual sync: processing product:test with img[33676fd1-7766-4a91-aeb6-692e8ca32300] with action = ADD
+[info] [2017-02-09 06:02:10] Inserting product to database
+[info] [2017-02-09 06:02:11] Product inserted to databse with ID: 53
+[info] [2017-02-09 06:02:11] updating product variation with quantity
+[info] [2017-02-09 06:02:11] uploading product feature image
+[info] [2017-02-09 06:02:15] Manual sync: processing product:testitem12345[ATMUASZRCMXHAEEHZWA234CB] with action = ADD
+[info] [2017-02-09 06:02:15] Inserting product to database
+[info] [2017-02-09 06:02:16] Product inserted to databse with ID: 55
+[info] [2017-02-09 06:02:16] updating product variation with quantity
+[info] [2017-02-09 06:02:17] uploading product feature image
+[info] [2017-02-09 06:02:20] Manual sync: processing product:testdnsjwithimg[0eff8854-fe20-420e-ad36-772ff5871def] with action = ADD
+[info] [2017-02-09 06:02:20] Inserting product to database
+[info] [2017-02-09 06:02:21] Product inserted to databse with ID: 57
+[info] [2017-02-09 06:02:22] updating product variation with quantity
+[info] [2017-02-09 06:02:22] uploading product feature image
+[info] [2017-02-09 06:02:26] Manual sync: processing product:testing[277494eb-e2c4-43c0-8206-2bd474129aac] with action = ADD
+[info] [2017-02-09 06:02:26] Inserting product to database
+[info] [2017-02-09 06:02:27] Product inserted to databse with ID: 59
+[info] [2017-02-09 06:02:27] updating product variation with quantity
+[info] [2017-02-09 06:02:27] uploading product feature image
+[info] [2017-02-09 06:02:34] Manual sync: processing product:testinimgsqtowoo[EIUWOIQDCH6F4SLR7OGK2GBX] with action = ADD
+[info] [2017-02-09 06:02:34] Inserting product to database
+[info] [2017-02-09 06:02:35] Product inserted to databse with ID: 61
+[info] [2017-02-09 06:02:35] updating product variation with quantity
+[info] [2017-02-09 06:02:35] uploading product feature image
+[info] [2017-02-09 06:02:38] [delete_product_hook] Start deleting product 57 [square:0eff8854-fe20-420e-ad36-772ff5871def] from Square
+[info] [2017-02-09 06:02:38] Deleting  product with square_id = 0eff8854-fe20-420e-ad36-772ff5871def
+[info] [2017-02-09 06:02:39] Manual sync: processing product:testinggimgggg[AIDVI3J7HH2NKIVZELXLPRLB] with action = ADD
+[info] [2017-02-09 06:02:39] Inserting product to database
+[info] [2017-02-09 06:02:39] Product inserted to databse with ID: 63
+[info] [2017-02-09 06:02:39] updating product variation with quantity
+[info] [2017-02-09 06:02:40] uploading product feature image
+[info] [2017-02-09 06:02:40] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:40] [delete_product_hook] Product 57 deleted successfully from Square
+[info] [2017-02-09 06:02:40] [delete_product_hook] End deleting product 57 [square:0eff8854-fe20-420e-ad36-772ff5871def] from Square
+[info] [2017-02-09 06:02:41] [delete_product_hook] Start deleting product 55 [square:ATMUASZRCMXHAEEHZWA234CB] from Square
+[info] [2017-02-09 06:02:41] Deleting  product with square_id = ATMUASZRCMXHAEEHZWA234CB
+[info] [2017-02-09 06:02:43] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:43] [delete_product_hook] Product 55 deleted successfully from Square
+[info] [2017-02-09 06:02:43] [delete_product_hook] End deleting product 55 [square:ATMUASZRCMXHAEEHZWA234CB] from Square
+[info] [2017-02-09 06:02:45] [delete_product_hook] Start deleting product 53 [square:33676fd1-7766-4a91-aeb6-692e8ca32300] from Square
+[info] [2017-02-09 06:02:45] Deleting  product with square_id = 33676fd1-7766-4a91-aeb6-692e8ca32300
+[info] [2017-02-09 06:02:46] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:47] [delete_product_hook] Product 53 deleted successfully from Square
+[info] [2017-02-09 06:02:47] [delete_product_hook] End deleting product 53 [square:33676fd1-7766-4a91-aeb6-692e8ca32300] from Square
+[info] [2017-02-09 06:02:47] Manual sync: processing update all products:
+[info] [2017-02-09 06:02:47] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-09 06:02:48] Terminating manual sync process by ajax
+[info] [2017-02-09 06:02:48] [delete_product_hook] Start deleting product 51 [square:9fd414cf-9839-4f87-aafa-7fad80788775] from Square
+[info] [2017-02-09 06:02:48] Deleting  product with square_id = 9fd414cf-9839-4f87-aafa-7fad80788775
+[info] [2017-02-09 06:02:48] End Manual Sync from Square to Woo-commerce: log:6
+[info] [2017-02-09 06:02:48] ************************************************************
+[info] [2017-02-09 06:02:49] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:49] [delete_product_hook] Product 51 deleted successfully from Square
+[info] [2017-02-09 06:02:49] [delete_product_hook] End deleting product 51 [square:9fd414cf-9839-4f87-aafa-7fad80788775] from Square
+[info] [2017-02-09 06:02:50] [delete_product_hook] Start deleting product 49 [square:034d2229-2c64-49fb-a7b1-0bccfa62cc31] from Square
+[info] [2017-02-09 06:02:50] Deleting  product with square_id = 034d2229-2c64-49fb-a7b1-0bccfa62cc31
+[info] [2017-02-09 06:02:52] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:52] [delete_product_hook] Product 49 deleted successfully from Square
+[info] [2017-02-09 06:02:52] [delete_product_hook] End deleting product 49 [square:034d2229-2c64-49fb-a7b1-0bccfa62cc31] from Square
+[info] [2017-02-09 06:02:53] [delete_product_hook] Start deleting product 26 [square:P5CAXPTTRVU4AIGPOA7RI77K] from Square
+[info] [2017-02-09 06:02:53] Deleting  product with square_id = P5CAXPTTRVU4AIGPOA7RI77K
+[info] [2017-02-09 06:02:55] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:02:55] [delete_product_hook] Product 26 deleted successfully from Square
+[info] [2017-02-09 06:02:55] [delete_product_hook] End deleting product 26 [square:P5CAXPTTRVU4AIGPOA7RI77K] from Square
+[info] [2017-02-09 06:03:09] [delete_product_hook] Start deleting product 23 [square:IZ6CPPAHZGBDEV4RYLOA74WC] from Square
+[info] [2017-02-09 06:03:09] Deleting  product with square_id = IZ6CPPAHZGBDEV4RYLOA74WC
+[info] [2017-02-09 06:03:12] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:03:12] [delete_product_hook] Product 23 deleted successfully from Square
+[info] [2017-02-09 06:03:12] [delete_product_hook] End deleting product 23 [square:IZ6CPPAHZGBDEV4RYLOA74WC] from Square
+[info] [2017-02-09 06:03:15] [delete_product_hook] Start deleting product 19 [square:GG7SBDB4AASONOLZ6JX7OCU3] from Square
+[info] [2017-02-09 06:03:15] Deleting  product with square_id = GG7SBDB4AASONOLZ6JX7OCU3
+[info] [2017-02-09 06:03:17] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:03:17] [delete_product_hook] Product 19 deleted successfully from Square
+[info] [2017-02-09 06:03:17] [delete_product_hook] End deleting product 19 [square:GG7SBDB4AASONOLZ6JX7OCU3] from Square
+[info] [2017-02-09 06:03:20] [delete_product_hook] Start deleting product 18 [square:3b9125d1-65f4-4af5-8c39-ccf45b7ced02] from Square
+[info] [2017-02-09 06:03:21] Deleting  product with square_id = 3b9125d1-65f4-4af5-8c39-ccf45b7ced02
+[info] [2017-02-09 06:03:22] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:03:22] [delete_product_hook] Product 18 deleted successfully from Square
+[info] [2017-02-09 06:03:22] [delete_product_hook] End deleting product 18 [square:3b9125d1-65f4-4af5-8c39-ccf45b7ced02] from Square
+[info] [2017-02-09 06:03:23] [delete_product_hook] Start deleting product 17 [square:71cc9205-a759-4d42-8fc0-2969509be5e3] from Square
+[info] [2017-02-09 06:03:23] Deleting  product with square_id = 71cc9205-a759-4d42-8fc0-2969509be5e3
+[info] [2017-02-09 06:03:25] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:03:25] [delete_product_hook] Product 17 deleted successfully from Square
+[info] [2017-02-09 06:03:25] [delete_product_hook] End deleting product 17 [square:71cc9205-a759-4d42-8fc0-2969509be5e3] from Square
+[info] [2017-02-09 06:03:26] [delete_product_hook] Start deleting product 15 [square:40912668-4ed5-424a-bb7e-b378eb6cd20d] from Square
+[info] [2017-02-09 06:03:26] Deleting  product with square_id = 40912668-4ed5-424a-bb7e-b378eb6cd20d
+[info] [2017-02-09 06:03:27] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:03:27] [delete_product_hook] Product 15 deleted successfully from Square
+[info] [2017-02-09 06:03:27] [delete_product_hook] End deleting product 15 [square:40912668-4ed5-424a-bb7e-b378eb6cd20d] from Square
+[info] [2017-02-09 06:03:38] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:03:41] Searching for new products in all items response
+[info] [2017-02-09 06:03:41] Product 'testing' is simple
+[info] [2017-02-09 06:03:41] Product SKU: ws45
+[info] [2017-02-09 06:03:41] Product with SKU [ws45] exists prod ids:[59]
+[info] [2017-02-09 06:03:41] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 06:03:41] Product SKU: qe2
+[info] [2017-02-09 06:03:41] Product with SKU [qe2] exists prod ids:[61]
+[info] [2017-02-09 06:03:41] Product 'testinggimgggg' is simple
+[info] [2017-02-09 06:03:41] Product SKU: dw3d
+[info] [2017-02-09 06:03:41] Product with SKU [dw3d] exists prod ids:[63]
+[info] [2017-02-09 06:03:43] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:03:46] ************************************************************
+[info] [2017-02-09 06:03:46] Start Manual Sync from Square to Woo-commerce: log:23
+[info] [2017-02-09 06:03:49] Manual sync: processing update all products:
+[info] [2017-02-09 06:03:49] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-09 06:03:49] Adding Product 'testing' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"bc22a9c0-2d8b-49e7-bbef-a3762e9d3634","name":"Regular","price_money":{"currency_code":"USD","amount":20000},"sku":"ws45","ordinal":1,"item_id":"277494eb-e2c4-43c0-8206-2bd474129aac"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"277494eb-e2c4-43c0-8206-2bd474129aac","description":"testing","name":"testing","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"80a38272-c863-402e-bc39-d955333fb2bb","url":"https:\/\/images-production-f.squarecdn.com\/a7W6zZghvnQAmL4q7xJjfRiSUt8=\/https:\/\/square-production.s3.amazonaws.com\/files\/dee7e76e4faed1eabba32dc4b5d817ce9fe96e05\/original.png"},"type":"NORMAL"}
+[info] [2017-02-09 06:03:49] Product 'testing' is simple
+[info] [2017-02-09 06:03:49] Product SKU: ws45
+[info] [2017-02-09 06:03:49] Product with SKU [ws45] exists prod ids:[59]
+[info] [2017-02-09 06:03:49] Product SKU already exists
+[info] [2017-02-09 06:03:49] Inserting product to database with ID : 59
+[info] [2017-02-09 06:03:49] Product inserted to databse with ID: 59
+[info] [2017-02-09 06:03:49] updating product variation with quantity
+[info] [2017-02-09 06:03:49] Adding Product 'testinimgsqtowoo' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"DTBW6EFKIHO6VLSO2YBR2NE2","name":"Regular","price_money":{"currency_code":"USD","amount":30000},"sku":"qe2","ordinal":1,"item_id":"EIUWOIQDCH6F4SLR7OGK2GBX"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"EIUWOIQDCH6F4SLR7OGK2GBX","description":"testinimgsqtowoo","name":"testinimgsqtowoo","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"master_image":{"id":"EY7TI66Q4WSVFKD46T4PHWTB","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-09 06:03:49] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 06:03:49] Product SKU: qe2
+[info] [2017-02-09 06:03:49] Product with SKU [qe2] exists prod ids:[61]
+[info] [2017-02-09 06:03:49] Product SKU already exists
+[info] [2017-02-09 06:03:49] Inserting product to database with ID : 61
+[info] [2017-02-09 06:03:49] Product inserted to databse with ID: 61
+[info] [2017-02-09 06:03:49] updating product variation with quantity
+[info] [2017-02-09 06:03:49] Adding Product 'testinggimgggg' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"4UCJJG5HM3Q5JP6GDTHX3FPC","name":"Regular","price_money":{"currency_code":"USD","amount":600000},"sku":"dw3d","ordinal":1,"item_id":"AIDVI3J7HH2NKIVZELXLPRLB"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"AIDVI3J7HH2NKIVZELXLPRLB","description":"testinggimgggg","name":"testinggimgggg","category_id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","category":{"id":"59f54b53-90a0-47ae-bc24-1425c6c33e27","name":"test categories"},"master_image":{"id":"VAOQFKMLBLSRAPVB3E5TVLRQ","url":"https:\/\/square-production.s3.amazonaws.com\/files\/1155e6cf913181bbc47402d2be38605b2a7975a5\/original.jpeg"},"type":"NORMAL"}
+[info] [2017-02-09 06:03:49] Product 'testinggimgggg' is simple
+[info] [2017-02-09 06:03:49] Product SKU: dw3d
+[info] [2017-02-09 06:03:49] Product with SKU [dw3d] exists prod ids:[63]
+[info] [2017-02-09 06:03:49] Product SKU already exists
+[info] [2017-02-09 06:03:49] Inserting product to database with ID : 63
+[info] [2017-02-09 06:03:50] Product inserted to databse with ID: 63
+[info] [2017-02-09 06:03:50] updating product variation with quantity
+[info] [2017-02-09 06:03:50] Terminating manual sync process by ajax
+[info] [2017-02-09 06:03:50] End Manual Sync from Square to Woo-commerce: log:23
+[info] [2017-02-09 06:03:50] ************************************************************
+[info] [2017-02-09 06:03:55] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:03:58] Searching for new products in all items response
+[info] [2017-02-09 06:03:58] Product 'testing' is simple
+[info] [2017-02-09 06:03:58] Product SKU: ws45
+[info] [2017-02-09 06:03:58] Product with SKU [ws45] exists prod ids:[59]
+[info] [2017-02-09 06:03:58] Product 'testinimgsqtowoo' is simple
+[info] [2017-02-09 06:03:58] Product SKU: qe2
+[info] [2017-02-09 06:03:58] Product with SKU [qe2] exists prod ids:[61]
+[info] [2017-02-09 06:03:58] Product 'testinggimgggg' is simple
+[info] [2017-02-09 06:03:58] Product SKU: dw3d
+[info] [2017-02-09 06:03:58] Product with SKU [dw3d] exists prod ids:[63]
+[info] [2017-02-09 06:04:00] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:04:03] End Manual Sync from Square to Woo-commerce: log:
+[info] [2017-02-09 06:04:03] ************************************************************
+[info] [2017-02-09 06:04:38] [delete_product_hook] Start deleting product 63 [square:AIDVI3J7HH2NKIVZELXLPRLB] from Square
+[info] [2017-02-09 06:04:38] Deleting  product with square_id = AIDVI3J7HH2NKIVZELXLPRLB
+[info] [2017-02-09 06:04:40] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:04:40] [delete_product_hook] Product 63 deleted successfully from Square
+[info] [2017-02-09 06:04:40] [delete_product_hook] End deleting product 63 [square:AIDVI3J7HH2NKIVZELXLPRLB] from Square
+[info] [2017-02-09 06:04:42] [delete_product_hook] Start deleting product 61 [square:EIUWOIQDCH6F4SLR7OGK2GBX] from Square
+[info] [2017-02-09 06:04:42] Deleting  product with square_id = EIUWOIQDCH6F4SLR7OGK2GBX
+[info] [2017-02-09 06:04:44] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:04:44] [delete_product_hook] Product 61 deleted successfully from Square
+[info] [2017-02-09 06:04:44] [delete_product_hook] End deleting product 61 [square:EIUWOIQDCH6F4SLR7OGK2GBX] from Square
+[info] [2017-02-09 06:04:45] [delete_product_hook] Start deleting product 59 [square:277494eb-e2c4-43c0-8206-2bd474129aac] from Square
+[info] [2017-02-09 06:04:45] Deleting  product with square_id = 277494eb-e2c4-43c0-8206-2bd474129aac
+[info] [2017-02-09 06:04:47] The response of delete product curl request {} CODE:[ 200 ]
+[info] [2017-02-09 06:04:47] [delete_product_hook] Product 59 deleted successfully from Square
+[info] [2017-02-09 06:04:47] [delete_product_hook] End deleting product 59 [square:277494eb-e2c4-43c0-8206-2bd474129aac] from Square
+[info] [2017-02-09 06:06:14] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:06:18] Searching for new products in all items response
+[info] [2017-02-09 06:06:18] Product 'test item' is simple
+[info] [2017-02-09 06:06:18] Product SKU: f44
+[info] [2017-02-09 06:06:18] Product with SKU [f44] does not exist
+[info] [2017-02-09 06:06:18] Product SKU not exists
+[info] [2017-02-09 06:06:20] Manual sync: [square->woo] start gathering data
+[info] [2017-02-09 06:06:22] ************************************************************
+[info] [2017-02-09 06:06:22] Start Manual Sync from Square to Woo-commerce: log:27
+[info] [2017-02-09 06:06:22] Manual sync: processing product:test item[H5ZJMGPV767TVPL7RWHMG235] with action = ADD
+[info] [2017-02-09 06:06:22] Inserting product to database
+[info] [2017-02-09 06:06:23] Product inserted to databse with ID: 65
+[info] [2017-02-09 06:06:23] updating product variation with quantity
+[info] [2017-02-09 06:06:23] uploading product feature image
+[info] [2017-02-09 06:06:30] Manual sync: processing update all products:
+[info] [2017-02-09 06:06:30] Manual sync: the skipped products ids (no skus) :[]
+[info] [2017-02-09 06:06:30] Terminating manual sync process by ajax
+[info] [2017-02-09 06:06:30] End Manual Sync from Square to Woo-commerce: log:27
+[info] [2017-02-09 06:06:30] ************************************************************
+[info] [2017-02-09 06:07:35] [add_update_product_hook] Start updating product on Square
+[info] [2017-02-09 06:07:35] Adding/Updating  product: teste uppload [ id=67 ]
+[info] [2017-02-09 06:07:37] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"03e2322d-566b-4e5b-ba3c-2141c55b99f8","name":"Regular","price_money":{"currency_code":"USD","amount":200000},"sku":"s2s2","ordinal":1,"item_id":"e2201e95-65fe-4b22-b43c-3e8e3b57f0bb"}],"available_for_pickup":false,"available_online":false,"visibility":"PUBLIC","id":"e2201e95-65fe-4b22-b43c-3e8e3b57f0bb","description":"teste uppload","name":"teste uppload","category_id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","category":{"id":"3185bd79-5b80-4ea7-b7ed-b1f7ec3d6d46","name":"testingg123"},"type":"NORMAL"}
+[info] [2017-02-09 06:07:37] Updating product inventory for simple product (1 variations)
+[info] [2017-02-09 06:07:44] The response of uploading image curl request{"id":"34d7630c-d43e-4223-8b30-5667df5a0d93","url":"https://images-production-f.squarecdn.com/KY57KrmLFGF3WK1NiiRKr5INMbM=/https://square-production.s3.amazonaws.com/files/289f40c350e9b77145084e650786745caf7baec1/original.jpeg"}
+[info] [2017-02-09 06:07:44] [add_update_product_hook] End updating product on Square
