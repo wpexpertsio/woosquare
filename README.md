@@ -7,7 +7,8 @@ WooSquare purpose is to migrate & synchronize data (sales customers-invoices-pro
 Need for that to simplify the process of selling data and integration between woocommerce and customers who use square point of sale at their transactions without need to adjust the inventory at both sides Synchronize products categories-products-products variations-discounts quantity price between square & woo commerce.
 Synchronize Any updates at products details.Synchronize Customers create orders ,all orders details at square must be synchronized at woo commerce with products quantity deduction
 There will be options if the system contain same products SKUs ,available options:
-- Woo commerce product Override square product. Square product Override Woo commerce product.
+
+**Woo commerce product Override square product. Square product Override Woo commerce product.**
 
 
 ##How its work
@@ -26,14 +27,13 @@ There will be options if the system contain same products SKUs ,available option
 ## Premium Features
 
 * WooSquare introduce Square Payment gateway at WooCommerce Checkout
-
-[Download Pro Version](https://codecanyon.net/item/woosquare/14663170)
-
 * Square Payment Gateway live. 
 * Square Payment Gateway Sandbox. 
 * Auto synchronization square.
 * Auto synchronization square to woocommerce. 
 * Auto synchronization woocommerce to square.
+
+[Download Pro Version](https://codecanyon.net/item/woosquare/14663170)
 
 ##Installation
 
