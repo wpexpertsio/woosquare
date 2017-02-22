@@ -41,3 +41,12 @@ There will be options if the system contain same products SKUs ,available option
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Create a Square account. If you don't have an account, go to https://squareup.com/signup to create one. Register your application with Square.
 4. Then go to https://connect.squareup.com/apps and sign in to your Square account. Then click New Application and enter a name for your application and Create App. The application dashboard displays your new app's credentials. One of these credentials is the personal access token. This token gives your application full access to your own Square account.
+
+## Changelog
+**1.0.1**
+
+- Added some backend features
+
+**1.0**
+
+- Initial release
