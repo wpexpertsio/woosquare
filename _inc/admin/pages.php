@@ -170,7 +170,7 @@ No worries!! You can get following more feature in WooSquare Pro.</p></div>
             <div class="ws-pro-title"><h3>Order Synchronization from Square to WooCommerce</h3></div>
             <div class="ws-pro-para">In WooSquare Pro all your orders will synchronize from Squre to WooCommerce. Even your refunds and stock will be synchronized.</div>
         </div>
-        <div class="ws-download-link"><a href="https://codecanyon.net/item/woosquare/14663170">Get Woo Square Pro</a></div>
+        <div class="ws-download-link"><a href="https://goo.gl/LEJeQG">Get Woo Square Pro</a></div>
     </div>';
     echo $html;
 }

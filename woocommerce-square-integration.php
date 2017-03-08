@@ -1,10 +1,9 @@
 <?php
-
 /*
   Plugin Name: WooSquare
   Plugin URI: https://wpexperts.io/products/woosquare/
   Description: WooSquare purpose is to migrate & synchronize data (sales –customers-invoices-products inventory) between Square system point of sale & Woo commerce plug-in. 
-  Version: 1.0.1
+  Version: 1.0.3
   Author: Wpexpertsio
   Author URI: https://wpexperts.io/
   License: GPLv2 or later

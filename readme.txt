@@ -60,5 +60,11 @@ There will be options if the system contain same products SKUs ,available option
 
 == Changelog ==
 
+= 1.0.3 =
+* Small update in backend
+
+= 1.0.1 =
+* Added some backend features
+
 = 1.0 =
 * Initial release

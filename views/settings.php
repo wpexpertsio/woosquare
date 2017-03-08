@@ -79,7 +79,7 @@
                                     <option <?php if (get_option('woo_square_auto_sync_duration') == '720'): ?>selected=""<?php endif; ?> value="720"> 12 hours </option>
                                     <option <?php if (get_option('woo_square_auto_sync_duration') == '1440'): ?>selected=""<?php endif; ?> value="1440"> 24 hours </option>
                                 </select>
-                                <div class="ws-pro-now"><span>This Feature is available in PRO Version</span><a href="https://codecanyon.net/item/woosquare/14663170">GET WOO SQUARE PRO</a></div>
+                                <div class="ws-pro-now"><span>This Feature is available in PRO Version</span><a href="https://goo.gl/LEJeQG">GET WOO SQUARE PRO</a></div>
                             </td>
                         </tr>
                         <tr>

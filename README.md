@@ -1,4 +1,4 @@
-#WooSquare
+#WooCommerce Square Integration
 Inventory on Square but you want it on WooCommerce? Want to export your WooCommerce inventory to Square? Download this!
 
 ##Description
@@ -43,6 +43,10 @@ There will be options if the system contain same products SKUs ,available option
 4. Then go to https://connect.squareup.com/apps and sign in to your Square account. Then click New Application and enter a name for your application and Create App. The application dashboard displays your new app's credentials. One of these credentials is the personal access token. This token gives your application full access to your own Square account.
 
 ## Changelog
+**1.0.3**
+
+- Small update in backend
+
 **1.0.1**
 
 - Added some backend features
