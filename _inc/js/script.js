@@ -1,6 +1,6 @@
 (function(){
 function showAndHideSyncDuration() {
-    if (jQuery("[name='woo_square_auto_sync']:checked").val() == "1") {
+    if (jQuery("[name='woo_square_auto_sync_free']:checked").val() == "1") {
         jQuery('#auto_sync_duration_div').show();
     } else {
         jQuery('#auto_sync_duration_div').hide();
@@ -218,7 +218,7 @@ jQuery(document).ready(function (jQuery) {
         if (jQuery(event.target).is('.cd-popup-close') || jQuery(event.target).is('.cd-popup')) {
             event.preventDefault();
             jQuery(this).removeClass('is-visible');           
-            terminateManualSync(jQuery('#start-process').data("caller"));           
+            // terminateManualSync(jQuery('#start-process').data("caller"));           
 
         }
     });
@@ -226,12 +226,12 @@ jQuery(document).ready(function (jQuery) {
     jQuery(document).keyup(function (event) {
         if (event.which == '27') {
             jQuery('.cd-popup').removeClass('is-visible');
-            terminateManualSync(jQuery('#start-process').data("caller"));
+            // terminateManualSync(jQuery('#start-process').data("caller"));
         }
     });
     
     //cron settings on change event
-    jQuery("[name='woo_square_auto_sync']").on('change', function(){
+    jQuery("[name='woo_square_auto_sync_free']").on('change', function(){
         showAndHideSyncDuration();
     });
     
@@ -256,5 +256,19 @@ jQuery(document).ready(function (jQuery) {
         jQuery(this).siblings('.grid-div').toggleClass( "hidden collapse-content-show" );
         jQuery(this).children(".dashicons").toggleClass('collapse-open')
     });
+	
+	
+	jQuery(document).on( 'click', '.square-first-notice .notice-dismiss', function() {
+		
+		 jQuery.ajax({
+			url: ajaxurl,
+			data: {
+				action: 'dismiss_square_notice'
+			}
+		}) 
+	})
+
+	
+	
 });
 })();

@@ -10,7 +10,9 @@ if ( !defined('ABSPATH') )
 function woo_square_settings_page() {
     add_menu_page('Woo Square Settings', 'Woo-Square', 'manage_options', 'square-settings', 'square_settings_page', "dashicons-store");
     add_submenu_page('square-settings', "Square-Payment-Settings", "Square Payment <span class='ws-pro-tag'>PRO</span>", 'manage_options', 'Square-Payment-Settings', 'square_payment_plugin_page');
-    add_submenu_page('square-settings', "Logs", "Logs", 'manage_options', 'square-logs', 'logs_plugin_page');
+    add_submenu_page('square-settings', "Logs", "Logs", 'manage_options', 'square-logs', 'logs_plugin_page_woosquare');
+	add_submenu_page('square-settings', "Documentation", "Documentation", 'manage_options', 'square-documentation', 'documentation_plugin_page');
+
 }
 
 /**
@@ -19,7 +21,7 @@ function woo_square_settings_page() {
 function square_settings_page() {
     
 
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
 
     $errorMessage = '';
     $successMessage = '';
@@ -38,14 +40,14 @@ function square_settings_page() {
     }
     
     // check if the location is not setuped
-    if (get_option('woo_square_access_token') && !get_option('woo_square_location_id')) {
+    if (get_option('woo_square_access_token_free') && !get_option('woo_square_location_id_free')) {
         $square->authorize();
     }
     
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // setup account
-        if (isset($_POST['woo_square_access_token'])) {
-            $square->setAccessToken(sanitize_text_field($_POST['woo_square_access_token']));
+        if (isset($_POST['woo_square_access_token_free'])) {
+            $square->setAccessToken(sanitize_text_field($_POST['woo_square_access_token_free']));
             if ($square->authorize()) {
                 $successMessage = 'Settings updated Successfuly!';
             } else {
@@ -58,10 +60,10 @@ function square_settings_page() {
             update_option('woo_square_merging_option', intval($_POST['woo_square_merging_option']));
             update_option('sync_on_add_edit', intval($_POST['sync_on_add_edit']));
             //update location id
-            if( !empty($_POST['woo_square_location_id'])){
+            if( !empty($_POST['woo_square_location_id_free'])){
 				// its a textformated like 123abc456 that why we used sanitize_text_field :) 
-                $location_id = sanitize_text_field($_POST['woo_square_location_id']);
-                update_option('woo_square_location_id', $location_id);               
+                $location_id = sanitize_text_field($_POST['woo_square_location_id_free']);
+                update_option('woo_square_location_id_free', $location_id);               
                 $square->setLocationId($location_id);
                 $square->getCurrencyCode();
             }
@@ -83,11 +85,17 @@ function square_settings_page() {
     include WOO_SQUARE_PLUGIN_PATH . 'views/settings.php';
 }
 
+
+function documentation_plugin_page(){
+	wp_redirect('https://squareintegration.com/documentation/');
+	wp_die();
+}
+
 /**
  * Logs page action
  * @global type $wpdb
  */
-function logs_plugin_page(){
+function logs_plugin_page_woosquare(){
         
       
         global $wpdb;
@@ -144,33 +152,78 @@ function square_payment_plugin_page(){
     $html1 .= '<div class="ws-pro-describe"><div class="ws-descrive-para">Need for that to simplify the process of selling data and integration between woo commerce and customers who use square point of sale at their transactions without need to adjust the inventory at both sides Synchronize products categories-products-products variations-discounts –quantity –price between square & woo commerce.
 Synchronize Any updates at products details.Synchronize Customers create orders ,all orders details at square must be synchronized at woo commerce with products quantity deduction
 There will be options if the system contain same products SKUs ,available options:
-- Woo commerce product Override square product – Square product Override Woo commerce product<div class="ws-download-link"><a href="https://codecanyon.net/item/woosquare/14663170">Download Now</a></div></div><div class="ws-pro-img"><img src="'.WOO_SQUARE_PLUGIN_URL.'_inc/images/woo-square-pro.png" ></div>';
+- Woo commerce product Override square product – Square product Override Woo commerce product<div class="ws-download-link"><a href="https://codecanyon.net/item/woosquare/14663170">Download Now</a></div></div><div class="ws-pro-img"><img src="'.WOO_SQUARE_PLUGIN_URL_FREE.'_inc/images/woo-square-pro.png" ></div>';
     
-    $html = '<h1 class="ws-heading-pro">Woo Square PRO</h1>';
+    $html = '<div class="wrap about-wrap full-width-layout">';
     
-    $html .= '<div class="ws-pro-wrapper">
+    $html .= '<div id="woosquare_integration" class="ws-pro-wrapper">
             <div class="ws-head-txt">
-            <h1>Features in Pro Version</h1>
-            <p>Want some more features other then synchronizing products between Square to WooCommerce and WooCommerce to Square?
+            <h2>Switch to <strong>WooSquare Pro</strong> for more features..</h2>
+            <p class="about-text">Want some more features other then synchronizing products between Square to WooCommerce and WooCommerce to Square?
 No worries!! You can get following more feature in WooSquare Pro.</p></div>
         <div class="ws-pro-box">
             <div class="ws-pro-box-img"><span class="dashicons dashicons-backup" style="color: green"></span></div>
-            <div class="ws-pro-title"><h3>Auto WooCommerce & Square Product Synchoronization</h3></div>
-            <div class="ws-pro-para">With Pro Version you can set Auto Synchronization funtionality for WooCommerce to Square and Square to WooCommerce as well. You can even set time interval after which you would like to synchronize your products between WooCommerce and Square.</div>
+            <div class="ws-pro-title"><h3>Auto WooCommerce & Square Product Synchronization</h3></div>
+            <div class="ws-pro-para">With Pro Version you can set Auto Synchronization functionality for WooCommerce to Square and Square to WooCommerce as well.</div>
         </div>
         
         <div class="ws-pro-box">
             <div class="ws-pro-box-img"><span class="dashicons dashicons-feedback" style="color: red"></span></div>
             <div class="ws-pro-title"><h3>Pay with Square at WooCommerce checkout</h3></div>
-            <div class="ws-pro-para">Ever thought to pay with Square at WooCommerce Checkout? Now with WooSqure Pro you can pay with Square at WooCommerce Checkout. For Developers WooSquare Pro have even Sandbox functionality so you can test before going live.</div>
+            <div class="ws-pro-para">Ever thought to pay with Square at WooCommerce Checkout? Now with WooSqure Pro you can pay with Square at WooCommerce Checkout.</div>
         </div>
         
         <div class="ws-pro-box">
             <div class="ws-pro-box-img"><span class="dashicons dashicons-update" style="color: #173eaf"></span></div>
             <div class="ws-pro-title"><h3>Order Synchronization from Square to WooCommerce</h3></div>
-            <div class="ws-pro-para">In WooSquare Pro all your orders will synchronize from Squre to WooCommerce. Even your refunds and stock will be synchronized.</div>
+            <div class="ws-pro-para">In WooSquare Pro all your orders will synchronize from Square to WooCommerce. Even your refunds and stock will be synchronized.</div>
         </div>
-        <div class="ws-download-link"><a href="https://goo.gl/LEJeQG">Get Woo Square Pro</a></div>
+		
+		<div class="ws-pro-box">
+            <div class="ws-pro-box-img"><img src="http://squareintegration.com/wp-content/uploads/2018/01/square-sandbox.png" width="100" alt="square sandbox support"></div>
+            <div class="ws-pro-title"><h3>Sandbox Support for Developers</h3></div>
+            <div class="ws-pro-para">For Developers WooSquare Pro have even Sandbox functionality so you can test before going to live and do safe transactions.</div>
+                       
+        </div>
+		<div class="ws-pro-box">
+            <div class="ws-pro-box-img"><span class="dashicons dashicons-list-view" style="color: #3a3b40"></span></div>
+            <div class="ws-pro-title"><h3>Advance Attribute support</h3></div>
+            <div class="ws-pro-para">Do you have variable products with multiple attributes or even you would like to sync attributes even for your simple products. Now its doable with WooSquare Pro.</div>
+           
+        </div>
+		<div class="ws-pro-box">
+            <div class="ws-pro-box-img"><img src="http://squareintegration.com/wp-content/uploads/2018/01/square-documentation.png" width="100" alt="Detail documentation for everything" /></div>
+            <div class="ws-pro-title"><h3>Detail documentation for everything</h3></div>
+            <div class="ws-pro-para">we have covered and documented everything for you so that while using the plugin WooSquare Pro you are never going to stuck anywhere </div>
+                      
+        </div>
+		
+        <div class="ws-download-link"><a href="https://goo.gl/LEJeQG">BUY WOOSQUARE PRO</a></div>
     </div>';
+	$html .= '<div id="woosquare_integration_more" class="ws-pro-wrapper">
+            <div class="ws-head-txt"><h1>Looking For More <a href="https://squareintegration.com/solutions/">Square Integrations</a>?</h1>
+            </div>
+        <div id="main_box_row">
+		<div class="ws-pro-box">
+            <div class="ws-pro-box-img"><img src="http://squareintegration.com/wp-content/uploads/2018/01/woo-square-subscription-recuring.png" alt="SQUARE RECURRING PAYMENTS FOR WOOCOMMERCE SUBSCRIPTIONS"></div>
+            <div class="ws-pro-title"><h3>SQUARE RECURRING PAYMENTS FOR WOOCOMMERCE SUBSCRIPTIONS</h3></div>
+            <div class="ws-pro-para"><p>WooCommerce plugin that allows you to pay for your subscription through square recurring payment.</p></div>
+        <div class="ws-download-link"><a href="https://squareintegration.com/solutions/square-recurring-payments-for-woocommerce-subscriptions/">Buy Now</a></div>
+		</div>
+        <div class="ws-pro-box">
+            <div class="ws-pro-box-img"><img src="http://objdevelopment.com/woosquarefree/wp-content/uploads/2018/01/square-givewp.png" alt="SQUARE FOR GIVEWP"></div>
+            <div class="ws-pro-title"><h3>SQUARE FOR GIVEWP</h3></div>
+            <div class="ws-pro-para"><p>WordPress plugin that allows users to pay for their donations using Square payment gateway through GiveWP.</p></div>
+        <div class="ws-download-link"><a href="https://squareintegration.com/solutions/square-for-givewp/">Buy Now</a></div>
+		</div>
+        <div class="ws-pro-box">
+            <div class="ws-pro-box-img"><img src="http://squareintegration.com/wp-content/uploads/2018/01/gravity-forms-square-payment-gateway.png" alt="SQUARE FOR
+GRAVITY FORMS"></div>
+            <div class="ws-pro-title"><h3>SQUARE FOR GRAVITY FORMS</h3></div>
+            <div class="ws-pro-para"><p>WordPress plugin that allows users to pay from their gravity form using Square payment gateway.</p></div>
+        <div class="ws-download-link"><a href="https://squareintegration.com/square-for-gravity-forms/">Buy Now</a></div>
+		</div>
+        </div>
+    </div></div>';
     echo $html;
 }

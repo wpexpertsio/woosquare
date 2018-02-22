@@ -67,14 +67,14 @@ class Square {
         curl_close($curl);
         $response = json_decode($response, true);
         if (isset($response['id'])) {
-            update_option('woo_square_access_token', $this->accessToken);
+            update_option('woo_square_access_token_free', $this->accessToken);
             update_option('woo_square_account_type', $response['account_type']);
             update_option('woo_square_account_currency_code', $response['currency_code']);
             
             if($response['account_type'] == "LOCATION"){
-                update_option('woo_square_location_id', 'me');
-                update_option('woo_square_locations', '');
-                update_option('woo_square_business_name', $response['business_name']);
+                update_option('woo_square_location_id_free', 'me');
+                update_option('woo_square_locations_free', '');
+                update_option('woo_square_business_name_free', $response['business_name']);
             }else{
                 $result = $this->getAllLocations();
                 if($result){
@@ -83,10 +83,10 @@ class Square {
                         $locations[$location['id']] = $location['name'];
                     }
                     $location_id = key($locations);
-                    update_option('woo_square_locations', $locations);
-                    update_option('woo_square_business_name', $locations[$location_id]);
+                    update_option('woo_square_locations_free', $locations);
+                    update_option('woo_square_business_name_free', $locations[$location_id]);
                     if($this->locationId == "me")
-                        update_option('woo_square_location_id', $location_id);
+                        update_option('woo_square_location_id_free', $location_id);
                 }
             }
             $this->setupWebhook("PAYMENT_UPDATED");

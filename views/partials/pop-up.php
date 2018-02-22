@@ -15,7 +15,7 @@
                         </div>
                     <?php endif; ?>
                         <?php if (!empty($updateCategories)): ?>
-                        <h3><?php echo __('UPDATE'); ?></h3>
+                        <h3><?php echo __('UPDATE/SYNC'); ?></h3>
                         <div class="square-update ">
                             <?php
                                 $targetObject = 'updateCategories';
@@ -56,7 +56,7 @@
 
 
                 <?php if ($oneProductsUpdateCheckbox):?>
-                    <h3><?php echo __('UPDATE'); ?></h3>
+                    <h3><?php echo __('UPDATE/SYNC'); ?></h3>
                     <div class="square-update ">
                     <div class='square-action'>
                         <input name='woo_square_product' type='checkbox' value='update_products' checked />Update other products
@@ -64,7 +64,7 @@
                     </div>
                 <?php else: ?>           
                     <?php if (!empty($updateProducts)): ?>
-                        <h3><?php echo __('UPDATE'); ?></h3>
+                        <h3><?php echo __('UPDATE/SYNC'); ?></h3>
                         <div class="square-update ">
                             <?php
                                 $targetObject = 'updateProducts';

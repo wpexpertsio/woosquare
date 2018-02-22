@@ -11,6 +11,7 @@ add_action('wp_ajax_start_manual_woo_to_square_sync', 'woo_square_plugin_start_m
 add_action('wp_ajax_sync_woo_category_to_square', 'woo_square_plugin_sync_woo_category_to_square');
 add_action('wp_ajax_sync_woo_product_to_square', 'woo_square_plugin_sync_woo_product_to_square');
 add_action('wp_ajax_terminate_manual_woo_sync', 'woo_square_plugin_terminate_manual_woo_sync');
+add_action('wp_ajax_dismiss_square_notice', 'woo_square_dismiss_square_notice');
 
 //square->woo
 add_action('wp_ajax_get_non_sync_square_data', 'woo_square_plugin_get_non_sync_square_data');
@@ -22,7 +23,7 @@ add_action('wp_ajax_terminate_manual_square_sync', 'woo_square_plugin_terminate_
 
 function checkSyncStartConditions(){
     
-    if(!get_option('woo_square_access_token')){
+    if(!get_option('woo_square_access_token_free')){
         return "Invalid square access token";
     }
     
@@ -47,7 +48,7 @@ function woo_square_plugin_get_non_sync_woo_data() {
     if ($checkFlag !== TRUE){ die(json_encode(['error'=>$checkFlag])); } 
     Helpers::debug_log('info', "Manual sync: [woo->square] start gathering data");
 
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
     $synchronizer = new WooToSquareSynchronizer($square);
     
     //for display
@@ -266,7 +267,7 @@ function woo_square_plugin_sync_woo_category_to_square() {
     
     $actionType = $_SESSION["woo_to_square"]["target_categories"][$catId]['action'];
 
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
     $squareSynchronizer = new WooToSquareSynchronizer($square);
     $result = FALSE;
     Helpers::debug_log('info', "Manual sync: processing category:"
@@ -346,7 +347,7 @@ function woo_square_plugin_sync_woo_product_to_square() {
     }
     $actionType = $_SESSION["woo_to_square"]["target_products"][$productId]['action'];
 
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
     $squareSynchronizer = new WooToSquareSynchronizer($square);
     $result = FALSE;
     Helpers::debug_log('info', "Manual sync: processing product:"
@@ -435,6 +436,15 @@ function woo_square_plugin_terminate_manual_woo_sync(){
 
 }
 
+function woo_square_dismiss_square_notice(){
+			
+			
+				echo  "<pre>setvariationformultupleattr";
+					print_r($_POST);   
+				echo  "</pre>";
+				
+			update_option('square_notice_dismiss','no');
+}
 
 //square -> woo
 function woo_square_plugin_get_non_sync_square_data(){
@@ -443,7 +453,7 @@ function woo_square_plugin_get_non_sync_square_data(){
     if ($checkFlag !== TRUE){ die(json_encode(['error'=>$checkFlag])); }
     Helpers::debug_log('info', "Manual sync: [square->woo] start gathering data");
     
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
     $synchronizer = new SquareToWooSynchronizer($square);
     
     //for display
@@ -608,7 +618,7 @@ function woo_square_plugin_sync_square_category_to_woo(){
     }
     $actionType = $_SESSION["square_to_woo"]["target_categories"][$catId]['action'];
 
-    $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+    $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
     $squareSynchronizer = new SquareToWooSynchronizer($square);
     $result = FALSE;
     Helpers::debug_log('info', "Manual sync: processing category:"
@@ -670,7 +680,7 @@ function woo_square_plugin_sync_square_product_to_woo() {
 
     if (!strcmp($prodSquareId , 'update_products')){
         
-        $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+        $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
         $synchronizer = new SquareToWooSynchronizer($square);
         $squareItems = $synchronizer->getSquareItems();
         
@@ -725,7 +735,7 @@ function woo_square_plugin_sync_square_product_to_woo() {
             ."{$_SESSION["square_to_woo"]["target_products"][$prodSquareId]->name}"
             ."[{$prodSquareId}] with action = ADD");
             
-        $square = new Square(get_option('woo_square_access_token'), get_option('woo_square_location_id'));
+        $square = new Square(get_option('woo_square_access_token_free'), get_option('woo_square_location_id_free'));
         $squareSynchronizer = new SquareToWooSynchronizer($square);
 
         if (count($_SESSION["square_to_woo"]["target_products"][$prodSquareId]->variations)<=1){  //simple product

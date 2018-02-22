@@ -229,7 +229,10 @@ class SquareToWooSynchronizer {
                     $parent_id = $product->post_parent;
                     $id = $this->insertSimpleProductToWoo($squareProduct, $squareInventory, $product_id_with_sku_exists[0]);
                     if ($parent_id) {
+
+
                         $this->deleteProductFromWoo($product->post_parent);
+
                     }
                     $action = Helpers::ACTION_UPDATE;
                 } else {
@@ -242,6 +245,26 @@ class SquareToWooSynchronizer {
                 $id = FALSE;
                 $action = NULL;
 				
+				
+				/* //log  
+                Helpers::sync_db_log(
+                    $action,
+                    date("Y-m-d H:i:s"), 
+                    Helpers::SYNC_TYPE_MANUAL,
+                    Helpers::SYNC_DIRECTION_SQUARE_TO_WOO,
+                    is_numeric($id) ? $id : NULL, 
+                    Helpers::TARGET_TYPE_PRODUCT, 
+                    $result,
+                    $logId,
+                    $squareProduct->name,
+                    $squareProduct->id
+                ); */
+				
+				
+				
+				
+				
+				
             }
         }
         //Variable square product
@@ -253,7 +276,8 @@ class SquareToWooSynchronizer {
     }
 
     function create_variable_woo_product($title, $desc, $cats = array(), $variations, $variations_key, $product_square_id = null,$master_image = NULL, $parent_id = null) {
-
+        $varkey = explode('[',$variations[0]['name'] );
+        $variations_key  = $varkey[0]; 
         $post = array(
             'post_title' => $title,
             'post_content' => $desc,
@@ -267,56 +291,167 @@ class SquareToWooSynchronizer {
 
         //Create product/post:
         remove_action('save_post', 'woo_square_add_edit_product');
-        $new_prod_id = wp_insert_post($post);
+		$new_prod_id = wp_insert_post($post); 
         add_action('save_post', 'woo_square_add_edit_product', 10, 3);
 
         //make product type be variable:
-        wp_set_object_terms($new_prod_id, 'variable', 'product_type');
+		wp_set_object_terms($new_prod_id, 'variable', 'product_type');
 
         //add category to product:
-        wp_set_object_terms($new_prod_id, $cats, 'product_cat');
+        wp_set_object_terms($new_prod_id, $cats, 'product_cat'); 
 
         //################### Add size attributes to main product: ####################
         //Array for setting attributes
         $var_keys = array();
         $total_qty = 0;
-        foreach ($variations as $variation) {
-            $total_qty += (int) isset($variation["qty"]) ? $variation["qty"] : 0;
-            $var_keys[] = sanitize_title($variation['name']);
-            wp_insert_term(
-                    $variation['name'], // the term
-                    $variations_key, // the taxonomy
-                    array(
-                'slug' => sanitize_title($variation['name'])
-                    )
-            );
-        }
-        wp_set_object_terms($new_prod_id, $var_keys, $variations_key);
 
-        $thedata = Array($variations_key => Array(
-                'name' => $variations_key,
-                'value' => implode(' | ', $var_keys),
-                'is_visible' => 1,
-                'is_variation' => 1,
-                'position' => '0',
-                'is_taxonomy' => 0
-        ));
-        update_post_meta($new_prod_id, '_product_attributes', $thedata);
+
+
+        foreach ($variations as $variation) {
+
+			$variation['name'] =  preg_replace('/\s+/', '', $variation['name']);
+			$variationsexploded = explode(',',$variation['name']);
+			if(is_array($variationsexploded)){
+				foreach($variationsexploded as $attrnames){
+					$varkeys = explode('[',$attrnames );
+					$variation['name']  = $varkeys[1]; 
+					$variation['name']  = str_replace(']','',$attrnames); 
+					$total_qty += (int) isset($variation["qty"]) ? $variation["qty"] : 0;
+					$varkeys = explode('[',$variation['name'] );
+					$var_keyss[] = $varkeys[0];
+					$variatioskeys[$varkeys[0]][] = $varkeys[1];
+
+
+				}
+
+					$var_keyss=array_unique($var_keyss);
+					$var_keyss['variations_keys'] = $variatioskeys;
+					$var_keys = array();
+					$var_keys = $var_keyss;
+			} else {
+				$varkeys = explode('[',$variation['name'] );
+				$variation['name']  = $varkeys[1]; 
+				$variation['name']  = str_replace(']','',$variation['name']); 
+				$total_qty += (int) isset($variation["qty"]) ? $variation["qty"] : 0;
+				$var_keys[] = $variation['name'];
+			}
+
+
+
+
+
+
+
+			
+        }
+		
+         wp_set_object_terms($new_prod_id, $var_keys, $variations_key); 
+
+
+		 foreach($var_keys as $key => $attrkeys){
+			 if(is_numeric($key)){
+				global $wpdb;
+				$term_query = $wpdb->get_results( "SELECT * FROM `".$wpdb->prefix."term_taxonomy` WHERE `taxonomy` = 'pa_".strtolower($attrkeys)."'" );
+				$attr = $wpdb->get_results( "SELECT * FROM `".$wpdb->prefix."woocommerce_attribute_taxonomies` WHERE `attribute_name` = '".strtolower($attrkeys)."'");
+			 }
+			$variations_keys = array_unique($var_keys['variations_keys'][$attrkeys]);
+			if ( ! empty( $term_query ) and !empty($attr) and is_numeric($key) ) {
+				$thedata['pa_'.$attrkeys] =  Array(
+					'name' => 'pa_'.$attrkeys,
+					'value' => '',
+					'is_visible' => 1,
+					'is_variation' => 1,
+					'position' => 1,
+					'is_taxonomy' => 1
+				);
+				
+				$terms_name = array();
+				foreach($term_query as $key => $variations_value){
+					$term_data = get_term_by('id', $variations_value->term_id, 'pa_'.strtolower($attrkeys));
+					if(!empty($term_data)){
+						$terms_name[] = strtolower($term_data->name);
+					}
+				}
+					foreach($variations_keys as $termname){
+						$termname = strtolower($termname);
+						
+						if(!empty($terms_name)){
+							if(!in_array($termname,$terms_name)){
+							$term = wp_insert_term(
+								$termname, // the term 
+								'pa_'.strtolower($attrkeys), // the taxonomy
+									array(
+									'description'=> '',
+									'slug' => strtolower($termname),
+									'parent'=> ''
+									)
+							);
+							if(!empty($term)){
+								$terms_name[] = strtolower($termname);
+							}
+							$add_term_meta = add_term_meta($term['term_id'], 'order_pa_'.strtolower($attrkeys), '', true);
+						}
+						}
+					}
+				$global_attr[] = $attrkeys;
+				if(!empty($variations_keys)){
+					foreach($variations_keys as $Arry){
+						$var_ontersect[] = strtolower($Arry); 
+					}
+				}
+				$terms_name=array_intersect($terms_name,$var_ontersect);
+				wp_set_object_terms( $new_prod_id, $terms_name,'pa_'.strtolower($attrkeys)); 
+			} else {
+				$variations_keys = array_unique($var_keys['variations_keys'][$attrkeys]);
+				$thedata[$attrkeys] =  Array(
+					'name' => $attrkeys,
+					'value' => implode('|', $variations_keys),
+					'is_visible' => 1,
+					'is_variation' => 1,
+					'position' => '0',
+					'is_taxonomy' => 0
+				);
+
+			}
+		}
+
+        update_post_meta($new_prod_id, '_product_attributes', $thedata); 
+		
+		// wp_set_object_terms( $new_prod_id, array(16,15,17), 'pa_color'); 
         //########################## Done adding attributes to product #################
         //set product values:
         //update_post_meta($new_prod_id, '_stock_status', ( (int) $total_qty > 0) ? 'instock' : 'outofstock');
-        update_post_meta($new_prod_id, '_stock_status', 'instock');
+		update_post_meta($new_prod_id, '_stock_status', 'instock');
 
         update_post_meta($new_prod_id, '_stock', $total_qty);
         update_post_meta($new_prod_id, '_visibility', 'visible');
-        update_post_meta($new_prod_id, 'square_id', $product_square_id);
-        update_post_meta($new_prod_id, '_default_attributes', array());
+		update_post_meta($new_prod_id, 'square_id', $product_square_id); 
+        update_post_meta($new_prod_id, '_default_attributes', array()); 
 
         //###################### Add Variation post types for sizes #############################
         $i = 1;
         $var_prices = array();
         //set IDs for product_variation posts:
+			$args = array(
+				'post_type'     => 'product_variation',
+				'post_status'   => array( 'private', 'publish' ),
+				'numberposts'   => -1,
+				'orderby'       => 'menu_order',
+				'order'         => 'asc',
+				'post_parent'   => $new_prod_id // $post->ID 
+			);
+			$variation_already_exist = get_posts( $args ); 
+			if(!empty($variation_already_exist)){
+				foreach ($variation_already_exist as $variation_exi) {
+					$variation_already_exist_arr[] = $variation_exi->ID; 
+				}
+			}
         foreach ($variations as $variation) {
+			$variation_forsetobj = 	$variation;
+			$variation['name'] =  preg_replace('/\s+/', '', $variation['name']);
+            $varkeys = explode('[',$variation['name'] );
+			$variation['name']  = $varkeys[1]; 
+			$variation['name']  = str_replace(']','',$variation['name']); 
             $my_post = array(
                 'post_title' => 'Variation #' . $i . ' of ' . count($variations) . ' for product#' . $new_prod_id,
                 'post_name' => 'product-' . $new_prod_id . '-variation-' . $i,
@@ -330,36 +465,65 @@ class SquareToWooSynchronizer {
                 $my_post['ID'] = $variation['product_id'];
             }
 
+			if(!empty($variation_already_exist_arr)){
+				if(!empty($variation['product_id'])){
+					$proid[] = $variation['product_id']; 
+				}
+			}
             //Insert ea. post/variation into database:
             remove_action('save_post', 'woo_square_add_edit_product');
-            $attID = wp_insert_post($my_post);
+			$attID = wp_insert_post($my_post); 
             add_action('save_post', 'woo_square_add_edit_product', 10, 3);
 
+
             //Create 2xl variation for ea product_variation:
-            update_post_meta($attID, 'attribute_' . $variations_key, sanitize_title($variation['name']));
-            update_post_meta($attID, '_regular_price', (int) $variation["price"]);
-            update_post_meta($attID, '_price', (int) $variation["price"]);
+
+			$variation_forsetobj['name'] =  preg_replace('/\s+/', '', $variation_forsetobj['name']);
+			$variation_values = explode(',',$variation_forsetobj['name']);
+		foreach($variation_values as $values){
+			$getting_attr_n_variation_name = explode('[',$values);
+			if(@in_array( $getting_attr_n_variation_name[0],$global_attr)){
+				$pa = 'pa_';
+			} else {
+				$pa='';
+			}
+			update_post_meta($attID, 'attribute_' .$pa.$getting_attr_n_variation_name[0], sanitize_title(str_replace(']','',$getting_attr_n_variation_name[1])));
+		}
+
+
+			update_post_meta($attID, '_regular_price', floatval($variation["price"]));
+            update_post_meta($attID, '_price', floatval($variation["price"])); 
             $var_prices[$i - 1]['id'] = $attID;
             $var_prices[$i - 1]['regular_price'] = sanitize_title($variation['price']);
 
             //add size attributes to this variation:
-            wp_set_object_terms($attID, $var_keys, 'pa_' . sanitize_title($variation['name']));
+			wp_set_object_terms($attID, $var_keys, 'pa_' . sanitize_title($variation['name']));
 
             update_post_meta($attID, '_sku', $variation["sku"]);
             update_post_meta($attID, '_manage_stock', isset($variation["qty"]) ? 'yes' : 'no');
-            update_post_meta($attID, 'variation_square_id', $variation["variation_id"]);
+			update_post_meta($attID, 'variation_square_id', $variation["variation_id"]);  
             if (isset($variation["qty"])) {
-                update_post_meta($attID, '_stock_status', ( (int) $variation["qty"] > 0) ? 'instock' : 'outofstock');
-                update_post_meta($attID, '_stock', $variation["qty"]);
+				update_post_meta($attID, '_stock_status', ( (int) $variation["qty"] > 0) ? 'instock' : 'outofstock');
+				update_post_meta($attID, '_stock', $variation["qty"]); 
             } else {
-                update_post_meta($attID, '_stock_status', 'instock');
+                 update_post_meta($attID, '_stock_status', 'instock'); 
             }
             $i++;
         }
 
+		//delete those variation that delete from square..
+		if(!empty($proid) and !empty($variation_already_exist_arr)){
+			$inter = array_diff($variation_already_exist_arr,$proid);
+			if(!empty($inter)){
+				foreach($inter as $key){
+					wp_delete_post($key,true);
+					delete_post_meta($key);
+				}
+			}
+		}
         $i = 0;
 
-        Helpers::debug_log('info', "The product prices are: " . json_encode($var_prices));
+         Helpers::debug_log('info', "The product prices are: " . json_encode($var_prices)); 
         foreach ($var_prices as $var_price) {
             $regular_prices[] = $var_price['regular_price'];
             $sale_prices[] = $var_price['regular_price'];
@@ -374,16 +538,16 @@ class SquareToWooSynchronizer {
         update_post_meta($new_prod_id, '_max_price_variation_id', $var_prices[array_search(max($regular_prices), $regular_prices)]['id']);
         update_post_meta($new_prod_id, '_min_regular_price_variation_id', $var_prices[array_search(min($regular_prices), $regular_prices)]['id']);
         update_post_meta($new_prod_id, '_max_regular_price_variation_id', $var_prices[array_search(max($regular_prices), $regular_prices)]['id']);
-        
+
         if (isset($master_image) && !empty($master_image->url)){
-               
-            //if square img id not found, download new image
+
+			//if square img id not found, download new image
             if (strcmp(get_post_meta( $new_prod_id, 'square_master_img_id',TRUE),$master_image->url)){
                 Helpers::debug_log('info', "uploading product feature image");
                 $this->uploadFeaturedImage($new_prod_id, $master_image);
-            }
+            } 
         }
-        
+
         return $new_prod_id;
     }
 
@@ -427,7 +591,7 @@ class SquareToWooSynchronizer {
                         Helpers::debug_log('notice', "Variable square product ['{$squareProduct->name}'] variation '{$variation->name}' skipped from synch ( square->woo ): no SKU found");
                         continue;
                     }
-                    $price = isset($variation->price_money)?number_format(($variation->price_money->amount / 100), 2):'';
+                    $price = isset($variation->price_money)?($variation->price_money->amount/100):'';
                     $data = array('variation_id' => $variation->id, 'sku' => $variation->sku, 'name' => $variation->name, 'price' => $price );
                     
                     //put variation product id in variation data to be updated 
@@ -458,7 +622,7 @@ class SquareToWooSynchronizer {
                         Helpers::debug_log('notice', "Variable square product ['{$squareProduct->name}'] variation '{$variation->name}' skipped from synch ( square->woo ): no SKU found");
                         continue;
                     }
-                    $price = isset($variation->price_money)?number_format(($variation->price_money->amount / 100), 2):'';
+                    $price = isset($variation->price_money)?($variation->price_money->amount / 100):'';
                     $data = array('variation_id' => $variation->id, 'sku' => $variation->sku, 'name' => $variation->name, 'price' => $price);
                     if (isset($productIds[$variation->sku] )){
                         Helpers::debug_log('info', "------->" . $productIds[$variation->sku] . '====' . $variation->sku);
@@ -488,7 +652,7 @@ class SquareToWooSynchronizer {
                     $noSkuCount ++;
                     continue;
                 }
-                $price = isset($variation->price_money)?number_format(($variation->price_money->amount / 100), 2):'';
+                $price = isset($variation->price_money)?($variation->price_money->amount / 100):'';
                 $data = array('variation_id' => $variation->id, 'sku' => $variation->sku, 'name' => $variation->name, 'price' => $price);
                 if (isset($variation->track_inventory) && $variation->track_inventory) {
                     if (isset($squareInventory[$variation->id])){
@@ -513,7 +677,44 @@ class SquareToWooSynchronizer {
     /*
      * insert simple product to woo-commerce
      */
+public function process_add_attribute($attribute)
+	{
+		
+		global $wpdb;
+		//      check_admin_referer( 'woocommerce-add-new_attribute' );
 
+		if (empty($attribute['attribute_type'])) { $attribute['attribute_type'] = 'text';}
+		if (empty($attribute['attribute_orderby'])) { $attribute['attribute_orderby'] = 'menu_order';}
+		
+		if (empty($attribute['attribute_public'])) { $attribute['attribute_public'] = 0 ;}
+
+		if ( empty( $attribute['attribute_name'] ) || empty( $attribute['attribute_label'] ) ) {
+				return new WP_Error( 'error', __( 'Please, provide an attribute name and slug.', 'woocommerce' ) );
+		} elseif ( ( $valid_attribute_name = $this->valid_attribute_name( $attribute['attribute_name'] ) ) && is_wp_error( $valid_attribute_name ) ) {
+				return $valid_attribute_name;
+		} elseif ( taxonomy_exists( wc_attribute_taxonomy_name( $attribute['attribute_name'] ) ) ) {
+				return new WP_Error( 'error', sprintf( __( 'Slug "%s" is already in use. Change it, please.', 'woocommerce' ), sanitize_title( $attribute['attribute_name'] ) ) );
+		}
+
+		$wpdb->insert( $wpdb->prefix . 'woocommerce_attribute_taxonomies', $attribute );
+
+		do_action( 'woocommerce_attribute_added', $wpdb->insert_id, $attribute );
+
+		flush_rewrite_rules();
+		delete_transient( 'wc_attribute_taxonomies' );
+
+		return true;
+	}
+
+	public function valid_attribute_name( $attribute_name ) {
+		if ( strlen( $attribute_name ) >= 28 ) {
+				return new WP_Error( 'error', sprintf( __( 'Slug "%s" is too long (28 characters max). Shorten it, please.', 'woocommerce' ), sanitize_title( $attribute_name ) ) );
+		} elseif ( wc_check_if_attribute_name_is_reserved( $attribute_name ) ) {
+				return new WP_Error( 'error', sprintf( __( 'Slug "%s" is not allowed because it is a reserved term. Change it, please.', 'woocommerce' ), sanitize_title( $attribute_name ) ) );
+		}
+
+		return true;
+	}
     public function insertSimpleProductToWoo($squareProduct, $squareInventory, $productId = null) {
 
 
@@ -531,8 +732,8 @@ class SquareToWooSynchronizer {
             'post_content' => $post_content,
             'post_status' => 'publish',
             'post_author' => 1,
-            'post_type' => 'product',
-            'tax_input' => array('product_cat' => $term_id)
+            'post_type' => 'product'
+
         );
 
         //check if product id provided to the function
@@ -544,13 +745,170 @@ class SquareToWooSynchronizer {
         }
 
         // Insert the post into the database
+		
         remove_action('save_post', 'woo_square_add_edit_product');
         $id = wp_insert_post($my_post, true);
+		wp_set_object_terms( $id, $term_id, 'product_cat' );
         add_action('save_post', 'woo_square_add_edit_product', 10, 3);
         Helpers::debug_log('info', "Product inserted to databse with ID: " . json_encode($id));
+		
+		$is_attr_vari  = explode(',',$squareProduct->variations[0]->name);
+		
+		if(is_array($is_attr_vari) and strpos($squareProduct->variations[0]->name, ',') !== false){
+			foreach($is_attr_vari as $attrr){
+				$attrname = explode('[',$attrr);
+				$attrterms = str_replace(']','',$attrname[1]);
+				$tername = explode('|',$attrterms);
+				
+				$attrexpl = explode('[',$attrr);
+				global $wpdb;
+				$attr = $wpdb->get_results( "SELECT * FROM `".$wpdb->prefix."woocommerce_attribute_taxonomies` WHERE `attribute_name` = '".strtolower($attrexpl[0])."'");
+				
+				if(!empty($attr[0])){
+					
+				$insert = $this->process_add_attribute(
+				array(
+					'attribute_name' => strtolower($attrname[0]), 
+					'attribute_label' => strtolower($attrname[0]), 
+					'attribute_type' => 'select', 
+					'attribute_orderby' => 'menu_order', 
+					'attribute_public' => 1
+					)
+				);
+				sleep(1);
+				$varis = array();
+				foreach($tername as $ternameval){ 
+					$varis[] = strtolower($ternameval);
+					wp_insert_term(
+						strtolower($ternameval),  // the term 
+						'pa_'.strtolower($attrname[0]),  // the taxonomy
+						array(
+						'description'=> '',
+						'slug' => strtolower($ternameval),
+						)
+					);
+					$thedata['pa_'.strtolower($attrname[0])] =  Array(
+						'name' => 'pa_'.strtolower($attrname[0]),
+						'value' => '',
+						'is_visible' => 1,
+						'is_variation' => 0,
+						'position' => '0',
+						'is_taxonomy' => 1
+				);
+					
+					
+					global $wpdb;
+					$get_resul  = $wpdb->get_results("SELECT * FROM `".$wpdb->prefix."terms` WHERE `slug` = '".strtolower($ternameval)."' ORDER BY `name` ASC",true);
+					
+					if(!empty($get_resul[0])){
+						// INSERT INTO wp_term_relationships (object_id,term_taxonomy_id) VALUES ([the_id_of_above_post],1)
+						$pref = $wpdb->prefix;
+						$wpdb->insert($pref.'term_relationships', array(
+							'object_id' => $id,
+							'term_taxonomy_id' => $get_resul[0]->term_id,
+							'term_order' => '0', // ... and so on
+						));
+						
+						
+					}
+					
+
+				}
+				wp_set_object_terms( $id, $varis,'pa_'.strtolower($attrname[0]));
+				update_post_meta($id, '_product_attributes', $thedata); 
+				} else {
+					$varis = array();
+					$varis[] = strtolower($ternameval);
+					$thedata[strtolower($attrname[0])] =  Array(
+						'name' => strtolower($attrname[0]),
+						'value' => $attrterms,
+						'is_visible' => 1,
+						'is_variation' => 0,
+						'position' => '0',
+						'is_taxonomy' => 0
+					);
+					wp_set_object_terms( $id, $varis,strtolower($attrname[0]));
+					update_post_meta($id, '_product_attributes', $thedata); 
+				}
+				
+			}
+			
+			
+			
+			
+		} else {
+			
+			// for single global attribute
+			if(!empty($is_attr_vari[0])){
+				$attrexpl = explode('[',$is_attr_vari[0]);
+				global $wpdb;
+				$attr = $wpdb->get_results( "SELECT * FROM `".$wpdb->prefix."woocommerce_attribute_taxonomies` WHERE `attribute_name` = '".strtolower($attrexpl[0])."'");
+				if(!empty($attr[0])){
+					$thedata['pa_'.$attr[0]->attribute_name] =  Array(
+						'name' => 'pa_'.$attr[0]->attribute_name,
+						'value' => '',
+						'is_visible' => 1,
+						'is_variation' => 1,
+						'position' => 1,
+						'is_taxonomy' => 1
+					);
+					update_post_meta($id, '_product_attributes', $thedata);
+					$attrexprepla = str_replace(']','',$attrexpl[1]);
+					$square_variation = explode('|',$attrexprepla);
+					foreach($square_variation as $keys => $variation){
+						$square_variation[$keys] = strtolower(trim($variation));
+					}
+							
+						$term_query = $wpdb->get_results( "SELECT * FROM `".$wpdb->prefix."term_taxonomy` WHERE `taxonomy` = 'pa_".strtolower($attr[0]->attribute_name)."'" );
+						
+						foreach($term_query as $key => $variations_value){
+							$term_data = get_term_by('id', $variations_value->term_id, 'pa_'.strtolower($attr[0]->attribute_name));
+							$site_exist_variations[] = strtolower(trim(preg_replace('/\s+/', '', $term_data->name)));
+						}
+						foreach($square_variation as $keys => $variation){
+							if(in_array($variation,$site_exist_variations)){
+								$simple_variations[] = $variation;
+							} else {
+								$simple_variations[] = $variation;
+								$term = wp_insert_term(
+								$variation, // the term 
+									'pa_'.strtolower($attr[0]->attribute_name), // the taxonomy
+										array(
+										'description'=> '',
+										'slug' => strtolower($variation),
+										'parent'=> ''
+										)
+								);
+								if(!empty($term)){
+									$add_term_meta = add_term_meta($term['term_id'], 'order_pa_'.strtolower($attr[0]->attribute_name), '', true);
+								}
+							}
+						}
+						wp_set_object_terms( $id, $simple_variations,'pa_'.strtolower($attr[0]->attribute_name)); 
+				} else {
+					$attrexplsing = explode('[',$is_attr_vari[0]);
+					$variaarry = str_replace(']','',$attrexplsing[1]);
+					$variaarryimpl = explode('|',$variaarry);
+					$thedata[strtolower($attrexplsing[0])] =  Array(
+						'name' => strtolower($attrexplsing[0]),
+						'value' => str_replace(']','',$attrexplsing[1]),
+						'is_visible' => 1,
+						'is_variation' => 0,
+						'position' => '0',
+						'is_taxonomy' => 0
+					);
+					wp_set_object_terms( $id, $variaarryimpl,strtolower($attrexplsing[0]));
+					update_post_meta($id, '_product_attributes', $thedata);
+				}
+				
+			} 
+						
+		}
+	
+		Helpers::debug_log('info', "Simple Product Attribute inserted: " . json_encode($id));	
         if ($id) {
             $variation = $squareProduct->variations[0];
-            $price = isset($variation->price_money)?number_format(($variation->price_money->amount / 100), 2):'';
+            $price = isset($variation->price_money)?($variation->price_money->amount / 100):'';
             update_post_meta($id, '_visibility', 'visible');
             update_post_meta($id, '_stock_status', 'instock');
             update_post_meta($id, '_regular_price', $price );
@@ -582,6 +940,7 @@ class SquareToWooSynchronizer {
         return FALSE;
     }
 
+	
     public function deleteProductFromWoo($product_id) {
         Helpers::debug_log('info', "Deleting product id: " . $product_id);
         remove_action('before_delete_post', 'woo_square_delete_product');
@@ -617,7 +976,10 @@ class SquareToWooSynchronizer {
 
     function uploadFeaturedImage($product_id, $master_image) {
 
-        
+
+        require_once(ABSPATH . 'wp-admin/includes/media.php');
+        require_once(ABSPATH . 'wp-admin/includes/file.php');
+        require_once(ABSPATH . 'wp-admin/includes/image.php');
 
         // Add Featured Image to Post
         $image = $master_image->url; // Define the image URL here
@@ -785,6 +1147,40 @@ class SquareToWooSynchronizer {
 
             }  
         }
+
+		//if category deleted but square id already added in option meta.
+		$taxonomy     = 'product_cat';
+		$orderby      = 'name';  
+		$show_count   = 0;      // 1 for yes, 0 for no
+		$pad_counts   = 0;      // 1 for yes, 0 for no
+		$hierarchical = 1;      // 1 for yes, 0 for no  
+		$title        = '';  
+		$empty        = 0;
+		$args = array(
+			 'taxonomy'     => $taxonomy,
+			 'orderby'      => $orderby,
+			 'show_count'   => $show_count,
+			 'pad_counts'   => $pad_counts,
+			 'hierarchical' => $hierarchical,
+			 'title_li'     => $title,
+			 'hide_empty'   => $empty
+		);
+		$all_categories = get_categories( $args );
+
+		if(!empty($all_categories)){
+			foreach($all_categories as $keyscategories => $catsterms){
+				$terms_id[] = $catsterms->term_id;
+			}
+			foreach($wooSquareCategories as $keys => $cats){
+
+				if(in_array($cats[0],$terms_id)){
+					
+					$returnarray[$keys] = $cats;
+				}
+
+			}
+		}
+
         return $wooSquareCategories;
         
     }

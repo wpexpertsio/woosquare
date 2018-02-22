@@ -27,7 +27,7 @@
                     <tr>
                         <th><strong>Square Access Token</strong></th>
                         <td>
-                            <input class="regular-text" value="<?php echo (isset($_POST['woo_square_access_token'])) ? sanitize_text_field($_POST['woo_square_access_token']) : get_option('woo_square_access_token'); ?>" name="woo_square_access_token" type="text"/>
+                            <input class="regular-text" value="<?php echo (isset($_POST['woo_square_access_token_free'])) ? sanitize_text_field($_POST['woo_square_access_token_free']) : get_option('woo_square_access_token_free'); ?>" name="woo_square_access_token_free" type="text"/>
                         </td>
                     </tr>
                 </tbody>
@@ -38,7 +38,7 @@
         </form>
     </div>
 
-    <?php if (get_option('woo_square_access_token')): ?>
+    <?php if (get_option('woo_square_access_token_free')): ?>
 
         <div class="welcome-panel">
             <h3>Woo Square Settings</h3>
@@ -52,13 +52,13 @@
                 <input type="hidden" value="1" name="woo_square_settings" />
                 <table class="form-table">
                     <tbody>
-                        <?php if (get_option('woo_square_location_id') != '' && get_option('woo_square_location_id') != 'me' ): ?>
+                        <?php if (get_option('woo_square_location_id_free') != '' && get_option('woo_square_location_id_free') != 'me' ): ?>
                             <tr>
                                 <th scope="row"><label>Select Location</label></th>
                                 <td>
-                                        <select name="woo_square_location_id">
-                                            <?php foreach (get_option('woo_square_locations') as $key => $location): ?>
-                                                    <option <?php if (get_option('woo_square_location_id') == $key): ?>selected=""<?php endif; ?> value="<?php echo $key; ?>"> <?php echo $location; ?> </option>
+                                        <select name="woo_square_location_id_free">
+                                            <?php foreach (get_option('woo_square_locations_free') as $key => $location): ?>
+                                                    <option <?php if (get_option('woo_square_location_id_free') == $key): ?>selected=""<?php endif; ?> value="<?php echo $key; ?>"> <?php echo $location; ?> </option>
                                             <?php endforeach; ?>
                                         </select>
                                 </td>
@@ -67,11 +67,11 @@
                         <tr>
                             <th scope="row"><label>Auto Synchronize</label></th>
                             <td>
-                                <label><input type="radio" <?php echo (get_option('woo_square_auto_sync'))?'checked':''; ?> value="1" name="woo_square_auto_sync"> On </label>
-                                <label><input type="radio" <?php echo (get_option('woo_square_auto_sync'))?'':'checked'; ?> value="0" name="woo_square_auto_sync"> Off </label>
+                                <label><input type="radio" <?php echo (get_option('woo_square_auto_sync_free'))?'checked':''; ?> value="1" name="woo_square_auto_sync_free"> On </label>
+                                <label><input type="radio" <?php echo (get_option('woo_square_auto_sync_free'))?'':'checked'; ?> value="0" name="woo_square_auto_sync_free"> Off </label>
                             </td>
                         </tr>
-                        <tr id="auto_sync_duration_div" style="<?php echo (get_option('woo_square_auto_sync'))?'':'display: none;'?>">
+                        <tr id="auto_sync_duration_div" style="<?php echo (get_option('woo_square_auto_sync_free'))?'':'display: none;'?>">
                             <th scope="row">Auto Sync each</th>
                             <td>
                                 <select name="woo_square_auto_sync_duration">
@@ -90,7 +90,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><label>Would you like to synchronize your product on every product edit or update ?</label></th>
+                            <th scope="row"><label>Would you like to synchronize your product on every product or Categories on Added , edit , update or delete event?</label></th>
                             <td>
                                 <label><input type="radio" <?php echo (get_option('sync_on_add_edit') == "1")?'checked':''; ?> value="1" name="sync_on_add_edit"> Yes </label><br><br>
                                 <label><input type="radio" <?php echo (get_option('sync_on_add_edit') == "2")?'checked':''; ?> value="2" name="sync_on_add_edit"> No </label><br><br>
