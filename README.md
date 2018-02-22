@@ -43,6 +43,37 @@ There will be options if the system contain same products SKUs ,available option
 4. Then go to https://connect.squareup.com/apps and sign in to your Square account. Then click New Application and enter a name for your application and Create App. The application dashboard displays your new app's credentials. One of these credentials is the personal access token. This token gives your application full access to your own Square account.
 
 ## Changelog
+
+**2.2**
+ 
+- Added - Synchronization Compatibility Multiple attribute with multiples variations WooCommerce to Square.
+- Added - Synchronization Compatibility Multiple attribute with multiples variations Square to WooCommerce.
+
+**2.0**
+
+- Added - Compatibility single attribute with multiples variations.
+- Added - Sync to square on Added,edit,update or delete event.
+- Update - WooCommerce to Square variations uppercase lowercase compatibility. 
+- Update - Square to WooCommerce variations sync space trims.
+- Update - Improvement in product synchronization.
+- Update - Terminate or delay when other synchronization with.
+
+**1.5.5**
+
+- Optimization - Added compatibility for the latest version of woocommerce.
+
+**1.5.1**
+
+- Optimization - Optimization of code with free and paid conflicts.
+
+**1.5**
+- Added - filtration validation with global and custom attributes.
+- Optimization - Organized the code.
+
+**1.4**
+
+- Added - PHP version compatibility checked.
+
 **1.0.3**
 
 - Small update in backend
